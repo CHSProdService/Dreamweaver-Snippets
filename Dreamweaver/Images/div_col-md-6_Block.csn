@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="<div col-md-6> Block" description="Image with a div tag, no caption, no new row
+- default size is col-md-6
+- thumbnailed and responsive" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="col-md-6">
+	<div class="thumbnail">
+		<img src="xxxxxxxxxxxx" class="img-responsive" />
+	</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

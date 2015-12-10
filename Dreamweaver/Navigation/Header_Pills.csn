@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Header Pills" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="row">
+   <ul class="toc lst-spcd col-md-12 list-unstyled">
+      <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>
+      <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>
+      <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>
+      <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>
+      <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>
+      <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>
+      <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>
+   </ul>
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

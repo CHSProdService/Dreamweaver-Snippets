@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Footer Buttons with Centre Index" description="Footer nav buttons 
+- Previous on left
+- Complete Text in center
+- Next on right" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<nav>
+	<h2 class="wb-inv">Document navigation</h2>
+	<ul class="pager">
+		<li class="previous"><a href="xxxxxxxxxx" rel="prev">Previous</a></li>
+		<li><a href="xxxxxxxxxx">Complete Text</a></li>
+		<li class="next"><a href="xxxxxxxxxx" rel="next">Next</a></li>
+	</ul>
+</nav>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

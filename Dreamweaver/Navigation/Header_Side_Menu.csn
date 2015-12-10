@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Header Side Menu" description="A nav panel on the left of the page" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="col-md-3 col-md-pull-9 visible-md visible-lg wb-navcurr-inited">
+   <h2>Secondary menu</h2>
+   <ul class="list-group menu list-unstyled">
+      <li><a class="list-group-item wb-navcurr" href="xxxxx">xxxxx</a>
+         <ul class="list-group list-unstyled" id="sect1">
+            <li><a class="list-group-item" href="xxxxx">xxxxx</a></li>
+            <li><a class="list-group-item" href="xxxxx">xxxxx</a></li>
+            <li><a class="list-group-item" href="xxxxx">xxxxx</a></li>
+            <li><a class="list-group-item" href="xxxxx">xxxxx</a></li>
+            <li><a class="list-group-item" href="xxxxx">xxxxx</a></li>
+         </ul>
+      </li>
+   </ul>
+</nav>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

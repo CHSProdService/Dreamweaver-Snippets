@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Footnote Section Single" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<dt>Footnote *</dt>
+      <dd id="fn*">
+         <p>Example of a standard footnote, denoted by a symbol.</p>
+         <p class="fn-rtn"> <a href="#fn*-rf"><span class="wb-inv">Return to footnote </span>*<span class="wb-inv"> referrer</span></a> </p>
+      </dd>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="<div col-md-3> Wrap" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="col-md-3">
+	<div class="thumbnail">
+	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[	
+	</div>
+</div>]]>
+</insertText>
+</snippet>

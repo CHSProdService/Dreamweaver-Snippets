@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Content Page" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="row">
+   <div class="col-md-12">
+	   <h1>xxxxxxxxx</h1>
+   </div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="<row figure col-md-12 figcaption> Block" description="An Image block
+- new row, col-md-12
+- figure, hyperlinked
+- figcaption" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="row">
+	<div class="col-md-12">
+		<figure class="thumbnail">
+			<a href="xxxxxxxxxxxx">
+				<img src="xxxxxxxxxxxx" class="img-responsive" />
+			</a>
+			<figcaption class="caption">
+				<p>xxxxxxxxxxxx</p>
+			</figcaption>
+		</figure>
+	</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

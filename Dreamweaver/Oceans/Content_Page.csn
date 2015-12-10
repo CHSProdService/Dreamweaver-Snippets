@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Content Page" description="Blank Content Page using the Oceans WET4 theme
+- container set to col-md-12" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/oceans/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxxx</li>"
+%>
+<!--#include virtual="/oceans/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<div class="row">
+   <div class="col-md-12">
+	   <h1>xxxxxxxxx</h1>
+   </div>
+</div>
+
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/oceans/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

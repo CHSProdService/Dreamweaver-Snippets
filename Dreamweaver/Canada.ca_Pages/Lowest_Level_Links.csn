@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Lowest Level Links" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<h1>Lowest Level Links</h1>
+<div class="row wb-eqht wb-eqht-inited">
+   <section>
+      <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+      <p>xxxxxxxxxx</p>
+   </section>
+   <section>
+      <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+      <p>xxxxxxxxxx</p>
+   </section>
+   <section>
+      <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+      <p>xxxxxxxxxx</p>
+   </section>
+   <section>
+      <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+      <p>xxxxxxxxxx</p>
+   </section>
+   <section>
+      <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+      <p>xxxxxxxxxx</p>
+   </section>
+   <section>
+      <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+      <p>xxxxxxxxxx</p>
+   </section>
+   <section>
+      <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+      <p>xxxxxxxxxx</p>
+   </section>
+   <section>
+      <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+      <p>xxxxxxxxxx</p>
+   </section>
+   <section>
+      <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+      <p>xxxxxxxxxx</p>
+   </section>
+   <section>
+      <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+      <p>xxxxxxxxxx</p>
+   </section>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

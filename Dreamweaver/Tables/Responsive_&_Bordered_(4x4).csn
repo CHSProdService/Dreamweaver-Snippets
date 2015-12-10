@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Responsive & Bordered (4x4)" description="Responsive and Bordered table
+- four rows x four columns with an active header" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<table title="xxxxxxxxxxx" class="table table-bordered table-responsive">
+	<thead>
+		<tr class="text-center active">
+			<td><strong>xxxxxxxxxxx</strong></td>
+			<td><strong>xxxxxxxxxxx</strong></td>
+			<td><strong>xxxxxxxxxxx</strong></td>
+			<td><strong>xxxxxxxxxxx</strong></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>xxxxxxxxxxx</td>
+			<td>xxxxxxxxxxx</td>
+			<td>xxxxxxxxxxx</td>
+			<td>xxxxxxxxxxx</td>
+		</tr>
+		<tr>
+			<td>xxxxxxxxxxx</td>
+			<td>xxxxxxxxxxx</td>
+			<td>xxxxxxxxxxx</td>
+			<td>xxxxxxxxxxx</td>
+		</tr>
+		<tr>
+			<td>xxxxxxxxxxx</td>
+			<td>xxxxxxxxxxx</td>
+			<td>xxxxxxxxxxx</td>
+			<td>xxxxxxxxxxx</td>
+		</tr>
+		<tr>
+			<td>xxxxxxxxxxx</td>
+			<td>xxxxxxxxxxx</td>
+			<td>xxxxxxxxxxx</td>
+			<td>xxxxxxxxxxx</td>
+		</tr>
+	</tbody>
+</table>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

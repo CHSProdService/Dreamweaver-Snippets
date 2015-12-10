@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="<row col-md-12> Wrap" description="Wrap code for new row in 12-grid bootstrap layout
+- To be used to wrap content in it's own row " preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="row">
+   <div class="col-md-12"> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[  </div>
+</div>]]>
+</insertText>
+</snippet>

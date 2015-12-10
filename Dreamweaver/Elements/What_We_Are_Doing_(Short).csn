@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="What We Are Doing (Short)" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<section>
+   <h2>What we are doing</h2>
+   <div class="row wb-eqht" id="wb-auto-3">
+      <section class="col-lg-4 col-md-6">
+         <h3>Laws and regulations</h3>
+         <ul class="mrgn-bttm-lg lst-spcd">
+            <li><a href="#">[Regulation 1]</a></li>
+            <li><a href="#">[Law 1 with a long heading]</a></li>
+            <li><a href="#">[Regulation 2 with a long heading]</a></li>
+            <li><a href="#">[Regulation 3]</a></li>
+         </ul>
+         <p class="text-right"><strong><a href="#">All related laws and regulations</a></strong></p>
+      </section>
+      <section class="col-lg-4 col-md-6">
+         <h3>Publications</h3>
+         <ul class="mrgn-bttm-lg lst-spcd">
+            <li><a href="#">[Publication 1]</a></li>
+            <li><a href="#">[Publication 2 with a long heading]</a></li>
+            <li><a href="#">[Publication 3]</a></li>
+            <li><a href="#">[Publication 4]</a></li>
+         </ul>
+         <p class="text-right"><strong><a href="#">All related publications</a></strong></p>
+      </section>
+   </div>
+</section>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

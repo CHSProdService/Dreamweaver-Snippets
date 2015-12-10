@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="DFO_(4x4).csn" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<table title="xxxxxxxxxxx" class="table table-bordered table-responsive">
+   <thead>
+      <tr class="text-center bg-primary">
+         <td><strong>xxxxxxxxxxx</strong></td>
+         <td><strong>xxxxxxxxxxx</strong></td>
+         <td><strong>xxxxxxxxxxx</strong></td>
+         <td><strong>xxxxxxxxxxx</strong></td>
+      </tr>
+      <tr class="text-center active">
+         <td><strong>xxxxxxxxxxx</strong></td>
+         <td><strong>xxxxxxxxxxx</strong></td>
+         <td><strong>xxxxxxxxxxx</strong></td>
+         <td><strong>xxxxxxxxxxx</strong></td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>xxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+      </tr>
+      <tr>
+         <td>xxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+      </tr>
+      <tr>
+         <td>xxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+      </tr>
+      <tr>
+         <td>xxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+      </tr>
+   </tbody>
+</table>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="FAQ Expand" description="" preview="html" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<details class="mrgn-tp-sm">
+   <summary id="faq1">Question</summary>
+   <div class="alert alert-success">
+      <h2 class="h3">Answer:</h2>
+      <p>xxxxxxxxxx</p>
+   </div>
+</details>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

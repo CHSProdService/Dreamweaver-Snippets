@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Carousel | Homepage" description="This carousel is used on the canada.ca homepage as well as other pages such as:
+http://news.gc.ca/web/index-eng.do
+It is only used on the homepage of a website." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="wb-tabs carousel-s2 show-thumbs">
+   <ul role="tablist">
+      <li class="active"><a href="#panel1"><img src="#" alt="tab 1"></a></li>
+      <li><a href="#panel2"><img src="#" alt="tab 2"></a></li>
+      ...
+   </ul>
+   <div class="tabpanels">
+      <div role="tabpanel" id="panel1" class="in fade">
+         <figure> <img src="#" alt="Panel 1">
+            <figcaption>
+               <p>...</p>
+            </figcaption>
+         </figure>
+      </div>
+      <div role="tabpanel" id="panel2" class="out fade">
+         <figure> <img src="#" alt="Panel 2">
+            <figcaption>
+               <p>...</p>
+            </figcaption>
+         </figure>
+      </div>
+   </div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

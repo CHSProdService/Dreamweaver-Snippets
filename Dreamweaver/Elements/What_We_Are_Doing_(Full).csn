@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="What We Are Doing (Full)" description="Adds the bottom "What we are doing" section to Topic and Lowest Level Subtopic Pages
+- WET4 theme agnostic (will work for multiple themes)
+- uses row wb-eqht, so that all section tiles will automatically align
+- uses "Law and Regulations," "Publications," Consultations," "Open data," "Statistics." " preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<section>
+	<h2>What we are doing</h2><div class="row wb-eqht" id="wb-auto-3">
+		<section class="col-lg-4 col-md-6">
+			<h3>Laws and regulations</h3>
+			<ul class="mrgn-bttm-lg lst-spcd">
+				<li><a href="#">[Regulation 1]</a></li>
+				<li><a href="#">[Law 1 with a long heading]</a></li>
+				<li><a href="#">[Regulation 2 with a long heading]</a></li>
+				<li><a href="#">[Regulation 3]</a></li>
+			</ul>
+			<p class="text-right"><strong><a href="#">All related laws and regulations</a></strong></p>
+		</section>
+		<section class="col-lg-4 col-md-6">
+			<h3>Publications</h3>
+			<ul class="mrgn-bttm-lg lst-spcd">
+				<li><a href="#">[Publication 1]</a></li>
+				<li><a href="#">[Publication 2 with a long heading]</a></li>
+				<li><a href="#">[Publication 3]</a></li>
+				<li><a href="#">[Publication 4]</a></li>
+			</ul>
+			<p class="text-right"><strong><a href="#">All related publications</a></strong></p>
+		</section>
+		<section class="col-lg-4 col-md-6">
+			<h3>Consultations</h3>
+			<ul class="mrgn-bttm-lg lst-spcd">
+				<li><a href="#">[Consultation 1]</a></li>
+				<li><a href="#">[Consultation 2 with a long heading]</a></li>
+				<li><a href="#">[Consultation 3]</a></li>
+				<li><a href="#">[Consultation 4 with a long heading..and a bit longer]</a></li>
+			</ul>
+			<p class="text-right"><strong><a href="#">All related consultations</a></strong></p>
+		</section>
+		<section class="col-lg-4 col-md-6">
+			<h3>Open data</h3>
+			<ul class="mrgn-bttm-lg lst-spcd">
+				<li><a href="#">[Open data 1]</a></li>
+				<li><a href="#">[Open data 2 with a long heading]</a></li>
+				<li><a href="#">[Open data 3]</a></li>
+				<li><a href="#">[Open data 4 with a long heading..and a bit longer]</a></li>
+			</ul>
+			<p class="text-right"><strong><a href="#">All related open data</a></strong></p>
+		</section>
+		<section class="col-lg-4 col-md-6">
+			<h3>Statistics</h3>
+			<ul class="mrgn-bttm-lg lst-spcd">
+				<li><a href="#">[Statistic 1]</a></li>
+				<li><a href="#">[Statistic 2 with a long heading]</a></li>
+				<li><a href="#">[Statistic 3]</a></li>
+				<li><a href="#">[Statistic 4 with a long heading..and a bit longer]</a></li>
+			</ul>
+			<p class="text-right"><strong><a href="#">All related statistics</a></strong></p>
+		</section>
+	</div>
+</section>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

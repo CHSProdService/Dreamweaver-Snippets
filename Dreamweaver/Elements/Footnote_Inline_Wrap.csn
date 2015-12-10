@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Footnote Inline Wrap" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[</a></sup>]]>
+</insertText>
+</snippet>

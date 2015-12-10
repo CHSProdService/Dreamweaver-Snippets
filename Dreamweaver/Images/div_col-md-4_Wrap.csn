@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="<div col-md-4> Wrap" description="An <div> image wrap
+- automatically set to col-md-4, thumbnailed, and img-responsive" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="col-md-4">
+	<div class="thumbnail">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[</div>
+</div>]]>
+</insertText>
+</snippet>

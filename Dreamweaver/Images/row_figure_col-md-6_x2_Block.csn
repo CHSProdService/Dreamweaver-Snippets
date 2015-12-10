@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="<row figure col-md-6> x2 Block" description="An image figure with no caption, set on a new row
+- image default size is col-md-6
+- image is thumbnailed and responsive" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="row">
+	<div class="col-md-6">
+		<figure class="thumbnail">
+			<img src="xxxxxxxxxxxx" class="img-responsive" />
+		</figure>
+	</div>
+	<div class="col-md-6">
+		<figure class="thumbnail">
+			<img src="xxxxxxxxxxxx" class="img-responsive" />
+		</figure>
+	</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
