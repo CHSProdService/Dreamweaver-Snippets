@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Responsive 16x9 iFrame" description="Allow browsers to determine video or slideshow dimensions based on the width of their containing block by creating an intrinsic ratio that will properly scale on any device.
+
+Rules are directly applied to <iframe>, <embed>, <video>, and <object> elements; optionally use an explicit descendant class .embed-responsive-item when you want to match the styling for other attributes.
+
+Pro-Tip! You don't need to include frameborder="0" in your <iframe>s as we override that for you." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="embed-responsive embed-responsive-16by9">
+   <iframe class="embed-responsive-item" src="xxxxxxxxx" allowfullscreen></iframe>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
