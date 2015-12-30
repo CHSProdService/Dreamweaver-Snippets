@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Disabled and Active states" description="Links are customizable for different circumstances. Use .disabled for unclickable (hidden) links and .active to indicate the current page." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="pagination">
+	<li class="disabled"><a href="#" rel="prev">Previous</a></li>
+	<li class="active"><a href="#">1 <span class="wb-inv">(current)</span></a></li>
+	<li><a href="#">2</a></li>
+	<li><a href="#">3</a></li>
+	<li><a href="#">4</a></li>
+	<li><a href="#">5</a></li>
+	<li><a href="#" rel="next">Next</a></li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

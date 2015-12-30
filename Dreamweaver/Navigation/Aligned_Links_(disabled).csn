@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Aligned Links (disabled)" description="Pager links also use the general .disabled utility class from the pagination." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="pager">
+	<li class="previous disabled"><a href="#" rel="prev">Previous</a></li>
+	<li class="next"><a href="#" rel="next">Next</a></li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

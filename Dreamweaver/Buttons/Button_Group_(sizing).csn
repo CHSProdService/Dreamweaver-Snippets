@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Button Group (sizing)" description="Instead of applying button sizing classes to every button in a group, just add btn-group-* to the btn-group." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="list-unstyled">
+	<li class="btn-group btn-group-lg mrgn-bttm-md">
+		<button type="button" class="btn btn-default">Left</button>
+		<button type="button" class="btn btn-default">Middle</button>
+		<button type="button" class="btn btn-default">Right</button>
+	</li>
+	<li class="btn-group mrgn-bttm-md">
+		<button type="button" class="btn btn-default">Left</button>
+		<button type="button" class="btn btn-default">Middle</button>
+		<button type="button" class="btn btn-default">Right</button>
+	</li>
+	</li class="btn-group btn-group-sm mrgn-bttm-md">
+		<button type="button" class="btn btn-default">Left</button>
+		<button type="button" class="btn btn-default">Middle</button>
+		<button type="button" class="btn btn-default">Right</button>
+	</li>
+	<li class="btn-group btn-group-xs">
+		<button type="button" class="btn btn-default">Left</button>
+		<button type="button" class="btn btn-default">Middle</button>
+		<button type="button" class="btn btn-default">Right</button>
+	</li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

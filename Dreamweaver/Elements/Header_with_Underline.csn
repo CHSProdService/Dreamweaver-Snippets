@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Header with Underline" description="Add an underline to a heading using the page-header class." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<h1 class="page-header">xxxxxxxxx</h1>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

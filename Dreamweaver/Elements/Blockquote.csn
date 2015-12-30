@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Blockquote" description="For quoting blocks of content from another source within your document.Wrap <blockquote> around any HTML as the quote. We recommend the use of <p> inside of <blockquote>." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<blockquote>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+</blockquote>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

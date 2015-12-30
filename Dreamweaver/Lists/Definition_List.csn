@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Definition List" description="A list of terms with their associated descriptions." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<dl>
+	<dt>xxxxx</dt>
+	<dd>xxxxxxxxxx</dd>
+	<dt>xxxxx</dt>
+	<dd>xxxxxxxxxx</dd>
+	<dt>xxxxx</dt>
+	<dd>xxxxxxxxxx</dd>
+</dl>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

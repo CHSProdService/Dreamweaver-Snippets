@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Badge (wrap)" description="Easily highlight new or unread items by adding a <span class="badge"> to links, Bootstrap navs, and more." preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<span class="badge">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[</span>]]>
+</insertText>
+</snippet>

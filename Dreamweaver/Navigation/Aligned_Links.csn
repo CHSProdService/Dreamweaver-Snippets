@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Aligned Links" description="Alternatively, you can align each link to the sides.  Justifies Previous to the left, and Next to the right." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="pager">
+	<li class="previous"><a href="#" rel="prev">Previous</a></li>
+	<li class="next"><a href="#" rel="next">Next</a></li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

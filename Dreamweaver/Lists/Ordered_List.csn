@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Ordered List" description="A list of items in which the order does explicitly matter." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ol>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+</ol>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

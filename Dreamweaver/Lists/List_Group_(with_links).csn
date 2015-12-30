@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="List Group (with links)" description="Linkify list group items by using anchor tags instead of list items (that also means a parent <div> instead of an <ul>). No need for individual parents around each element." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="list-group">
+	<a href="#" class="list-group-item active">Cras justo odio</a>
+	<a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+	<a href="#" class="list-group-item">Morbi leo risus</a>
+	<a href="#" class="list-group-item">Porta ac consectetur ac</a>
+	<a href="#" class="list-group-item">Vestibulum at eros</a>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

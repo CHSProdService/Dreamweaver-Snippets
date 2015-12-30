@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="List Group (with colour)" description="Use colour classes to style list items, default or linked. Also includes .active state." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="list-group">
+	<li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+	<li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+	<li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+	<li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

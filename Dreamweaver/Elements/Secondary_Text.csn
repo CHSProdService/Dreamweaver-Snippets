@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Secondary Text" description="Create lighter, secondary text in any heading with a generic <small> tag or the .small class." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<h1>xxxxxxxxx<br /><small>xxxxxxxxx</small></h1>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

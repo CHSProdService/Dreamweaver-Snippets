@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Button Toolbar" description="Combine sets of <div class="btn-group"> into a <div class="btn-toolbar"> for more complex components." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="btn-toolbar list-inline" role="toolbar">
+	<li class="btn-group">
+		<button type="button" class="btn btn-default">1</button>
+		<button type="button" class="btn btn-default">2</button>
+		<button type="button" class="btn btn-default">3</button>
+		<button type="button" class="btn btn-default">4</button>
+	</li>
+	<li class="btn-group">
+		<button type="button" class="btn btn-default">5</button>
+		<button type="button" class="btn btn-default">6</button>
+		<button type="button" class="btn btn-default">7</button>
+	</li>
+	<li class="btn-group">
+		<button type="button" class="btn btn-default">8</button>
+	</li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

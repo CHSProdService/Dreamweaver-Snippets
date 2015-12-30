@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Wells (wrap)" description="Use the well as a simple effect on an element to give it an inset effect." preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="well">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[</div>]]>
+</insertText>
+</snippet>

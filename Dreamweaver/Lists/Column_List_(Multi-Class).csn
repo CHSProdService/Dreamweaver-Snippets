@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Column List (Multi-Class)" description="You can also multi-class the columns so they adapt to the resolution:
+
+<ul class=" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="colcount-sm-2 colcount-md-3 colcount-lg-4">
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+	<li>Item 4</li>
+	<li>Item 5</li>
+	<li>Item 6</li>
+	<li>Item 7</li>
+	<li>Item 8</li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

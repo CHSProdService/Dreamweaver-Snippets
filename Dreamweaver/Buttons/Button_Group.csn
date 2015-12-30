@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Button Group" description="Group a series of buttons together on a single line with the button group. Wrap a series of buttons with btn in btn-group." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="btn-group">
+	<button type="button" class="btn btn-default">Left</button>
+	<button type="button" class="btn btn-default">Middle</button>
+	<button type="button" class="btn btn-default">Right</button>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

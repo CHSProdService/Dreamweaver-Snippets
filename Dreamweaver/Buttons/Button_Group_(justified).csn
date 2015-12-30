@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Button Group (justified)" description="With <button> elements
+
+To use justified button groups with <button> elements, you must wrap each button in a button group. Most browsers don't properly apply our CSS for justification to <button> elements, but since we support button dropdowns, we can workaround that." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="btn-group btn-group-justified">
+	<div class="btn-group">
+		<button type="button" class="btn btn-default">Left</button>
+	</div>
+	<div class="btn-group">
+		<button type="button" class="btn btn-default">Middle</button>
+	</div>
+	<div class="btn-group">
+		<button type="button" class="btn btn-default">Right</button>
+	</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Pills Justified" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="nav nav-pills nav-justified">
+         <li><a href="#xxxxxxxxx">xxxxxxxxx</a></li>
+         <li><a href="#xxxxxxxxx">xxxxxxxxx</a></li>
+         <li><a href="#xxxxxxxxx">xxxxxxxxx</a></li>
+         <li><a href="#xxxxxxxxx">xxxxxxxxx</a></li>
+         <li><a href="#xxxxxxxxx">xxxxxxxxx</a></li>
+      </ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Unordered List" description="A list of items in which the order does not explicitly matter." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

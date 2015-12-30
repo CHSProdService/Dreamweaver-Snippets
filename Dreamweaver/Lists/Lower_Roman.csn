@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Lower Roman" description="Modify an <ol> to display roman numbers instead of numeric numbers. This only applies to immediate children list items, meaning you will need to add the class for any nested lists as well." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ol class="lst-lwr-rmn">
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+</ol>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
