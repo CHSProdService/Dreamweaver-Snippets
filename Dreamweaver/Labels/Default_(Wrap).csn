@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Default (Wrap)" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<span class="label label-default">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[</span>]]>
+</insertText>
+</snippet>

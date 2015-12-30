@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Warning Panel" description="Wrap any text and an optional dismiss button in .alert and one of the four contextual classes (e.g., .alert-success) for basic alert messages.
+
+Alerts don't have default classes, only base and modifier classes. A default gray alert doesn't make too much sense, so you're required to specify a type via contextual class. Choose from success, info, warning, or danger." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<section class="alert alert-warning">
+	<h3>Warning!</h3>
+	<p>Best check yourself, you're not looking too good.</p>
+</section>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
