@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="FAQ" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+<div class="row">
+   <div class="col-md-12">
+      <h1>xxxxxxxx</h1>
+      <details class="mrgn-tp-sm">
+         <summary id="faq1">xxxxxxxx</summary>
+         <div class="alert alert-success">
+            <h2 class="h3">Answer:</h2>
+            <p>xxxxxxxx</p>
+         </div>
+      </details>
+      <details class="mrgn-tp-sm">
+         <summary id="faq2">xxxxxxxx</summary>
+         <div class="alert alert-success">
+            <h2 class="h3">Answer:</h2>
+            <p>xxxxxxxx</p>
+         </div>
+      </details>
+      <details class="mrgn-tp-sm">
+         <summary id="faq3">xxxxxxxx</summary>
+         <div class="alert alert-success">
+            <h2 class="h3">Answer:</h2>
+            <p>xxxxxxxx</p>
+         </div>
+      </details>
+      <details class="mrgn-tp-sm">
+         <summary id="faq4">xxxxxxxx</summary>
+         <div class="alert alert-success">
+            <h2 class="h3">Answer:</h2>
+            <p>xxxxxxxx</p>
+         </div>
+      </details>
+      <details class="mrgn-tp-sm">
+         <summary id="faq5">xxxxxxxx</summary>
+         <div class="alert alert-success">
+            <h2 class="h3">Answer:</h2>
+            <p>xxxxxxxx</p>
+         </div>
+      </details>
+      <details class="mrgn-tp-sm">
+         <summary id="faq6">xxxxxxxx</summary>
+         <div class="alert alert-success">
+            <h2 class="h3">Answer:</h2>
+            <p>xxxxxxxx</p>
+         </div>
+      </details>
+      <details class="mrgn-tp-sm">
+         <summary id="faq7">xxxxxxxx</summary>
+         <div class="alert alert-success">
+            <h2 class="h3">Answer:</h2>
+            <p>xxxxxxxx</p>
+         </div>
+      </details>
+      <details class="mrgn-tp-sm">
+         <summary id="faq8">xxxxxxxx</summary>
+         <div class="alert alert-success">
+            <h2 class="h3">Answer:</h2>
+            <p>xxxxxxxx</p>
+         </div>
+      </details>
+      <details class="mrgn-tp-sm">
+         <summary id="faq9">xxxxxxxx</summary>
+         <div class="alert alert-success">
+            <h2 class="h3">Answer:</h2>
+            <p>xxxxxxxx</p>
+         </div>
+      </details>
+      <details class="mrgn-tp-sm">
+         <summary id="faq10">xxxxxxxx</summary>
+         <div class="alert alert-success">
+            <h2 class="h3">Answer:</h2>
+            <p>xxxxxxxx</p>
+         </div>
+      </details>
+   </div>
+</div>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
