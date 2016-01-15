@@ -79,7 +79,7 @@ Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
       <section>
          <h2>What we are doing</h2>
          <div class="row wb-eqht">
-            <div class="col-lg-4 col-md-6">
+            <div>
                <h3>Laws and regulations</h3>
                <ul class="mrgn-bttm-lg lst-spcd">
                   <li>xxxxxxxxxxxxxxxx</li>
@@ -89,7 +89,7 @@ Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
                </ul>
                <p class="text-right"><strong><a href="xxxxxxxxxxxxxxxx">All related laws and regulations</a></strong></p>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div>
                <h3>Publications</h3>
                <ul class="mrgn-bttm-lg lst-spcd">
                   <li>xxxxxxxxxxxxxxxx</li>

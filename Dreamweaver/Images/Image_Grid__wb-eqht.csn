@@ -5,10 +5,7 @@
 - the image is thumnailed, responsive, and with a caption
 - if the user clicks the thumbnail, it follows the <a> tag" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<div class="row">
-   <div class="col-md-12">
-      <h3>xxxxxxxxxxxx</h3>
-      <div class="row wb-eqht">
+<![CDATA[<div class="row wb-eqht">
          <section> <a href="xxxxxxxxxxxx">
             <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" />
                <figcaption class="caption text-center">
@@ -37,9 +34,7 @@
                </figcaption>
             </figure>
             </a> </section>
-      </div>
-   </div>
-</div>]]>
+      </div>]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

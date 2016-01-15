@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Picture" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<span class="glyphicon glyphicon-picture"></span> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
