@@ -1,0 +1,2182 @@
+- trigger: cl
+  scope: javascript
+  description: console.log
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        console.log(${1:obj});${2}
+
+- trigger: cd
+  scope: javascript
+  description: console.dir
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        console.dir(${1:obj});${2}
+
+- trigger: ce
+  scope: javascript
+  description: console.error
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        console.error(${1:obj});${2}
+
+- trigger: cll
+  scope: javascript
+  description: console.log
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        console.log('${1:obj}:', ${1:obj});${2}
+
+- trigger: cdd
+  scope: javascript
+  description: console.dir
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        console.dir('${1:obj}:', ${1:obj});${2}
+
+- trigger: cee
+  scope: javascript
+  description: console.error
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        console.error('${1:obj}:', ${1:obj});${2}
+
+- trigger: ae
+  scope: javascript
+  description: document.addEventListener
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        ${1:document}.addEventListener('${2:event}', function(e) {
+          ${3}
+        });
+
+- trigger: ac
+  scope: javascript
+  description: document.appendChild
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        ${1:document}.appendChild(${2:elem});${3}
+
+- trigger: rc
+  scope: javascript
+  description: document.removeChild
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        ${1:document}.removeChild(${2:elem});${3}
+
+- trigger: cel
+  scope: javascript
+  description: document.createElement
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        ${1:document}.createElement(${2:elem});${3}
+
+- trigger: gi
+  scope: javascript
+  description: document.getElementById
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        ${1:document}.getElementById('${2:id}');${3}
+
+- trigger: gc
+  scope: javascript
+  description: document.getElementsByClassName
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        ${1:document}.getElementsByClassName('${2:class}');${3}
+
+- trigger: gt
+  scope: javascript
+  description: document.getElementsByTagName
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        ${1:document}.getElementsByTagName('${2:tag}');${3}
+
+- trigger: qs
+  scope: javascript
+  description: document.querySelector
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        ${1:document}.querySelector('${2:selector}');${3}
+
+- trigger: qsa
+  scope: javascript
+  description: document.querySelectorAll
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        ${1:document}.querySelectorAll('${2:selector}');${3}
+
+- trigger: fe
+  scope: javascript
+  description: forEach
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        ${1:myArray}.forEach(function (${2:elem}) {
+          ${3}
+        });
+
+- trigger: fi
+  scope: javascript
+  description: for in
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        for (${1:prop} in ${2:obj}) {
+          if (${2:obj}.hasOwnProperty(${1:prop})) {
+            ${3}
+          }
+        }
+
+- trigger: fn
+  scope: javascript
+  description: function
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        function ${1:methodName} (${2:arguments}) {
+          ${3}
+        }
+
+- trigger: afn
+  scope: javascript
+  description: anonymous function
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        function (${1:arguments}) {
+          ${2}
+        }
+
+- trigger: pr
+  scope: javascript
+  description: prototype
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        ${1:ClassName}.prototype.${2:methodName} = function (${3:arguments}) {
+          ${4}
+        };
+
+- trigger: sw
+  scope: javascript
+  description: switch statement
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        switch(${1:expression}) {
+          case ${2:value}:
+            ${3}
+            break;
+          default:
+            break;
+        }
+
+- trigger: si
+  scope: javascript
+  description: setInterval
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        setInterval(function() {
+          ${2}
+        }, ${1:delay});
+
+- trigger: st
+  scope: javascript
+  description: setTimeout
+  tag: VanillaJS
+  tagHide: true
+  source: system
+  text: |
+        setTimeout(function() {
+          ${2}
+        }, ${1:delay});
+
+- trigger: a
+  scope: html
+  description: Anchor Tag
+  source: system
+  text: |
+        <a href="${1}">${2}</a>${3}
+
+- trigger: doctype
+  scope: html
+  description: Boilerplate HTML
+  source: system
+  text: |
+        <!doctype html>
+        <html>
+            <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="description" content="">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>${1:Document}</title>
+                <link rel="stylesheet" href="css/style.css">
+            </head>
+            <body>
+                ${2}
+        
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+                <script src="js/main.js"></script>
+            </body>
+        </html>
+
+- trigger: fig
+  scope: html
+  description: Figure Tag
+  source: system
+  text: |
+        <figure>
+            <img src="${1}" alt="${2}">
+            <figcaption>${3}</figcaption>
+        </figure>
+
+- trigger: jquery
+  scope: html
+  description: jQuery Tag
+  source: system
+  text: |
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\\/script>')</script>
+
+- trigger: lorem
+  scope: html
+  description: Dummy Text
+  source: system
+  text: |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum.
+
+- scope: html
+  trigger: ccgFAQ
+  description: FAQ template - CCG
+  mTime: 1453210814432
+  text: |
+        <!--#include virtual="/science/theme-wet4/asp/init.asp" -->\r
+        <%\r
+        Title = "xxxxxxxx"\r
+        Breadcrumb = "BcRoot<li>xxxxxxxx</li>"\r
+        %>\r
+        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        \r
+        <!-- MainContentStart -->\r
+        \r
+        <div class="row">\r
+           <div class="col-md-12">\r
+              <h1>xxxxxxxx</h1>\r
+              <details class="mrgn-tp-sm">\r
+                 <summary id="faq1">xxxxxxxx</summary>\r
+                 <div class="alert alert-success">\r
+                    <h2 class="h3">Answer:</h2>\r
+                    <p>xxxxxxxx</p>\r
+                 </div>\r
+              </details>\r
+              <details class="mrgn-tp-sm">\r
+                 <summary id="faq2">xxxxxxxx</summary>\r
+                 <div class="alert alert-success">\r
+                    <h2 class="h3">Answer:</h2>\r
+                    <p>xxxxxxxx</p>\r
+                 </div>\r
+              </details>\r
+              <details class="mrgn-tp-sm">\r
+                 <summary id="faq3">xxxxxxxx</summary>\r
+                 <div class="alert alert-success">\r
+                    <h2 class="h3">Answer:</h2>\r
+                    <p>xxxxxxxx</p>\r
+                 </div>\r
+              </details>\r
+              <details class="mrgn-tp-sm">\r
+                 <summary id="faq4">xxxxxxxx</summary>\r
+                 <div class="alert alert-success">\r
+                    <h2 class="h3">Answer:</h2>\r
+                    <p>xxxxxxxx</p>\r
+                 </div>\r
+              </details>\r
+              <details class="mrgn-tp-sm">\r
+                 <summary id="faq5">xxxxxxxx</summary>\r
+                 <div class="alert alert-success">\r
+                    <h2 class="h3">Answer:</h2>\r
+                    <p>xxxxxxxx</p>\r
+                 </div>\r
+              </details>\r
+              <details class="mrgn-tp-sm">\r
+                 <summary id="faq6">xxxxxxxx</summary>\r
+                 <div class="alert alert-success">\r
+                    <h2 class="h3">Answer:</h2>\r
+                    <p>xxxxxxxx</p>\r
+                 </div>\r
+              </details>\r
+              <details class="mrgn-tp-sm">\r
+                 <summary id="faq7">xxxxxxxx</summary>\r
+                 <div class="alert alert-success">\r
+                    <h2 class="h3">Answer:</h2>\r
+                    <p>xxxxxxxx</p>\r
+                 </div>\r
+              </details>\r
+              <details class="mrgn-tp-sm">\r
+                 <summary id="faq8">xxxxxxxx</summary>\r
+                 <div class="alert alert-success">\r
+                    <h2 class="h3">Answer:</h2>\r
+                    <p>xxxxxxxx</p>\r
+                 </div>\r
+              </details>\r
+              <details class="mrgn-tp-sm">\r
+                 <summary id="faq9">xxxxxxxx</summary>\r
+                 <div class="alert alert-success">\r
+                    <h2 class="h3">Answer:</h2>\r
+                    <p>xxxxxxxx</p>\r
+                 </div>\r
+              </details>\r
+              <details class="mrgn-tp-sm">\r
+                 <summary id="faq10">xxxxxxxx</summary>\r
+                 <div class="alert alert-success">\r
+                    <h2 class="h3">Answer:</h2>\r
+                    <p>xxxxxxxx</p>\r
+                 </div>\r
+              </details>\r
+           </div>\r
+        </div>\r
+        \r
+        <!-- MainContentEnd --> \r
+        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+
+- trigger: ccgContent
+  description: Content Page template - CCG
+  scope: html
+  mTime: 1453210832586
+  text: |
+        <!--#include virtual="/science/theme-wet4/asp/init.asp" -->\r
+        <%\r
+        Title = "xxxxxxxxxxxxxxxx"\r
+        Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"\r
+        %>\r
+        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        \r
+        <!-- MainContentStart -->\r
+        \r
+        <div class="row">\r
+           <div class="col-md-12">\r
+              <h1>xxxxxxxxxxxxxxxx</h1>\r
+        \t  <p>xxxxxxxxxxxxxxxx</p>\r
+           </div>\r
+        </div>\r
+        \r
+        <!-- MainContentEnd --> \r
+        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+
+- trigger: ccgLowest
+  description: Lowest Level Topic Page - CCG
+  scope: html
+  mTime: 1453210843559
+  text: |
+        <!--#include virtual="/science/theme-wet4/asp/init.asp" -->\r
+        <%\r
+        Title = "xxxxxxxxxxxxxxxx"\r
+        Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"\r
+        %>\r
+        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        \r
+        <!-- MainContentStart -->\r
+        \r
+        <div class="row">\r
+           <div class="col-md-12">\r
+              <div class="row">\r
+                 <div class="col-md-6">\r
+                    <h1>xxxxxxxxxxxxxxxx</h1>\r
+                    <p>xxxxxxxxxxxxxxxx</p>\r
+                 </div>\r
+        \t\t  <div class="col-md-6 mrgn-tp-md hidden-sm hidden-xs">\r
+        \t\t\t  <img src="xxxxxxxxxxxxxxxx" alt="" class="pull-right img-responsive thumbnail">\r
+        \t\t  </div>\r
+              </div>\r
+              <div class="row">\r
+                 <div class="col-md-12">\r
+                    <h2>Topics</h2>\r
+                    <div class="row wb-eqht">\r
+                       <section>\r
+                          <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>\r
+                          <p>xxxxxxxxxxxxxxxx</p>\r
+                       </section>\r
+                       <section>\r
+                          <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>\r
+                          <p>xxxxxxxxxxxxxxxx</p>\r
+                       </section>\r
+        \t\t\t\t<section>\r
+                          <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>\r
+                          <p>xxxxxxxxxxxxxxxx</p>\r
+                       </section>\r
+                       <section>\r
+                          <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>\r
+                          <p>xxxxxxxxxxxxxxxx</p>\r
+                       </section>\r
+                       <section>\r
+                          <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>\r
+                          <p>xxxxxxxxxxxxxxxx</p>\r
+                       </section>\r
+                    </div>\r
+                 </div>\r
+              </div>\r
+              <section>\r
+                 <h2>What we are doing</h2>\r
+                 <div class="row wb-eqht">\r
+                    <div>\r
+                       <h3>Laws and regulations</h3>\r
+                       <ul class="mrgn-bttm-lg lst-spcd">\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          \r
+                       </ul>\r
+                       <p class="text-right"><strong><a href="xxxxxxxxxxxxxxxx">All related laws and regulations</a></strong></p>\r
+                    </div>\r
+                    <div>\r
+                       <h3>Publications</h3>\r
+                       <ul class="mrgn-bttm-lg lst-spcd">\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                       </ul>\r
+                       <p class="text-right"><strong><a href="xxxxxxxxxxxxxxxx">All related publications</a></strong></p>\r
+                    </div>\r
+                 </div>\r
+              </section>\r
+           </div>\r
+        </div>\r
+        \r
+        <!-- MainContentEnd --> \r
+        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+
+- trigger: ccgReport
+  description: Report Content Page - CCG
+  scope: html
+  mTime: 1453210913137
+  text: |
+        <!--#include virtual="/science/theme-wet4/asp/init.asp" -->\r
+        <%\r
+        Title = "xxxxxxxxxx"\r
+        Breadcrumb = "BcRoot<li>xxxxxxxxxx</li>"\r
+        %>\r
+        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        \r
+        <!-- MainContentStart -->\r
+        \r
+        <div class="row">\r
+           <div class="col-md-12">\r
+              <h1>xxxxxxxxxx</h1>\r
+              <p class="pull-right"><span class="glyphicon glyphicon-download"></span> <a href="xxxxxxxxxx">PDF Document</a></p>\r
+              <h2>Table of Contents</h2>\r
+              <ul role="presentation">\r
+                 <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">Complete Text</a></li>\r
+                 <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>\r
+                 <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>\r
+                 <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>\r
+                 <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>\r
+                 <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>\r
+              </ul>\r
+              <h2>xxxxxxxxx</h2>\r
+              <p>xxxxxxxxx</p>\r
+              <nav>\r
+                 <h2 class="wb-inv">Document navigation</h2>\r
+                 <ul class="pager">\r
+                    <li class="previous"><a href="xxxxxxxxxx" rel="prev">Previous</a></li>\r
+                    <li><a href="xxxxxxxxxx">Complete Text</a></li>\r
+                    <li class="next"><a href="xxxxxxxxxx" rel="next">Next</a></li>\r
+                 </ul>\r
+              </nav>\r
+           </div>\r
+        </div>\r
+        \r
+        <!-- MainContentEnd --> \r
+        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+
+- trigger: ccgSimple
+  scope: html
+  description: Simple Service Initiation Landing Page - CCG
+  mTime: 1453211003224
+  text: |
+        <!--#include virtual="/science/theme-wet4/asp/init.asp" -->\r
+        <%\r
+        Title = "xxxxxxxxxxxxxxxx"\r
+        Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"\r
+        %>\r
+        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        \r
+        <!-- MainContentStart -->\r
+        \r
+        \r
+        <div class="row">\r
+           <div class="col-md-12">\r
+              <h1>xxxxxxxxxxxxxxxx</h1>\r
+              <div class="row">\r
+                 <div class="col-md-8">\r
+                    <p class="pagetag">[Service name], lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ipsam deserunt, doloremque mollitia laudantium quas ut accusamus perspiciatis repellendus quaerat omnis corporis laborum quasi magni possimus qui necessitatibus, aperiam enim.</p>\r
+                    <section>\r
+                       <h2>[Eligibility details]</h2>\r
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti cupiditate voluptatem praesentium, facilis corporis magni esse reiciendis distinctio. Vitae totam iste porro, esse facere obcaecati? Laborum earum minus harum enim.</p>\r
+                    </section>\r
+                    <section>\r
+                       <h2>[What you need before you start]</h2>\r
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa hic minima magni nesciunt nam. Facilis perferendis, adipisci voluptates, enim illo perspiciatis molestias itaque iste qui distinctio asperiores quidem voluptatum sunt.</p>\r
+                    </section>\r
+                    <p><a class="btn btn-lg btn-primary mrgn-tp-md mrgn-lft-md">[Apply now]</a></p>\r
+                    <section>\r
+                       <h2>[Other ways to apply]</h2>\r
+                       <dl class="dl-horizontal">\r
+                          <dt>By phone:</dt>\r
+                          <dd>123-456-7890</dd>\r
+                          <dt>In person:</dt>\r
+                          <dd>Lorem ipsum dolor sit amet<br>\r
+                             1234 street ave.<br>\r
+                             City, Province<br>\r
+                             A1B 2C3</dd>\r
+                          <dt>By mail:</dt>\r
+                          <dd>Lorem ipsum dolor sit amet<br>\r
+                             1234 street ave.<br>\r
+                             City, Province<br>\r
+                             A1B 2C3</dd>\r
+                       </dl>\r
+                    </section>\r
+                 </div>\r
+                 <div class="col-md-4">\r
+                    <section>\r
+                       <h2 class="mrgn-tp-0">[Guides and help]</h2>\r
+                       <ul class="lst-spcd">\r
+                          <li><a href="#">Guide 1</a></li>\r
+                          <li><a href="#">Guide 2</a></li>\r
+                          <li><a href="#">Guide 3</a></li>\r
+                          <li><a href="#">Guide 4</a></li>\r
+                       </ul>\r
+                    </section>\r
+                    <section>\r
+                       <h2>[Related services and info]</h2>\r
+                       <ul class="lst-spcd">\r
+                          <li><a href="#">Related services 1</a></li>\r
+                          <li><a href="#">Related services 2</a></li>\r
+                          <li><a href="#">Related services 3</a></li>\r
+                          <li><a href="#">Related services 4</a></li>\r
+                          <li><a href="#">Related services 5</a></li>\r
+                       </ul>\r
+                    </section>\r
+                 </div>\r
+              </div>\r
+           </div>\r
+        </div>\r
+        \r
+        <!-- MainContentEnd --> \r
+        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+
+- trigger: ccgTabbed
+  scope: html
+  description: Tabbed Panels Content Page - CCG
+  mTime: 1453211060237
+  text: |
+        <!--#include virtual="/science/theme-wet4/asp/init.asp" -->\r
+        <%\r
+        Title = "xxxxxxxxxxxx"\r
+        Breadcrumb = "BcRoot<li>xxxxxxxxxxxx</li>"\r
+        %>\r
+        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        \r
+        <!-- MainContentStart -->\r
+        \r
+        <div class="row">\r
+           <div class="col-md-12">\r
+              <h1>xxxxxxxxxxxx</h1>\r
+              <p>xxxxxxxxxxxx</p>\r
+              <div class="wb-tabs">\r
+                 <div class="tabpanels">\r
+                    <details id="details-panel1" open>\r
+                       <summary>xxxxxxxxxxxx</summary>\r
+                       <h2>xxxxxxxxxxxx</h2>\r
+                       <p>xxxxxxxxxxxx</p>\r
+                    </details>\r
+                    <details id="details-panel2">\r
+                       <summary>xxxxxxxxxxxx</summary>\r
+                       <h2>xxxxxxxxxxxx</h2>\r
+                       <p>xxxxxxxxxxxx</p>\r
+                    </details>\r
+                    <details id="details-panel3">\r
+                       <summary>xxxxxxxxxxxx</summary>\r
+                       <h2>xxxxxxxxxxxx</h2>\r
+                       <p>xxxxxxxxxxxx</p>\r
+                    </details>\r
+                    <details id="details-panel4">\r
+                       <summary>xxxxxxxxxxxx</summary>\r
+                       <h2>xxxxxxxxxxxx</h2>\r
+                       <p>xxxxxxxxxxxx</p>\r
+                    </details>\r
+                    <details id="details-panel5">\r
+                       <summary>xxxxxxxxxxxx</summary>\r
+                       <h2>xxxxxxxxxxxx</h2>\r
+                       <p>xxxxxxxxxxxx</p>\r
+                    </details>\r
+                    <details id="details-panel6">\r
+                       <summary>xxxxxxxxxxxx</summary>\r
+                       <h2>xxxxxxxxxxxx</h2>\r
+                       <p>xxxxxxxxxxxx</p>\r
+                    </details>\r
+                 </div>\r
+              </div>\r
+           </div>\r
+        </div>\r
+        \r
+        <!-- MainContentEnd --> \r
+        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+
+- trigger: ccgTopic
+  scope: html
+  description: Topic Page - CCG
+  mTime: 1453211512613
+  text: |
+        <!--#include virtual="/science/theme-wet4/asp/init.asp" -->\r
+        <%\r
+        Title = "xxxxxxxxxxxxxxxx"\r
+        Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"\r
+        %>\r
+        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        \r
+        <!-- MainContentStart -->\r
+        \r
+        \r
+        <div class="row">\r
+           <div class="col-md-12">\r
+              <div class="row">\r
+                 <div class="col-md-6">\r
+                    <h1>xxxxxxxxxxxxxxxx</h1>\r
+                    <p>xxxxxxxxxxxxxxxx</p>\r
+                 </div>\r
+                 <div class="col-md-6 margin-top-small hidden-sm hidden-xs"> <img src="xxxxxxxxxxxxxxxx" alt="" class="pull-right img-responsive thumbnail"> </div>\r
+              </div>\r
+              <div class="row">\r
+                 <aside class="col-md-4 col-md-push-8 mrgn-tp-lg">\r
+                    <div class="well">\r
+                       <h2 class="mrgn-tp-0">Most requested</h2>\r
+                       <ul class="lst-spcd">\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                       </ul>\r
+                    </div>\r
+                    <div class="well">\r
+                       <h2 class="mrgn-tp-0">More information for</h2>\r
+                       <ul class="lst-spcd">\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                          <li><a href="#">xxxxxxxxxxxxxxxx</a></li>\r
+                       </ul>\r
+                    </div>\r
+                 </aside>\r
+                 <section class="col-md-8 col-md-pull-4">\r
+                    <h2>Topics</h2>\r
+                    <div class="row">\r
+                       <section class="col-md-6">\r
+                          <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>\r
+                          <p>xxxxxxxxxxxxxxxx</p>\r
+                       </section>\r
+                       <section class="col-md-6">\r
+                          <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>\r
+                          <p>xxxxxxxxxxxxxxxx</p>\r
+                       </section>\r
+        \t\t\t   <div class="clearfix"></div>\r
+                       <section class="col-md-6">\r
+                          <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>\r
+                          <p>xxxxxxxxxxxxxxxx</p>\r
+                       </section>\r
+                       <section class="col-md-6">\r
+                          <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>\r
+                          <p>xxxxxxxxxxxxxxxx</p>\r
+                       </section>\r
+        \t\t\t   <div class="clearfix"></div>\r
+                       <section class="col-md-6">\r
+                          <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>\r
+                          <p>xxxxxxxxxxxxxxxx</p>\r
+                       </section>\r
+                    </div>\r
+                 </section>\r
+              </div>\r
+              <section>\r
+                 <h2>What we are doing</h2>\r
+                 <div class="row wb-eqht">\r
+                    <div>\r
+                       <h3>Laws and regulations</h3>\r
+                       <ul class="mrgn-bttm-lg lst-spcd">\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                       </ul>\r
+                       <p class="text-right"><strong><a href="xxxxxxxxxxxxxxxx">All related laws and regulations</a></strong></p>\r
+                    </div>\r
+                    <div>\r
+                       <h3>Publications</h3>\r
+                       <ul class="mrgn-bttm-lg lst-spcd">\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                          <li>xxxxxxxxxxxxxxxx</li>\r
+                       </ul>\r
+                       <p class="text-right"><strong><a href="xxxxxxxxxxxxxxxx">All related publications</a></strong></p>\r
+                    </div>\r
+                 </div>\r
+              </section>\r
+           </div>\r
+        </div>\r
+        \r
+        <!-- MainContentEnd --> \r
+        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+
+- trigger: box
+  scope: css
+  description: Box Shadow
+  source: system
+  text: |
+        box-shadow: ${1:horizontal}px ${2:vertical}px ${3:blur-radius}px ${4:spread-distance}px ${5:#eee};${6}
+
+- trigger: med
+  scope: css
+  description: Media
+  source: system
+  text: |
+        @media (min-width: ${1}) {
+          ${2}
+        }
+
+- trigger: bootstrap-badge
+  scope: _any
+  description: Badge
+  mTime: 1453214028227
+  text: |
+        <span class="badge"></span>
+
+- trigger: bootstrap-alert-danger
+  scope: _any
+  description: Danger Alert
+  mTime: 1453213958081
+  text: |
+        <section class="alert alert-danger">\r
+           <h3>Oh snap!</h3>\r
+           <p>Change a few things up and try submitting again.</p>\r
+        </section>
+
+- trigger: bootstrap-alert-info
+  description: Info Alert
+  scope: _any
+  mTime: 1453213983412
+  text: |
+        <section class="alert alert-info">\r
+        \t<h3>Heads up!</h3>\r
+        \t<p>This alert needs your attention, but it's not super important.</p>\r
+        </section>
+
+- trigger: bootstrap-alert-success
+  scope: _any
+  description: Success Alert
+  mTime: 1453213995016
+  text: |
+        <section class="alert alert-success">\r
+        \t<h3>Well done!</h3>\r
+        \t<p>You successfully read this important alert message.</p>\r
+        </section>
+
+- trigger: bootstrap-alert-warning
+  description: Warning Alert
+  scope: _any
+  mTime: 1453214006811
+  text: |
+        <section class="alert alert-warning">\r
+        \t<h3>Warning!</h3>\r
+        \t<p>Best check yourself, you're not looking too good.</p>\r
+        </section>
+
+- trigger: bootstrap-button-danger
+  scope: _any
+  description: Danger Button
+  mTime: 1453214116154
+  text: |
+        <button type="button" class="btn btn-danger">Danger</button>
+
+- trigger: bootstrap-button-default
+  description: Default Button
+  scope: _any
+  mTime: 1453214129152
+  text: |
+        <button type="button" class="btn btn-default">Default</button>
+
+- trigger: bootstrap-button-info
+  description: Info Button
+  scope: _any
+  mTime: 1453214224712
+  text: |
+        <button type="button" class="btn btn-info">Info</button>
+
+- trigger: bootstrap-button-link
+  description: Linked Button
+  scope: _any
+  mTime: 1453214234024
+  text: |
+        <button type="button" class="btn btn-link">Link</button>
+
+- trigger: bootstrap-button-primary
+  description: Primary Button
+  scope: _any
+  mTime: 1453214248902
+  text: |
+        <button type="button" class="btn btn-primary">Primary</button>
+
+- trigger: bootstrap-button-success
+  description: Success Button
+  scope: _any
+  mTime: 1453214259823
+  text: |
+        <button type="button" class="btn btn-success">Success</button>
+
+- trigger: bootstrap-button-warning
+  description: Warning Button
+  scope: _any
+  mTime: 1453214294288
+  text: |
+        <button type="button" class="btn btn-warning">Warning</button>
+
+- trigger: bootstrap-button-group
+  description: Group Buttons
+  scope: _any
+  mTime: 1453214145370
+  text: |
+        <div class="btn-group">\r
+        \t<button type="button" class="btn btn-default">Left</button>\r
+        \t<button type="button" class="btn btn-default">Middle</button>\r
+        \t<button type="button" class="btn btn-default">Right</button>\r
+        </div>
+
+- trigger: bootstrap-button-group-justified
+  description: "Group Buttons, Justified"
+  scope: _any
+  mTime: 1453214168774
+  text: |
+        <div class="btn-group btn-group-justified">\r
+           <div class="btn-group">\r
+              <button type="button" class="btn btn-default">Left</button>\r
+           </div>\r
+           <div class="btn-group">\r
+              <button type="button" class="btn btn-default">Middle</button>\r
+           </div>\r
+           <div class="btn-group">\r
+              <button type="button" class="btn btn-default">Right</button>\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-button-group-sizing
+  description: Group Button automatic sizing
+  scope: _any
+  mTime: 1453214209341
+  text: |
+        <ul class="list-unstyled">\r
+           <li class="btn-group btn-group-lg mrgn-bttm-md">\r
+              <button type="button" class="btn btn-default">Left</button>\r
+              <button type="button" class="btn btn-default">Middle</button>\r
+              <button type="button" class="btn btn-default">Right</button>\r
+           </li>\r
+           <li class="btn-group mrgn-bttm-md">\r
+              <button type="button" class="btn btn-default">Left</button>\r
+              <button type="button" class="btn btn-default">Middle</button>\r
+              <button type="button" class="btn btn-default">Right</button>\r
+           </li>\r
+           <li class="btn-group btn-group-sm mrgn-bttm-md">\r
+              <button type="button" class="btn btn-default">Left</button>\r
+              <button type="button" class="btn btn-default">Middle</button>\r
+              <button type="button" class="btn btn-default">Right</button>\r
+           </li>\r
+           <li class="btn-group btn-group-xs">\r
+              <button type="button" class="btn btn-default">Left</button>\r
+              <button type="button" class="btn btn-default">Middle</button>\r
+              <button type="button" class="btn btn-default">Right</button>\r
+           </li>\r
+        </ul>
+
+- trigger: bootstrap-button-toolbar
+  description: Toolbar of Buttons
+  scope: _any
+  mTime: 1453214268870
+  text: |
+        <ul class="btn-toolbar list-inline" role="toolbar">\r
+           <li class="btn-group">\r
+              <button type="button" class="btn btn-default">1</button>\r
+              <button type="button" class="btn btn-default">2</button>\r
+              <button type="button" class="btn btn-default">3</button>\r
+              <button type="button" class="btn btn-default">4</button>\r
+           </li>\r
+           <li class="btn-group">\r
+              <button type="button" class="btn btn-default">5</button>\r
+              <button type="button" class="btn btn-default">6</button>\r
+              <button type="button" class="btn btn-default">7</button>\r
+           </li>\r
+           <li class="btn-group">\r
+              <button type="button" class="btn btn-default">8</button>\r
+           </li>\r
+        </ul>
+
+- trigger: bootstrap-blockquote
+  description: Blockquote template
+  scope: _any
+  mTime: 1453214046750
+  text: |
+        <blockquote>\r
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>\r
+        </blockquote>
+
+- trigger: bootstrap-blockquote-right
+  description: Right-Aligned Blockquote
+  scope: _any
+  mTime: 1453214060903
+  text: |
+        <blockquote class="blockquote-reverse">\r
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>\r
+           <footer>Someone famous in <cite>Source Title</cite></footer>\r
+        </blockquote>
+
+- trigger: bootstrap-blockquote-source
+  description: Blockquote with Source
+  scope: _any
+  mTime: 1453214071515
+  text: |
+        <blockquote>\r
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>\r
+           <footer>Someone famous in <cite>Source Title</cite></footer>\r
+        </blockquote>
+
+- trigger: bootstrap-FAQ-single
+  description: Single FAQ
+  scope: _any
+  mTime: 1453214338931
+  text: |
+        <details class="mrgn-tp-sm">\r
+           <summary id="faq1">Question</summary>\r
+           <div class="alert alert-success">\r
+              <h2 class="h3">Answer:</h2>\r
+              <p>xxxxxxxxxx</p>\r
+           </div>\r
+        </details>
+
+- trigger: bootstrap-footnote-inline
+  description: Inline Footnote
+  scope: _any
+  mTime: 1453214349600
+  text: |
+        <sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup>
+
+- trigger: bootstrap-footnote-section
+  description: Footnote section template
+  scope: _any
+  mTime: 1453214362682
+  text: |
+        <aside class="wb-fnote" role="note">\r
+           <h3 id="fn">Footnotes</h3>\r
+           <dl>\r
+              <dt>Footnote 1</dt>\r
+              <dd id="fn1">\r
+                 <p>Example of a standard footnote.</p>\r
+                 <p class="fn-rtn"> <a href="#fn1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a> </p>\r
+              </dd>\r
+              <dt>Footnote 2</dt>\r
+              <dd id="fn2">\r
+                 <p>Example of a footnote being referenced by multiple pieces of content.</p>\r
+                 <p class="fn-rtn"> <a href="#fn2-1-rf"><span class="wb-inv">Return to <span>first</span> footnote </span>2<span class="wb-inv"> referrer</span></a> </p>\r
+              </dd>\r
+              <dt>Footnote 3</dt>\r
+              <dd id="fn3">\r
+                 <p>Example of a footnote containing multiple paragraphs (first paragraph).</p>\r
+                 <p>Example of a footnote containing multiple paragraphs (second paragraph).</p>\r
+                 <p>Example of a footnote containing multiple paragraphs (third paragraph).</p>\r
+                 <p class="fn-rtn"> <a href="#fn3-rf"><span class="wb-inv">Return to footnote </span>3<span class="wb-inv"> referrer</span></a> </p>\r
+              </dd>\r
+              <dt>Footnote *</dt>\r
+              <dd id="fn*">\r
+                 <p>Example of a standard footnote, denoted by a symbol.</p>\r
+                 <p class="fn-rtn"> <a href="#fn*-rf"><span class="wb-inv">Return to footnote </span>*<span class="wb-inv"> referrer</span></a> </p>\r
+              </dd>\r
+           </dl>\r
+        </aside>
+
+- trigger: bootstrap-footnote-single-note
+  description: A single footnote for the Footnote section
+  scope: _any
+  mTime: 1453214383343
+  text: |
+        <dt>Footnote *</dt>\r
+        <dd id="fn*">\r
+           <p>Example of a standard footnote, denoted by a symbol.</p>\r
+           <p class="fn-rtn"> <a href="#fn*-rf"><span class="wb-inv">Return to footnote </span>*<span class="wb-inv"> referrer</span></a> </p>\r
+        </dd>
+
+- trigger: bootstrap-header-underline
+  description: h1 with header line underneath
+  scope: _any
+  mTime: 1453214459582
+  text: |
+        <h1 class="page-header">xxxxxxxxx</h1>
+
+- trigger: bootstrap-header-secondary
+  description: Header with secondary text
+  scope: _any
+  mTime: 1453214448342
+  text: |
+        <h1>xxxxxxxxx<br /><small>xxxxxxxxx</small></h1>
+
+- trigger: bootstrap-well
+  description: Well template
+  scope: _any
+  mTime: 1453214506089
+  text: |
+        <div class="well">\r
+           <h3>xxxxxxxxx</h3>\r
+           <p>xxxxxxxxx</p>\r
+        </div>
+
+- trigger: bootstrap-whatWeAreDoing-short
+  description: "Partial \"What We Are Doing\" section of topic pages"
+  scope: _any
+  mTime: 1453214531160
+  text: |
+        <section>\r
+           <h2>What we are doing</h2>\r
+           <div class="row wb-eqht" id="wb-auto-3">\r
+              <section class="col-lg-4 col-md-6">\r
+                 <h3>Laws and regulations</h3>\r
+                 <ul class="mrgn-bttm-lg lst-spcd">\r
+                    <li><a href="#">[Regulation 1]</a></li>\r
+                    <li><a href="#">[Law 1 with a long heading]</a></li>\r
+                    <li><a href="#">[Regulation 2 with a long heading]</a></li>\r
+                    <li><a href="#">[Regulation 3]</a></li>\r
+                 </ul>\r
+                 <p class="text-right"><strong><a href="#">All related laws and regulations</a></strong></p>\r
+              </section>\r
+              <section class="col-lg-4 col-md-6">\r
+                 <h3>Publications</h3>\r
+                 <ul class="mrgn-bttm-lg lst-spcd">\r
+                    <li><a href="#">[Publication 1]</a></li>\r
+                    <li><a href="#">[Publication 2 with a long heading]</a></li>\r
+                    <li><a href="#">[Publication 3]</a></li>\r
+                    <li><a href="#">[Publication 4]</a></li>\r
+                 </ul>\r
+                 <p class="text-right"><strong><a href="#">All related publications</a></strong></p>\r
+              </section>\r
+           </div>\r
+        </section>
+
+- trigger: bootstrap-whatWeAreDoing-full
+  description: "Full \"What We Are Doing\" section for topic pages"
+  scope: _any
+  mTime: 1453214518827
+  text: |
+        <section>\r
+           <h2>What we are doing</h2>\r
+           <div class="row wb-eqht" id="wb-auto-3">\r
+              <section class="col-lg-4 col-md-6">\r
+                 <h3>Laws and regulations</h3>\r
+                 <ul class="mrgn-bttm-lg lst-spcd">\r
+                    <li><a href="#">[Regulation 1]</a></li>\r
+                    <li><a href="#">[Law 1 with a long heading]</a></li>\r
+                    <li><a href="#">[Regulation 2 with a long heading]</a></li>\r
+                    <li><a href="#">[Regulation 3]</a></li>\r
+                 </ul>\r
+                 <p class="text-right"><strong><a href="#">All related laws and regulations</a></strong></p>\r
+              </section>\r
+              <section class="col-lg-4 col-md-6">\r
+                 <h3>Publications</h3>\r
+                 <ul class="mrgn-bttm-lg lst-spcd">\r
+                    <li><a href="#">[Publication 1]</a></li>\r
+                    <li><a href="#">[Publication 2 with a long heading]</a></li>\r
+                    <li><a href="#">[Publication 3]</a></li>\r
+                    <li><a href="#">[Publication 4]</a></li>\r
+                 </ul>\r
+                 <p class="text-right"><strong><a href="#">All related publications</a></strong></p>\r
+              </section>\r
+              <section class="col-lg-4 col-md-6">\r
+                 <h3>Consultations</h3>\r
+                 <ul class="mrgn-bttm-lg lst-spcd">\r
+                    <li><a href="#">[Consultation 1]</a></li>\r
+                    <li><a href="#">[Consultation 2 with a long heading]</a></li>\r
+                    <li><a href="#">[Consultation 3]</a></li>\r
+                    <li><a href="#">[Consultation 4 with a long heading..and a bit longer]</a></li>\r
+                 </ul>\r
+                 <p class="text-right"><strong><a href="#">All related consultations</a></strong></p>\r
+              </section>\r
+              <section class="col-lg-4 col-md-6">\r
+                 <h3>Open data</h3>\r
+                 <ul class="mrgn-bttm-lg lst-spcd">\r
+                    <li><a href="#">[Open data 1]</a></li>\r
+                    <li><a href="#">[Open data 2 with a long heading]</a></li>\r
+                    <li><a href="#">[Open data 3]</a></li>\r
+                    <li><a href="#">[Open data 4 with a long heading..and a bit longer]</a></li>\r
+                 </ul>\r
+                 <p class="text-right"><strong><a href="#">All related open data</a></strong></p>\r
+              </section>\r
+              <section class="col-lg-4 col-md-6">\r
+                 <h3>Statistics</h3>\r
+                 <ul class="mrgn-bttm-lg lst-spcd">\r
+                    <li><a href="#">[Statistic 1]</a></li>\r
+                    <li><a href="#">[Statistic 2 with a long heading]</a></li>\r
+                    <li><a href="#">[Statistic 3]</a></li>\r
+                    <li><a href="#">[Statistic 4 with a long heading..and a bit longer]</a></li>\r
+                 </ul>\r
+                 <p class="text-right"><strong><a href="#">All related statistics</a></strong></p>\r
+              </section>\r
+           </div>\r
+        </section>
+
+- trigger: bootstrap-glyphicon-download
+  description: Download Glyphicon
+  scope: _any
+  mTime: 1453214396695
+  text: |
+        <span class="glyphicon glyphicon-download"></span> 
+
+- trigger: bootstrap-glyphicon-envelope
+  description: Envelope Glyphicon
+  scope: _any
+  mTime: 1453214416491
+  text: |
+        <span class="glyphicon glyphicon-envelope"></span> 
+
+- trigger: bootstrap-download-PDF
+  description: "The \"Download PDF\" code for report pages"
+  scope: _any
+  mTime: 1453214309718
+  text: |
+        <p class="text-right"><span class="glyphicon glyphicon-download"></span> <a href="xxxxxxxxxx"><abbr title="Portable Document Format">PDF</abbr>\_document</a></p>
+
+- trigger: bootstrap-glyphicon-phone
+  description: Phone Glyphicon
+  scope: _any
+  mTime: 1453214426830
+  text: |
+        <span class="glyphicon glyphicon-phone"></span> 
+
+- trigger: bootstrap-glyphicon-picture
+  description: Picture Glyphicon
+  scope: _any
+  mTime: 1453214439558
+  text: |
+        <span class="glyphicon glyphicon-picture"></span> 
+
+- trigger: bootstrap-label-danger
+  description: Danger Label
+  scope: _any
+  mTime: 1453214469271
+  text: |
+        <span class="label label-danger">xxxxxx</span>
+
+- trigger: bootstrap-label-default
+  description: Default Label
+  scope: _any
+  mTime: 1453214482504
+  text: |
+        <span class="label label-default">xxxxxx</span>
+
+- trigger: bootstrap-label-info
+  description: Info Label
+  scope: _any
+  mTime: 1453214493244
+  text: |
+        <span class="label label-info">xxxxxx</span>
+
+- trigger: bootstrap-label-primary
+  description: Primary Label
+  scope: _any
+  mTime: 1453214601866
+  text: |
+        <span class="label label-primary">xxxxxx</span>
+
+- trigger: bootstrap-label-success
+  description: Success label
+  scope: _any
+  mTime: 1453214624225
+  text: |
+        <span class="label label-success">xxxxxx</span>
+
+- trigger: bootstrap-label-warning
+  description: Warning Label
+  scope: _any
+  mTime: 1453214646442
+  text: |
+        <span class="label label-warning">xxxxxx</span>
+
+- trigger: bootstrap-video-DFO
+  description: The DFO-specific code for multimedia video
+  scope: _any
+  mTime: 1453214723469
+  text: |
+        <section>\r
+           <figure class="wb-mltmd">\r
+              <video poster="xxxxxxxxxx" title="xxxxxxxxxx">\r
+                 <source type="video/mp4" src="xxxxxxxxxx" />\r
+                 <source type="video/webm" src="xxxxxxxxxx" />\r
+                 <track src="xxxxxxxxxx" kind="captions" data-type="text/html" srclang="en" label="English" />\r
+                 <h2>Your browser does not support the HTML5 video tag.</h2>\r
+                 <ul>\r
+                    <li>\r
+                       <p>Click on the following button to download the video: <a href="xxxxxxxxxx" type="video/mp4" class="btn btn-primary"><span class="glyphicon glyphicon-download"></span> Download</a></p>\r
+                    </li>\r
+                    <li>\r
+                       <p>Or, if you have access to Google Chrome, copy and paste the following URL into the address bar and press the “Enter” key on your keyboard to see the video: <a href="http://intra.dfo-mpo.gc.ca/science/gcwcc/index-eng.html">http://intra.dfo-mpo.gc.ca/science/gcwcc/index-eng.html</a>\r
+                    </li>\r
+                    <li>\r
+                       <p>Or, perform the following steps in Internet Explorer:</p>\r
+                       <ol>\r
+                          <li>Select “<strong>Tools</strong>” on the menu bar indicating “File”, “Edit”, “View”, “Favorites”, “<strong>Tools</strong>”, and “Help”. If the menu bar is not visible, press the “<strong>Alt</strong>” key. The menu bar should appear.</li>\r
+                          <li>Under the “<strong>Tools</strong>” menu, select “<strong>Compatibility View Settings</strong>”. An options box should appear.</li>\r
+                          <li>In the “<strong>Compatibility View Settings</strong>” box, you will see a field with the heading “<strong>Websites you’ve added to Compatibility View:</strong>”. If any websites are listed in the field, select each of them and click the “<strong>Remove</strong>” button until the field is empty.</li>\r
+                          <li>You will also see three check boxes below the field. Make sure that “<strong>Display intranet sites in Compatibility View</strong>” and “<strong>Display all websites in Compatibility View</strong>” are <strong><em>not</em></strong> checked.</li>\r
+                          <li>Click on the “<strong>Close</strong>” button.</li>\r
+                          <li>Click on the “<strong>F5</strong>” button to refresh the webpage. The video should be visible.</li>\r
+                       </ol>\r
+                    </li>\r
+                 </ul>\r
+              </video>\r
+              <figcaption>\r
+                 <p>xxxxxxxxxx</p>\r
+              </figcaption>\r
+           </figure>\r
+        </section>
+
+- trigger: bootstrap-video-responsive-16x9
+  description: 16x9 Responsive video embed
+  scope: _any
+  mTime: 1453214754062
+  text: |
+        <div class="embed-responsive embed-responsive-16by9">\r
+           <iframe class="embed-responsive-item" src="xxxxxxxxx" allowfullscreen></iframe>\r
+        </div>
+
+- trigger: bootstrap-video-responsive-4x3
+  description: 4x3 Responsive video embed
+  scope: _any
+  mTime: 1453214796998
+  text: |
+        <div class="embed-responsive embed-responsive-4by3">\r
+          <iframe class="embed-responsive-item" src="xxxxxxxx"></iframe>\r
+        </div>
+
+- trigger: bootstrap-table-DFO-2x4
+  description: "A DFO-styled table, four columns by two rows"
+  scope: _any
+  mTime: 1453214879648
+  text: |
+        <table title="xxxxxxxxxxx" class="table table-bordered table-responsive">\r
+           <thead>\r
+              <tr class="text-center bg-primary">\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+              </tr>\r
+              <tr class="text-center active">\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+              </tr>\r
+           </thead>\r
+           <tbody>\r
+              <tr>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+              </tr>\r
+              <tr>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+              </tr>\r
+              <tr>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+              </tr>\r
+              <tr>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+              </tr>\r
+           </tbody>\r
+        </table>
+
+- trigger: bootstrap-table-DFO-4x4
+  description: "A DFO-styled table, four columns by four rows"
+  scope: _any
+  mTime: 1453214943410
+  text: |
+        <table title="xxxxxxxxxxx" class="table table-bordered table-responsive">\r
+           <thead>\r
+              <tr class="text-center bg-primary">\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+              </tr>\r
+              <tr class="text-center active">\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+              </tr>\r
+           </thead>\r
+           <tbody>\r
+              <tr>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+              </tr>\r
+              <tr>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+              </tr>\r
+              <tr>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+              </tr>\r
+              <tr>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+              </tr>\r
+           </tbody>\r
+        </table>
+
+- trigger: bootstrap-table-responsive-bordered-2x4
+  description: "A responsive, bordered table.  Four columns by two rows"
+  scope: _any
+  mTime: 1453215014582
+  text: |
+        <table title="xxxxxxxxxxx" class="table table-bordered table-responsive">\r
+           <thead>\r
+              <tr class="text-center active">\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+                 <td><strong>xxxxxxxxxxx</strong></td>\r
+              </tr>\r
+           </thead>\r
+           <tbody>\r
+              <tr>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+              </tr>\r
+              <tr>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+              </tr>\r
+              <tr>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+              </tr>\r
+              <tr>\r
+                 <td>xxxxxxxxxxx</td>\r
+                 <td>xxxxxxxxxxx</td>\r
+              </tr>\r
+           </tbody>\r
+        </table>
+
+- trigger: bootstrap-table-responsive-bordered-4x4
+  description: "A responsive, bordered table.  Four columns by four rows."
+  scope: _any
+  mTime: 1453215050249
+  text: |
+        <table title="xxxxxxxxxxx" class="table table-bordered table-responsive">\r
+        \t<thead>\r
+        \t\t<tr class="text-center active">\r
+        \t\t\t<td><strong>xxxxxxxxxxx</strong></td>\r
+        \t\t\t<td><strong>xxxxxxxxxxx</strong></td>\r
+        \t\t\t<td><strong>xxxxxxxxxxx</strong></td>\r
+        \t\t\t<td><strong>xxxxxxxxxxx</strong></td>\r
+        \t\t</tr>\r
+        \t</thead>\r
+        \t<tbody>\r
+        \t\t<tr>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t</tr>\r
+        \t\t<tr>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t</tr>\r
+        \t\t<tr>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t</tr>\r
+        \t\t<tr>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t\t<td>xxxxxxxxxxx</td>\r
+        \t\t</tr>\r
+        \t</tbody>\r
+        </table>
+
+- trigger: bootstrap-list-column-multiClass
+  description: Multi-class columns to allow responsiveness
+  scope: _any
+  mTime: 1453215144698
+  text: |
+        <ul class="colcount-sm-2 colcount-md-3 colcount-lg-4">\r
+           <li>Item 1</li>\r
+           <li>Item 2</li>\r
+           <li>Item 3</li>\r
+           <li>Item 4</li>\r
+           <li>Item 5</li>\r
+           <li>Item 6</li>\r
+           <li>Item 7</li>\r
+           <li>Item 8</li>\r
+        </ul>
+
+- trigger: bootstrap-list-column-sm2
+  description: Two columns at small breakpoint
+  scope: _any
+  mTime: 1453215190647
+  text: |
+        <ul class="colcount-sm-2">\r
+        \t<li>Item 1</li>\r
+        \t<li>Item 2</li>\r
+        \t<li>Item 3</li>\r
+        \t<li>Item 4</li>\r
+        \t<li>Item 5</li>\r
+        \t<li>Item 6</li>\r
+        \t<li>Item 7</li>\r
+        \t<li>Item 8</li>\r
+        </ul>
+
+- trigger: bootstrap-list-column-sm3
+  description: Three columns at small breakpoint
+  scope: _any
+  mTime: 1453215264448
+  text: |
+        <ul class="colcount-sm-3">\r
+           <li>Item 1</li>\r
+           <li>Item 2</li>\r
+           <li>Item 3</li>\r
+           <li>Item 4</li>\r
+           <li>Item 5</li>\r
+           <li>Item 6</li>\r
+           <li>Item 7</li>\r
+           <li>Item 8</li>\r
+        </ul>
+
+- trigger: bootstrap-list-column-sm4
+  description: Four columns at small breakpoint
+  scope: _any
+  mTime: 1453215303410
+  text: |
+        <ul class="colcount-sm-4">\r
+           <li>Item 1</li>\r
+           <li>Item 2</li>\r
+           <li>Item 3</li>\r
+           <li>Item 4</li>\r
+           <li>Item 5</li>\r
+           <li>Item 6</li>\r
+           <li>Item 7</li>\r
+           <li>Item 8</li>\r
+        </ul>
+
+- trigger: bootstrap-list-definition
+  description: Definition list
+  scope: _any
+  mTime: 1453215337545
+  text: |
+        <dl>\r
+           <dt>xxxxx</dt>\r
+           <dd>xxxxxxxxxx</dd>\r
+           <dt>xxxxx</dt>\r
+           <dd>xxxxxxxxxx</dd>\r
+           <dt>xxxxx</dt>\r
+           <dd>xxxxxxxxxx</dd>\r
+        </dl>
+
+- trigger: bootstrap-list-definition-horizontal
+  description: Horizontal definition list
+  scope: _any
+  mTime: 1453215373694
+  text: |
+        <dl class="dl-horizontal">\r
+           <dt>xxxxx</dt>\r
+           <dd>xxxxxxxxxx</dd>\r
+           <dt>xxxxx</dt>\r
+           <dd>xxxxxxxxxx</dd>\r
+           <dt>xxxxx</dt>\r
+           <dd>xxxxxxxxxx</dd>\r
+        </dl>
+
+- trigger: bootstrap-list-inline
+  description: Inline Unordered List
+  scope: _any
+  mTime: 1453216596281
+  text: |
+        <ul class="list-inline">\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        </ul>
+
+- trigger: bootstrap-list-group-basic
+  description: Basic unordered group list
+  scope: _any
+  mTime: 1453215860079
+  text: |
+        <ul class="list-group">\r
+           <li class="list-group-item">Cras justo odio</li>\r
+           <li class="list-group-item">Dapibus ac facilisis in</li>\r
+           <li class="list-group-item">Morbi leo risus</li>\r
+           <li class="list-group-item">Porta ac consectetur ac</li>\r
+           <li class="list-group-item">Vestibulum at eros</li>\r
+        </ul>
+
+- trigger: bootstrap-list-group-badges
+  description: An unordered list group with badges
+  scope: _any
+  mTime: 1453215942099
+  text: |
+        <ul class="list-group">\r
+        \t<li class="list-group-item"><span class="badge">14</span> Cras justo odio </li>\r
+        \t<li class="list-group-item"><span class="badge">2</span> Dapibus ac facilisis in</li>\r
+        \t<li class="list-group-item"><span class="badge">1</span> Morbi leo risus</li>\r
+        </ul>
+
+- trigger: bootstrap-list-group-colour
+  description: An unordered list group with colour
+  scope: _any
+  mTime: 1453215972839
+  text: |
+        <ul class="list-group">\r
+        \t<li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>\r
+        \t<li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>\r
+        \t<li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>\r
+        \t<li class="list-group-item list-group-item-danger">Vestibulum at eros</li>\r
+        </ul>
+
+- trigger: bootstrap-list-group-customContent
+  description: A list group of custom content (tiles
+  scope: _any
+  mTime: 1453216038765
+  text: |
+        <div class="list-group">\r
+           <a href="#" class="list-group-item active">\r
+              <section>\r
+                 <h4 class="list-group-item-heading">List group item heading</h4>\r
+                 <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>\r
+              </section>\r
+           </a>\r
+           <a href="#" class="list-group-item">\r
+              <section>\r
+                 <h4 class="list-group-item-heading">List group item heading</h4>\r
+                 <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>\r
+              </section>\r
+           </a>\r
+           <a href="#" class="list-group-item">\r
+              <section>\r
+                 <h4 class="list-group-item-heading">List group item heading</h4>\r
+                 <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>\r
+              </section>\r
+           </a>\r
+        </div>
+
+- trigger: bootstrap-list-group-links
+  description: A list group of hyperlinks
+  scope: _any
+  mTime: 1453216063346
+  text: |
+        <div class="list-group">\r
+        \t<a href="#" class="list-group-item active">Cras justo odio</a>\r
+        \t<a href="#" class="list-group-item">Dapibus ac facilisis in</a>\r
+        \t<a href="#" class="list-group-item">Morbi leo risus</a>\r
+        \t<a href="#" class="list-group-item">Porta ac consectetur ac</a>\r
+        \t<a href="#" class="list-group-item">Vestibulum at eros</a>\r
+        </div>
+
+- trigger: bootstrap-list-ordered-lowerAlpha
+  description: A lower-alpha ordered list (a)
+  scope: _any
+  mTime: 1453216102719
+  text: |
+        <ol class="lst-lwr-alph">\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        </ol>
+
+- trigger: bootstrap-list-ordered-lowerRoman
+  description: An ordered list of lower roman (i)
+  scope: _any
+  mTime: 1453216138143
+  text: |
+        <ol class="lst-lwr-rmn">\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        </ol>
+
+- trigger: bootstrap-list-ordered
+  description: An ordered list (1)
+  scope: _any
+  mTime: 1453216215083
+  text: |
+        <ol type="1">\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        </ol>
+
+- trigger: bootstrap-list-unordered
+  description: An unordered list
+  scope: _any
+  mTime: 1453216251101
+  text: |
+        <ul>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        </ul>
+
+- trigger: bootstrap-list-unstyled
+  description: "An unordered list, unstyled"
+  scope: _any
+  mTime: 1453216270964
+  text: |
+        <ul class="list-unstyled">\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        </ul>
+
+- trigger: bootstrap-list-ordered-upperAlpha
+  description: An ordered list of upper Alpha (A)
+  scope: _any
+  mTime: 1453216572570
+  text: |
+        <ol class="lst-upr-alph">\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        \t<li>xxxxxxxxxx</li>\r
+        </ol>
+
+- trigger: bootstrap-list-ordered-upperRoman
+  description: An ordered list of upper Roman (I)
+  scope: _any
+  mTime: 1453216643917
+  text: |
+        <ol class="lst-upr-rmn">\r
+           <li>xxxxxxxxxx</li>\r
+           <li>xxxxxxxxxx</li>\r
+           <li>xxxxxxxxxx</li>\r
+           <li>xxxxxxxxxx</li>\r
+           <li>xxxxxxxxxx</li>\r
+        </ol>
+
+- trigger: bootstrap-navigation-alignedLinks
+  description: "Justifies \"Previous\" to left, \"Next\" to right"
+  scope: _any
+  mTime: 1453216742672
+  text: |
+        <ul class="pager">\r
+        \t<li class="previous"><a href="#" rel="prev">Previous</a></li>\r
+        \t<li class="next"><a href="#" rel="next">Next</a></li>\r
+        </ul>
+
+- trigger: bootstrap-navigation-alignedLinks-disabled
+  description: "Disabled \"Previous\" and \"Next\""
+  scope: _any
+  mTime: 1453216839385
+  text: |
+        <ul class="pager">\r
+        \t<li class="previous disabled"><a href="#" rel="prev">Previous</a></li>\r
+        \t<li class="next"><a href="#" rel="next">Next</a></li>\r
+        </ul>
+
+- trigger: bootstrap-navigation-pagination
+  description: A default pagination
+  scope: _any
+  mTime: 1453216877723
+  text: |
+        <ul class="pagination">\r
+        \t<li><a href="#" rel="prev">Previous</a></li>\r
+        \t<li><a href="#">1</a></li>\r
+        \t<li><a href="#">2</a></li>\r
+        \t<li><a href="#">3</a></li>\r
+        \t<li><a href="#">4</a></li>\r
+        \t<li><a href="#">5</a></li>\r
+        \t<li><a href="#" rel="next">Next</a></li>\r
+        </ul>
+
+- trigger: bootstrap-navigation-disabled-active-states
+  description: Use .disabled for unclickable (hidden) links and .active to indicate the current page
+  scope: _any
+  mTime: 1453216930592
+  text: |
+        <ul class="pagination">\r
+        \t<li class="disabled"><a href="#" rel="prev">Previous</a></li>\r
+        \t<li class="active"><a href="#">1 <span class="wb-inv">(current)</span></a></li>\r
+        \t<li><a href="#">2</a></li>\r
+        \t<li><a href="#">3</a></li>\r
+        \t<li><a href="#">4</a></li>\r
+        \t<li><a href="#">5</a></li>\r
+        \t<li><a href="#" rel="next">Next</a></li>\r
+        </ul>
+
+- trigger: bootstrap-navigation-footer-buttons
+  scope: _any
+  description: Previous and Next footer buttons
+  mTime: 1453216961125
+  text: |
+        <nav>\r
+           <h2 class="wb-inv">Document navigation</h2>\r
+           <ul class="pager">\r
+              <li class="previous"><a href="xxxxxxxxxx" rel="prev">xxxxxxxxxx</a></li>\r
+              <li class="next"><a href="xxxxxxxxxx" rel="next">xxxxxxxxxx</a></li>\r
+           </ul>\r
+        </nav>
+
+- trigger: bootstrap-navigation-footer-centre-buttons
+  description: "\"Previous,\" \"Complete Text\" and \"Next\" nav buttons"
+  scope: _any
+  mTime: 1453217010292
+  text: |
+        <nav>\r
+        \t<h2 class="wb-inv">Document navigation</h2>\r
+        \t<ul class="pager">\r
+        \t\t<li class="previous"><a href="xxxxxxxxxx" rel="prev">Previous</a></li>\r
+        \t\t<li><a href="xxxxxxxxxx">Complete Text</a></li>\r
+        \t\t<li class="next"><a href="xxxxxxxxxx" rel="next">Next</a></li>\r
+        \t</ul>\r
+        </nav>
+
+- trigger: bootstrap-navigation-header-pills
+  scope: _any
+  mTime: 1453217035434
+  text: |
+        <div class="row">\r
+           <ul class="toc lst-spcd col-md-12 list-unstyled">\r
+              <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>\r
+              <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>\r
+              <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>\r
+              <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>\r
+              <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>\r
+              <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>\r
+              <li class="col-md-4"> <a href="xxxxxxxxxx" class="list-group-item active">xxxxxxxxxx</a> </li>\r
+           </ul>\r
+        </div>
+
+- trigger: bootstrap-navigation-header-sideMenu
+  description: A nav panel on the left of the page
+  scope: _any
+  mTime: 1453217075405
+  text: |
+        <nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="col-md-3 col-md-pull-9 visible-md visible-lg wb-navcurr-inited">\r
+           <h2>Secondary menu</h2>\r
+           <ul class="list-group menu list-unstyled">\r
+              <li><a class="list-group-item wb-navcurr" href="xxxxx">xxxxx</a>\r
+                 <ul class="list-group list-unstyled" id="sect1">\r
+                    <li><a class="list-group-item" href="xxxxx">xxxxx</a></li>\r
+                    <li><a class="list-group-item" href="xxxxx">xxxxx</a></li>\r
+                    <li><a class="list-group-item" href="xxxxx">xxxxx</a></li>\r
+                    <li><a class="list-group-item" href="xxxxx">xxxxx</a></li>\r
+                    <li><a class="list-group-item" href="xxxxx">xxxxx</a></li>\r
+                 </ul>\r
+              </li>\r
+           </ul>\r
+        </nav>
+
+- trigger: bootstrap-navigation-pills-justified
+  scope: _any
+  mTime: 1453217118162
+  text: |
+        <ul class="nav nav-pills nav-justified">\r
+           <li><a href="#xxxxxxxxx">xxxxxxxxx</a></li>\r
+           <li><a href="#xxxxxxxxx">xxxxxxxxx</a></li>\r
+           <li><a href="#xxxxxxxxx">xxxxxxxxx</a></li>\r
+           <li><a href="#xxxxxxxxx">xxxxxxxxx</a></li>\r
+           <li><a href="#xxxxxxxxx">xxxxxxxxx</a></li>\r
+        </ul>
+
+- trigger: bootstrap-navigation-simplePager
+  description: "Basic \"Previous\" and \"Next\" buttons"
+  scope: _any
+  mTime: 1453217143541
+  text: |
+        <ul class="pager">\r
+        \t<li><a href="#" rel="prev">Previous</a></li>\r
+        \t<li><a href="#" rel="next">Next</a></li>\r
+        </ul>
+
+- trigger: bootstrap-images-div-col-md-3
+  scope: _any
+  mTime: 1453217225146
+  text: |
+        <div class="col-md-3">\r
+           <div class="thumbnail">\r
+              <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-images-div-col-md-4
+  scope: _any
+  mTime: 1453217251603
+  text: |
+        <div class="col-md-4">\r
+           <div class="thumbnail">\r
+              <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-images-div-col-md-6
+  scope: _any
+  mTime: 1453217271786
+  text: |
+        <div class="col-md-6">\r
+           <div class="thumbnail">\r
+              <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-images-figure-caption-col-md-12
+  scope: _any
+  description: "Figure, hyperlinked, with caption.  Col-md-12"
+  mTime: 1453217329370
+  text: |
+        <div class="row">\r
+           <div class="col-md-12">\r
+              <figure class="thumbnail">\r
+                 <a href="xxxxxxxxxxxx">\r
+                    <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+                 </a>\r
+                 <figcaption class="caption">\r
+                    <p>xxxxxxxxxxxx</p>\r
+                 </figcaption>\r
+              </figure>\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-images-figure-col-md-12
+  scope: _any
+  description: "A figure, hyperlinked.  Col-md-12"
+  mTime: 1453217381655
+  text: |
+        <div class="row">\r
+           <div class="col-md-12">\r
+              <figure class="thumbnail">\r
+                 <a href="xxxxxxxxxxxx">\r
+                    <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+                 </a>\r
+              </figure>\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-images-figure-caption-3xBlock
+  description: "Three figures (with captions) in a row, each col-md-4"
+  scope: _any
+  mTime: 1453217449457
+  text: |
+        <div class="row">\r
+           <div class="col-md-4">\r
+              <figure class="thumbnail">\r
+                 <a href="xxxxxxxxxxxx">\r
+                    <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+                 </a>\r
+                 <figcaption class="caption">\r
+                    <p>xxxxxxxxxxxx</p>\r
+                 </figcaption>\r
+              </figure>\r
+           </div>\r
+           <div class="col-md-4">\r
+              <figure class="thumbnail">\r
+                 <a href="xxxxxxxxxxxx">\r
+                    <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+                 </a>\r
+                 <figcaption class="caption">\r
+                    <p>xxxxxxxxxxxx</p>\r
+                 </figcaption>\r
+              </figure>\r
+           </div>\r
+           <div class="col-md-4">\r
+              <figure class="thumbnail">\r
+                 <a href="xxxxxxxxxxxx">\r
+                    <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+                 </a>\r
+                 <figcaption class="caption">\r
+                    <p>xxxxxxxxxxxx</p>\r
+                 </figcaption>\r
+              </figure>\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-images-figure-3xBlock
+  description: "Three figures in a row, each col-md-4"
+  scope: _any
+  mTime: 1453217532899
+  text: |
+        <div class="row">\r
+           <div class="col-md-4">\r
+              <figure class="thumbnail">\r
+                 <a href="xxxxxxxxxxxx">\r
+                    <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+                 </a>\r
+              </figure>\r
+           </div>\r
+           <div class="col-md-4">\r
+              <figure class="thumbnail">\r
+                 <a href="xxxxxxxxxxxx">\r
+                    <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+                 </a>\r
+              </figure>\r
+           </div>\r
+           <div class="col-md-4">\r
+              <figure class="thumbnail">\r
+                 <a href="xxxxxxxxxxxx">\r
+                    <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+                 </a>\r
+              </figure>\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-images-figure-caption-2xBlock
+  description: "Two figures (with captions) in a row, each col-md-6"
+  scope: _any
+  mTime: 1453217578718
+  text: |
+        <div class="row">\r
+           <div class="col-md-6">\r
+              <figure class="thumbnail">\r
+                 <a href="xxxxxxxxxxxx"> <img src="xxxxxxxxxxxx" class="img-responsive" /> </a>\r
+                 <figcaption class="caption">\r
+                    <p>xxxxxxxxxxxx</p>\r
+                 </figcaption>\r
+              </figure>\r
+           </div>\r
+           <div class="col-md-6">\r
+              <figure class="thumbnail">\r
+                 <a href="xxxxxxxxxxxx"> <img src="xxxxxxxxxxxx" class="img-responsive" /> </a>\r
+                 <figcaption class="caption">\r
+                    <p>xxxxxxxxxxxx</p>\r
+                 </figcaption>\r
+              </figure>\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-images-figure-2xBlock
+  description: "Two figures in a row, each col-md-6"
+  scope: _any
+  mTime: 1453217608857
+  text: |
+        <div class="row">\r
+           <div class="col-md-6">\r
+              <figure class="thumbnail">\r
+                 <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+              </figure>\r
+           </div>\r
+           <div class="col-md-6">\r
+              <figure class="thumbnail">\r
+                 <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+              </figure>\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-images-carousel
+  description: This carousel is used on the canada.ca homepage
+  scope: _any
+  mTime: 1453217639856
+  text: |
+        <div class="wb-tabs carousel-s2 show-thumbs">\r
+           <ul role="tablist">\r
+              <li class="active"><a href="#panel1"><img src="#" alt="tab 1"></a></li>\r
+              <li><a href="#panel2"><img src="#" alt="tab 2"></a></li>\r
+              ...\r
+           </ul>\r
+           <div class="tabpanels">\r
+              <div role="tabpanel" id="panel1" class="in fade">\r
+                 <figure> <img src="#" alt="Panel 1">\r
+                    <figcaption>\r
+                       <p>...</p>\r
+                    </figcaption>\r
+                 </figure>\r
+              </div>\r
+              <div role="tabpanel" id="panel2" class="out fade">\r
+                 <figure> <img src="#" alt="Panel 2">\r
+                    <figcaption>\r
+                       <p>...</p>\r
+                    </figcaption>\r
+                 </figure>\r
+              </div>\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-images-carousel-institution
+  description: used for Institutional or organizational pages for news
+  scope: _any
+  mTime: 1453217680499
+  text: |
+        <div class="wb-tabs carousel-s2">\r
+           <ul role="tablist">\r
+              <li class="active">\r
+                 <a href="#panel1"><img src="#" alt="tab 1"></a>\r
+              </li>\r
+              <li>\r
+                 <a href="#panel2"><img src="#" alt="tab 2"></a>\r
+              </li>\r
+              ...\r
+           </ul>\r
+           <div class="tabpanels">\r
+              <div role="tabpanel" id="panel1" class="in fade">\r
+                 <figure> <img src="#" alt="Panel 1">\r
+                    <figcaption>\r
+                       <p>...</p>\r
+                    </figcaption>\r
+                 </figure>\r
+              </div>\r
+              <div role="tabpanel" id="panel2" class="out fade">\r
+                 <figure> <img src="#" alt="Panel 2">\r
+                    <figcaption>\r
+                       <p>...</p>\r
+                    </figcaption>\r
+                 </figure>\r
+              </div>\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-images-carousel-LandingPage
+  description: used on Canada.ca Theme landing pages
+  scope: _any
+  mTime: 1453217726042
+  text: |
+        <div class="wb-tabs carousel-s2">\r
+           <ul role="tablist">\r
+              <li class="active">\r
+                 <a href="#panel1"><img src="#" alt="tab 1"></a>\r
+              </li>\r
+              <li>\r
+                 <a href="#panel2"><img src="#" alt="tab 2"></a>\r
+              </li>\r
+              ...\r
+           </ul>\r
+           <div class="tabpanels">\r
+              <div role="tabpanel" id="panel1" class="in fade">\r
+                 <figure> <img src="#" alt="Panel 1">\r
+                    <figcaption>\r
+                       <p>...</p>\r
+                    </figcaption>\r
+                 </figure>\r
+              </div>\r
+              <div role="tabpanel" id="panel2" class="out fade">\r
+                 <figure> <img src="#" alt="Panel 2">\r
+                    <figcaption>\r
+                       <p>...</p>\r
+                    </figcaption>\r
+                 </figure>\r
+              </div>\r
+           </div>\r
+        </div>
+
+- trigger: bootstrap-images-grid
+  description: A grid of images using row-eqht class
+  scope: _any
+  mTime: 1453217760510
+  text: |
+        <div class="row wb-eqht">\r
+           <section>\r
+              <a href="xxxxxxxxxxxx">\r
+                 <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+                    <figcaption class="caption text-center">\r
+                       <h5>xxxxxxxxxxxx</h5>\r
+                    </figcaption>\r
+                 </figure>\r
+              </a>\r
+           </section>\r
+           <section>\r
+              <a href="xxxxxxxxxxxx">\r
+                 <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+                    <figcaption class="caption text-center">\r
+                       <h5>xxxxxxxxxxxx</h5>\r
+                    </figcaption>\r
+                 </figure>\r
+              </a>\r
+           </section>\r
+           <section>\r
+              <a href="xxxxxxxxxxxx">\r
+                 <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+                    <figcaption class="caption text-center">\r
+                       <h5>xxxxxxxxxxxx</h5>\r
+                    </figcaption>\r
+                 </figure>\r
+              </a>\r
+           </section>\r
+           <section>\r
+              <a href="xxxxxxxxxxxx">\r
+                 <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+                    <figcaption class="caption text-center">\r
+                       <h5>xxxxxxxxxxxx</h5>\r
+                    </figcaption>\r
+                 </figure>\r
+              </a>\r
+           </section>\r
+        </div>
+
