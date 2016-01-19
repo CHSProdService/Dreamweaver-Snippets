@@ -1,6 +1,9 @@
 # WET4-Snippets
-A collection of Dreamweaver CC code snippets to help with WET4 development.
+<p>A collection of Dreamweaver CC code snippets to help with WET4 development.</p>
 
-The folder containing Dreamweaver CC 2015 code snippets is located here:
-PC - C:\Users\xxxxx\AppData\Roaming\Adobe\Dreamweaver CC 2015\en_US\Configuration\Snippets
-MAC OS X - [.....]
+<p>The folder containing Dreamweaver CC 2015 code snippets is located here:</p>
+<ul>
+   <li>PC - C:\Users\xxxxx\AppData\Roaming\Adobe\Dreamweaver CC 2015\en_US\Configuration\Snippets</li>
+   <li>MAC OS X - [.....]</li>
+</ul>
+
