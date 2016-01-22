@@ -2180,3 +2180,25 @@
            </section>\r
         </div>
 
+- trigger: bootstrap-images-lightbox
+  description: WET4 image with lightbox text
+  scope: _any
+  mTime: 1453467422127
+  text: |
+        <section> <a href="xxxxxxxxxxxx" title="xxxxxxxxxxxx" data-title="photo000">\r
+           <div class="hidden" id="photo000">\r
+              <dl>\r
+                 <dt>xxxxxxxxxxxx</dt>\r
+                 <dd>xxxxxxxxxxxx</dd>\r
+                 <dt>xxxxxxxxxxxx</dt>\r
+                 <dd>xxxxxxxxxxxx</dd>\r
+              </dl>\r
+           </div>\r
+           <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" />\r
+              <figcaption class="caption text-center">\r
+                 <h5>xxxxxxxxxxxx</h5>\r
+              </figcaption>\r
+           </figure>\r
+           </a> </section>\r
+        
+
