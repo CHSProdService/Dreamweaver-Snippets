@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Panel Footer" description="Wrap buttons or secondary text in .panel-footer. Note that panel footers do not inherit colors and borders when using contextual variations as they are not meant to be in the foreground." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="panel panel-default">
+	<div class="panel-body">
+		<p>Panel content</p>
+	</div>
+	<footer class="panel-footer">Panel footer</footer>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

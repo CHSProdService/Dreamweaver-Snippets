@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Panel Basic" description="By default, all the .panel does is apply some basic border and padding to contain some content." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="panel panel-default">
+	<div class="panel-body">
+		<p>Panel content</p>
+	</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

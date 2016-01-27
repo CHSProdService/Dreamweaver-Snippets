@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Jumbotron" description="A lightweight, flexible component that can optionally extend the entire viewport to showcase key content on your site." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<section class="jumbotron">
+	<h3>Hello, world!</h3>
+	<p>...</p>
+	<p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+</section>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

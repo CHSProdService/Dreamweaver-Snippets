@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Panel Colours" description="Easily make a panel more meaningful to a particular context by adding any of the contextual state classes." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<section class="panel panel-primary">
+	<header class="panel-heading">
+		<h3 class="panel-title">Panel title (<code>panel-primary</code>)</h3>
+	</header>
+	<div class="panel-body">
+		<p>Panel content</p>
+	</div>
+</section>
+
+<section class="panel panel-success">
+	<header class="panel-heading">
+		<h3 class="panel-title">Panel title (<code>panel-success</code>)</h3>
+	</header>
+	<div class="panel-body">
+		<p>Panel content</p>
+	</div>
+</section>
+
+<section class="panel panel-info">
+	<header class="panel-heading">
+		<h3 class="panel-title">Panel title (<code>panel-info</code>)</h3>
+	</header>
+	<div class="panel-body">
+		<p>Panel content</p>
+	</div>
+</section>
+
+<section class="panel panel-warning">
+	<header class="panel-heading">
+		<h3 class="panel-title">Panel title</h3>
+	</header>
+	<div class="panel-body">
+		<p>Panel content</p>
+	</div>
+</section>
+
+<section class="panel panel-danger">
+	<header class="panel-heading">
+		<h3 class="panel-title">Panel title</h3>
+	</header>
+	<div class="panel-body">
+		<p>Panel content</p>
+	</div>
+</section>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

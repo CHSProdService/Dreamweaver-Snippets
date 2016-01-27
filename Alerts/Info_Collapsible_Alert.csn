@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Info Collapsible Alert" description="You can use a details/summary elements group to produce collapsible alerts. The open and closed state will be remembered via Local Storage which relies on the id attribute of the details element. You can use the same id value across different pages to have an alert remember its state from page to page." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<section>
+	<details class="alert alert-info" id="alert-info-en" open="open">
+		<summary class="h3">
+			<h3>Heads up!</h3>
+		</summary>
+		<p>This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.</p>
+	</details>
+</section>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Panel Title - Warning" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<section class="panel panel-warning">
+	<header class="panel-heading">
+		<h3 class="panel-title">Panel title</h3>
+	</header>
+	<div class="panel-body">
+		<p>Panel content</p>
+	</div>
+</section>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

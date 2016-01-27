@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Panel Header" description="Easily add a heading container to your panel with .panel-heading. You may also include any <h1>-<h6> with a .panel-title class to change the heading size." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<section class="panel panel-default">
+	<header class="panel-heading">
+		<h3 class="panel-title">Panel title</h3>
+	</header>
+	<div class="panel-body">
+		<p>Panel content</p>
+	</div>
+</section>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

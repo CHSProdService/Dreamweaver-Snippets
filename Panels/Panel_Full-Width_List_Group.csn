@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Panel Full-Width List Group" description="Easily include full-width list groups within any panel." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<section class="panel panel-default">
+	<header class="panel-heading">
+		<h3>Panel heading</h3>
+	</header>
+	<div class="panel-body">
+		<p>Some default panel content here. Some default panel content here. Some default panel content here. Some default panel content here. Some default panel content here. Some default panel content here.</p>
+	</div>
+	<ul class="list-group">
+		<li class="list-group-item">Sample list group item</li>
+		<li class="list-group-item">Sample list group item</li>
+		<li class="list-group-item">Sample list group item</li>
+		<li class="list-group-item">Sample list group item</li>
+		<li class="list-group-item">Sample list group item</li>
+	</ul>
+</section>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
