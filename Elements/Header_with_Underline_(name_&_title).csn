@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Header with Underline (name & title)" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<h3 class="h5">xxxxxxxxxx<br />
+            <small>xxxxxxxxxx</small></h3>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

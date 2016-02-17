@@ -4,8 +4,8 @@
 <![CDATA[<nav>
 	<h2 class="wb-inv">Document navigation</h2>
 	<ul class="pager">
-		<li class="previous"><a href="xxxxxxxxxx" rel="prev">xxxxxxxxxx</a></li>
-		<li class="next"><a href="xxxxxxxxxx" rel="next">xxxxxxxxxx</a></li>
+		<li class="previous"><a href="xxxxxxxxxx" rel="prev">Previous</a></li>
+		<li class="next"><a href="xxxxxxxxxx" rel="next">Next</a></li>
 	</ul>
 </nav>]]>
 </insertText>
