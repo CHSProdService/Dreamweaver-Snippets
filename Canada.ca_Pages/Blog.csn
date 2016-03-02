@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Blog" description="http://wet-boew.github.io/themes-dist/GCWeb/blog-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<h1 property="name" id="wb-cont">In the loop with Canada.ca</h1>
+<p class="pagetag">Stay up-to-date on new features and progress on Canada.ca by reading our latest updates where you can share a comment. You can also tell us what you think about the website by providing your input through the <a href="http://www.canada.ca/en/contact/feedback.html">feedback form</a>.</p>
+<div class="row">
+   <div class="col-md-8 blog zbra">
+      <div class="mrgn-bttm-lg"> <img src="http://www.canada.ca/blog/mediaresource/a1703f7d-a096-4be2-9de4-03d46330cb20" class="img-responsive" alt="In the Loop"> </div>
+      <section class="brdr-tp">
+         <div class="row">
+            <h2 class="col-md-9 mrgn-tp-md"><a href="http://www.canada.ca/blog/happybirthdaycanada_ca">Happy 1<sup>st</sup> Birthday Canada.ca!</a></h2>
+            <div class="col-md-3 hidden-sm hidden-xs brdr-lft text-left"><a href="http://www.canada.ca/blog/happybirthdaycanada_ca#comments" class="mrgn-tp-md center-block no-undrln"><span class="glyphicon glyphicon-comment"></span>&nbsp;Comments</a></div>
+         </div>
+         <div class="row">
+            <p class="pagetag col-md-12 small">December 19, 2014</p>
+         </div>
+         <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"> <a href="http://www.canada.ca/blog/happybirthdaycanada_ca"><img src="http://www.canada.ca/blog/mediaresource/20cb5c29-0a8a-47eb-a822-9a66dd2dcb5f?t=false" class="img-responsive thumbnail" alt=""></a> </div>
+            <p class="col-md-9 col-sm-12">One year ago, the Canada.ca site was “born”, and look how far we’ve come! <br>
+               <a class="mrgn-tp-md mrgn-bttm-sm center-block col-md-12 col-xs-6" href="http://www.canada.ca/blog/happybirthdaycanada_ca"> Read More…</a><span class="col-xs-6 hidden-md hidden-lg text-right mrgn-tp-md"><a class="no-undrln" href="http://www.canada.ca/blog/happybirthdaycanada_ca#comments"><span class="glyphicon glyphicon-comment"></span>&nbsp;Comments</a></span></p>
+         </div>
+      </section>
+      <section class="brdr-tp">
+         <div class="row">
+            <h2 class="col-md-9 mrgn-tp-md"><a href="http://www.canada.ca/blog/citizenship">Live – Work – Play – Canada!</a></h2>
+            <div class="col-md-3 hidden-sm hidden-xs brdr-lft text-left"><a href="http://www.canada.ca/blog/citizenship#comments" class="mrgn-tp-md center-block no-undrln"><span class="glyphicon glyphicon-comment"></span>&nbsp;Comments</a></div>
+         </div>
+         <div class="row">
+            <p class="pagetag col-md-12 small">December 05, 2014</p>
+         </div>
+         <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"> <a href="http://www.canada.ca/blog/citizenship"><img src="http://www.canada.ca/blog/mediaresource/d5026d46-b4e9-4ce7-907d-d76da8d5b45b?t=false" class="img-responsive thumbnail" alt=""></a> </div>
+            <p class="col-md-9 col-sm-12">Canada.ca is THE place to go for anyone outside of Canada who would like to come to Canada for a holiday, to study, to work and even to live. The <a href="http://www.cic.gc.ca/english/index.asp?_ga=1.43959333.1624352913.1417552482">Immigration &amp; citizenship</a> theme will make sure you have all the information you need before you arrive in our beautiful country. <br>
+               <a class="mrgn-tp-md mrgn-bttm-sm center-block col-md-12 col-xs-6" href="http://www.canada.ca/blog/citizenship"> Read More…</a><span class="col-xs-6 hidden-md hidden-lg text-right mrgn-tp-md"><a class="no-undrln" href="http://www.canada.ca/blog/citizenship#comments"><span class="glyphicon glyphicon-comment"></span>&nbsp;Comments</a></span></p>
+         </div>
+      </section>
+      <section class="brdr-tp">
+         <div class="row">
+            <h2 class="col-md-9 mrgn-tp-md"><a href="http://www.canada.ca/blog/transport">Planes, trains and automobiles… and don’t forget boats!</a></h2>
+            <div class="col-md-3 hidden-sm hidden-xs brdr-lft text-left"><a href="http://www.canada.ca/blog/transport#comments" class="mrgn-tp-md center-block no-undrln"><span class="glyphicon glyphicon-comment"></span>&nbsp;Comments</a></div>
+         </div>
+         <div class="row">
+            <p class="pagetag col-md-12 small">November 21, 2014</p>
+         </div>
+         <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"> <a href="http://www.canada.ca/blog/transport"><img src="http://www.canada.ca/blog/mediaresource/9cf045bb-efdd-4d85-87d5-216ae66cd35c?t=false" class="img-responsive thumbnail" alt=""></a> </div>
+            <p class="col-md-9 col-sm-12">Whether you are a passenger on an airplane, or flying your own drone, Canada.ca will point you in the right direction! <br>
+               <a class="mrgn-tp-md mrgn-bttm-sm center-block col-md-12 col-xs-6" href="http://www.canada.ca/blog/transport"> Read More…</a><span class="col-xs-6 hidden-md hidden-lg text-right mrgn-tp-md"><a class="no-undrln" href="http://www.canada.ca/blog/transport#comments"><span class="glyphicon glyphicon-comment"></span>&nbsp;Comments</a></span></p>
+         </div>
+      </section>
+      <section class="brdr-tp">
+         <div class="row">
+            <h2 class="col-md-9 mrgn-tp-md"><a href="http://www.canada.ca/blog/opengovernment">Open Government</a></h2>
+            <div class="col-md-3 hidden-sm hidden-xs brdr-lft text-left"><a href="http://www.canada.ca/blog/opengovernment#comments" class="mrgn-tp-md center-block no-undrln"><span class="glyphicon glyphicon-comment"></span>&nbsp;Comments</a></div>
+         </div>
+         <div class="row">
+            <p class="pagetag col-md-12 small">November 07, 2014</p>
+         </div>
+         <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"> <a href="http://www.canada.ca/blog/opengovernment"><img src="http://www.canada.ca/blog/mediaresource/b9b64261-4cad-489c-a8f6-9b289b046fd5?t=false" class="img-responsive thumbnail" alt=""></a> </div>
+            <p class="col-md-9 col-sm-12">Now, on Canada.ca, you can learn about Canada's Open Government initiative. <br>
+               <a class="mrgn-tp-md mrgn-bttm-sm center-block col-md-12 col-xs-6" href="http://www.canada.ca/blog/opengovernment"> Read More…</a><span class="col-xs-6 hidden-md hidden-lg text-right mrgn-tp-md"><a class="no-undrln" href="http://www.canada.ca/blog/opengovernment#comments"><span class="glyphicon glyphicon-comment"></span>&nbsp;Comments</a></span></p>
+         </div>
+      </section>
+   </div>
+   <div class="col-md-4 pull-right">
+      <div class="text-right mrgn-bttm-md">
+         <div class="wb-share wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default&quot;}" id="wb-auto-1">
+            <section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+               <header class="modal-header">
+                  <h2 class="modal-title">Share this page</h2>
+               </header>
+               <div class="modal-body">
+                  <ul class="list-unstyled colcount-xs-2">
+                     <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                     <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html&amp;n=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                     <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html&amp;title=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                     <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html&amp;title=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                     <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html&amp;title=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                     <li><a href="mailto:?to=&amp;subject=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html%0A" class="shr-lnk email btn btn-default" target="_blank">Email</a></li>
+                     <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html&amp;t=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                     <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                     <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html&amp;hl=en" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                     <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html&amp;title=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                     <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html&amp;t=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                     <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html&amp;media=&amp;description=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                     <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html&amp;title=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                     <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html&amp;title=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                     <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html&amp;name=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                     <li><a href="http://twitter.com/home?status=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca%20http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                     <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=In%20the%20loop%20with%20Canada.ca%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-en.html%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+                  </ul>
+                  <p class="col-sm-12 shr-dscl">No endorsement of any products or services is expressed or implied.</p>
+                  <div class="clearfix"></div>
+               </div>
+            </section>
+            <a href="#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default wb-lbx-inited wb-init" id="wb-auto-2"><span class="glyphicon glyphicon-share"></span>Share this page</a></div>
+      </div>
+      <section class="panel panel-default">
+         <div class="panel-heading">
+            <h2 class="panel-title">Recent posts</h2>
+         </div>
+         <div class="panel-body">
+            <ul>
+               <li><a href="http://www.canada.ca/blog/happybirthdaycanada_ca">Happy 1<sup>st</sup> Birthday Canada.ca!</a></li>
+               <li><a href="http://www.canada.ca/blog/citizenship">Live – Work – Play – Canada! </a></li>
+               <li><a href="http://www.canada.ca/blog/transport">Planes, trains and automobiles… and don’t forget boats!</a></li>
+               <li><a href="http://www.canada.ca/blog/opengovernment">Open Government</a></li>
+               <li><a href="http://www.canada.ca/blog/health2">A big leap for Health!</a></li>
+            </ul>
+            <p><a href="http://www.canada.ca/blog/">All blog posts…</a></p>
+         </div>
+      </section>
+      <div class="alert alert-info">
+         <p><a href="http://www.canada.ca/blog/page/commentingpolicy">Commenting policy</a></p>
+      </div>
+      <div class="alert alert-info">
+         <p><a href="http://www.canada.ca/en/transparency/privacy.html">Privacy</a></p>
+      </div>
+   </div>
+</div>
+<div class="row pagedetails">
+   <div class="col-xs-6 datemod">
+      <dl id="wb-dtmd">
+         <dt>Date modified: </dt>
+         <dd>
+            <time property="dateModified">2014-06-12</time>
+         </dd>
+      </dl>
+   </div>
+   <div class="col-xs-6 text-right"> <a href="http://www.canada.ca/en/contact/feedback.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a> </div>
+</div>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

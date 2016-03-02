@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Simple Service Initiation Landing Page" description="uses Oceans WET4 theme
-- blank Simple Service initiation landing page
-- "Guides and help," and "Related Services and info" sections pulled to the right" preview="code" type="block">
+<snippet name="Simple_Service_Initiation_Landing_Page.csn" description="" preview="code" type="block">
 <insertText location="beforeSelection">
 <![CDATA[<!--#include virtual="/oceans/theme-wet4/asp/init.asp" -->
 <%

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Video Content Page" description="http://wet-boew.github.io/themes-dist/GCWeb/video-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<h1 property="name" id="wb-cont">Video example</h1>
+<div class="row">
+   <section class="col-md-12">
+      <h2>MPEG4 (H264 + AAC) source with inline HTML captions</h2>
+      <p>This example illustrates the use of an inline transcript to provide captions. This example can also demonstrate the fallback mechanism in Web browsers that don't support HTML5 videos.</p>
+      <figure class="wb-mltmd wb-init wb-mltmd-inited video" id="wb-auto-1">
+         <div class="display">
+            <video poster="http://www.servicecanada.gc.ca/eng/video/images/te-lj-eng.jpg" title="Looking for a Job" id="wb-auto-1-md">
+               <source type="video/mp4" src="http://video2.servicecanada.gc.ca/video/boew-wet/te-lj-eng.mp4">
+               <track src="#inline-captions" kind="captions" data-type="text/html" srclang="en" label="English"></track>
+            </video>
+         </div>
+         
+         <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html --> 
+         <!-- DataAjaxFragmentStart -->
+         <div class="wb-mm-cc">&nbsp;</div>
+         <div class="wb-mm-ctrls">
+            <div class="frstpnl">
+               <div class="btn-group">
+                  <button type="button" class="btn btn-default playpause" aria-controls="wb-auto-1-md" title="Play" data-state-on="Play" data-state-off="Pause"><span class="glyphicon glyphicon-play"><span class="wb-inv">Play</span></span></button>
+                  <button type="button" class="btn btn-default mute" aria-controls="wb-auto-1-md" title="Mute" data-state-on="Mute" data-state-off="Unmute" aria-pressed="false"><span class="glyphicon glyphicon-volume-up"><span class="wb-inv">Mute</span></span></button>
+                  <input type="range" class="volume" aria-controls="wb-auto-1-md" title="Volume" min="0" max="100" value="100" step="5">
+               </div>
+            </div>
+            <div class="tline">
+               <div class="wb-mm-txtonly">
+                  <p class="wb-mm-tmln-crrnt"><span class="wb-inv">Current position:</span><span>00:00:00</span></p>
+                  <p class="wb-mm-tmln-ttl"><span class="wb-inv">Total time:</span><span>00:01:40</span></p>
+               </div>
+               <div class="wb-mm-prgrss">
+                  <progress tabindex="0" aria-live="off" max="100" value="0"></progress>
+               </div>
+            </div>
+            <div class="lastpnl">
+               <div class="btn-group">
+                  <button type="button" class="btn btn-default cc" aria-controls="wb-auto-1-md" title="Show closed captioning" data-state-on="Show closed captioning" data-state-off="Hide closed captioning" aria-pressed="false"><span class="glyphicon glyphicon-subtitles"><span class="wb-inv">Show closed captioning</span></span></button>
+               </div>
+            </div>
+         </div>
+         <!-- DataAjaxFragmentEnd -->
+         
+         <figcaption id="inline-captions">
+            <h3>Looking for a Job - HTML5 Transcript/Captions</h3>
+            <p class="wet-boew-vd"><strong>(Animated pen draws a red line that leads into the text Looking for A Job)</strong></p>
+            <p class="wet-boew-vd"><strong>(Cut to a medium shot of the Host. LINE DRAWING GRAPHIC: Stick person appears and waves.)</strong></p>
+            <p><span class="wb-tmtxt" data-begin="2.50s" data-dur="3.84s">Hi, my name is Eric, and I'm a Service Canada employee.</span></p>
+            <p><span class="wb-tmtxt" data-begin="6.34s" data-dur="1.87s">You may have heard the old saying that, </span> <span class="wb-tmtxt" data-begin="8.21s" data-dur="1.84s">when you're out of work, finding a job is your </span> <span class="wb-tmtxt" data-begin="10.04s" data-dur="1.70s">full-time occupation.</span></p>
+            <p class="wet-boew-vd"><strong>(LINE DRAWING GRAPHIC: Stick person walks to right side of screen. Screenshot of job bank website appears in animated computer screen.)</strong></p>
+            <p><span class="wb-tmtxt" data-begin="11.75s" data-dur="2.40s">Well, there's a lot of truth to that:</span></p>
+            <p><span class="wb-tmtxt" data-begin="14.15s" data-dur="2.57s">finding a job does take time… and effort.</span></p>
+            <p class="wet-boew-vd"><strong>(LINE DRAWING GRAPHIC: Stick person rests head against computer screen in discouragement. But then perks-up.)</strong></p>
+            <p><span class="wb-tmtxt" data-begin="16.72s" data-dur="1.40s">But don't get discouraged.</span></p>
+            <p><span class="wb-tmtxt" data-begin="18.12s" data-dur="1.90s">There are a number of online tools and programs available </span> <span class="wb-tmtxt" data-begin="20.02s" data-dur="1.94s">to help you find a job.</span></p>
+            <p class="wet-boew-vd"><strong>(Close-up of the Host.)</strong></p>
+            <p><span class="wb-tmtxt" data-begin="21.96s" data-dur="2.30s">No matter what you're looking for there are many Web sites </span> <span class="wb-tmtxt" data-begin="24.26s" data-dur="2.37s">where employers post job notices looking for people </span> <span class="wb-tmtxt" data-begin="26.63s" data-dur="1.90s">to fill vacant positions.</span></p>
+            <p class="wet-boew-vd"><strong>(Job Bank website reappears.)</strong></p>
+            <p><span class="wb-tmtxt" data-begin="28.53s" data-dur="2.34s">One of these sites is called Job Bank.</span></p>
+            <p><span class="wb-tmtxt" data-begin="30.86s" data-dur="2.17s">It's updated every day, and lists job opportunities </span> <span class="wb-tmtxt" data-begin="33.03s" data-dur="2.17s">that are available across the country.</span></p>
+            <p class="wet-boew-vd"><strong>(Close-up of the screen. Stick person’s profile. Words “Updated Daily and “48 Hours” appear on screen.)</strong></p>
+            <p><span class="wb-tmtxt" data-begin="35.20s" data-dur="2.30s">Since the job ads on Job Bank are updated daily, </span> <span class="wb-tmtxt" data-begin="37.50s" data-dur="2.20s">you should check them regularly.</span></p>
+            <p><span class="wb-tmtxt" data-begin="39.71s" data-dur="3.57s">And, you can search for jobs posted in the last 48 hours.</span></p>
+            <p class="wet-boew-vd"><strong>(Words “Advertise your Skills” and “Email your matches” appear on screen.)</strong></p>
+            <p><span class="wb-tmtxt" data-begin="43.28s" data-dur="2.40s">On Job Bank you can also advertise your skills, </span> <span class="wb-tmtxt" data-begin="45.68s" data-dur="2.57s">and even ask them to send you e-mails when jobs </span> <span class="wb-tmtxt" data-begin="48.25s" data-dur="2.34s">that match your search criteria are posted.</span></p>
+            <p class="wet-boew-vd"><strong>(Close-up of the Host. LINE DRAWING GRAPHIC: of the Parliament Building. The web address jobs.gc.ca appears in large letters on the front lawn, stick person points to words.)</strong></p>
+            <p><span class="wb-tmtxt" data-begin="50.58s" data-dur="1.80s">If you're thinking about working in the public sector, </span> <span class="wb-tmtxt" data-begin="52.39s" data-dur="2.70s">jobs.gc.ca is the official Web site </span> <span class="wb-tmtxt" data-begin="55.09s" data-dur="2.90s">for Government of Canada listings open to the public.</span></p>
+            <p><span class="wb-tmtxt" data-begin="57.99s" data-dur="1.57s">Keep in mind, that some departments, </span> <span class="wb-tmtxt" data-begin="59.56s" data-dur="2.50s">like the Canada Revenue Agency and Parks Canada, </span> <span class="wb-tmtxt" data-begin="62.06s" data-dur="2.34s">post jobs on their own sites too.</span></p>
+            <p class="wet-boew-vd"><strong>(Medium shot of the Host. LINE DRAWING GRAPHIC: stick person points to Job Bank web page, where words “User ID” and “Password” are highlighted.)</strong></p>
+            <p><span class="wb-tmtxt" data-begin="64.40s" data-dur="2.44s">When you apply for jobs, potential employers might ask </span> <span class="wb-tmtxt" data-begin="66.83s" data-dur="2.34s">you to send them your résumé and a covering letter.</span></p>
+            <p><span class="wb-tmtxt" data-begin="69.17s" data-dur="2.17s">Of course, you'll want to make a good first impression </span> <span class="wb-tmtxt" data-begin="71.34s" data-dur="2.04s">on any potential employer.</span></p>
+            <p class="wet-boew-vd"><strong>(The text Résumé Builder appears across stick person’s screen.)</strong></p>
+            <p><span class="wb-tmtxt" data-begin="73.37s" data-dur="1.57s">Here we can help too!</span></p>
+            <p><span class="wb-tmtxt" data-begin="74.94s" data-dur="1.67s">Check out our online Résumé Builder </span> <span class="wb-tmtxt" data-begin="76.61s" data-dur="1.84s">on the Job Bank Web site.</span></p>
+            <p><span class="wb-tmtxt" data-begin="78.45s" data-dur="2.04s">It can show you how to create a first-class résumé </span> <span class="wb-tmtxt" data-begin="80.48s" data-dur="2.64s">by giving you tips and different layout options.</span></p>
+            <p class="wet-boew-vd"><strong>(Medium shot of the Host. LINE DRAWING GRAPHIC: one stick person talks to another stick person behind a desk labelled Career Counsellor.)</strong></p>
+            <p><span class="wb-tmtxt" data-begin="83.12s" data-dur="2.24s">And if you're not sure which jobs you'd like to apply for, </span> <span class="wb-tmtxt" data-begin="85.35s" data-dur="2.54s">check out our Career Navigator tool to explore </span> <span class="wb-tmtxt" data-begin="87.89s" data-dur="2.44s">occupations that you might be interested in.</span></p>
+            <p><span class="wb-tmtxt" data-begin="90.32s" data-dur="2.90s">As well, career counsellors are usually available through </span> <span class="wb-tmtxt" data-begin="93.23s" data-dur="2.44s">your provincial or territorial government to help out.</span></p>
+            <p class="wet-boew-vd"><strong>(Close-up of the Host. LINE DRAWING GRAPHIC: Stick person take a bow. Service Canada logo appears.)</strong></p>
+            <p><span class="wb-tmtxt" data-begin="95.66s" data-dur="3.00s">At Service Canada, we're people serving people.</span></p>
+            <p class="wet-boew-vd"><strong>(Dip to black.)</strong></p>
+         </figcaption>
+      </figure>
+      <details class="mrgn-tp-md">
+         <summary>View code</summary>
+         <pre><code>&lt;figure class="wb-mltmd"&gt;
+&lt;video poster="http://www.servicecanada.gc.ca/eng/video/images/te-lj-eng.jpg" title="Looking for a Job"&gt;
+	&lt;source type="video/mp4" src="http://video2.servicecanada.gc.ca/video/boew-wet/te-lj-eng.mp4" /&gt;
+	&lt;track src="#inline-captions" kind="captions" data-type="text/html" srclang="en" label="English" /&gt;
+&lt;/video&gt;
+&lt;figcaption&gt;
+	&lt;h3&gt;Looking for a Job - HTML5 Transcript/Captions&lt;/h3&gt;
+	&lt;p class="wet-boew-vd"&gt;&lt;strong&gt;(Animated pen draws a red line that leads into the text Looking for A Job)&lt;/strong&gt;&lt;/p&gt;
+	&lt;p class="wet-boew-vd"&gt;&lt;strong&gt;(Cut to a medium shot of the Host. LINE DRAWING GRAPHIC: Stick person appears and waves.)&lt;/strong&gt;&lt;/p&gt;
+	&lt;p&gt;&lt;span class="wb-tmtxt" data-begin="2.50s" data-dur="3.84s"&gt;Hi, my name is Eric, and I&amp;#39;m a Service Canada employee.&lt;/span&gt;&lt;/p&gt;
+	...
+&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+      </details>
+   </section>
+</div>
+<div class="row pagedetails">
+   <div class="col-sm-5 col-xs-12 datemod">
+      <dl id="wb-dtmd">
+         <dt>Date modified: </dt>
+         <dd>
+            <time property="dateModified">2014-08-26</time>
+         </dd>
+      </dl>
+   </div>
+   <div class="clear visible-xs"></div>
+   <div class="col-sm-4 col-xs-6"> <a href="http://www.canada.ca/en/contact/feedback.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a> </div>
+   <div class="col-sm-3 col-xs-6 text-right">
+      <div class="wb-share wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default&quot;}" id="wb-auto-2">
+         <section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+            <header class="modal-header">
+               <h2 class="modal-title">Share this page</h2>
+            </header>
+            <div class="modal-body">
+               <ul class="list-unstyled colcount-xs-2">
+                  <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                  <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html&amp;n=Video%20example%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                  <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html&amp;title=Video%20example%20-%20Canada.ca" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                  <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html&amp;title=Video%20example%20-%20Canada.ca" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                  <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html&amp;title=Video%20example%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                  <li><a href="mailto:?to=&amp;subject=Video%20example%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html%0A" class="shr-lnk email btn btn-default" target="_blank">Email</a></li>
+                  <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html&amp;t=Video%20example%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                  <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=Video%20example%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html&amp;hl=en" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                  <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html&amp;title=Video%20example%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                  <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html&amp;t=Video%20example%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                  <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html&amp;media=&amp;description=Video%20example%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                  <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html&amp;title=Video%20example%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                  <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html&amp;title=Video%20example%20-%20Canada.ca" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                  <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html&amp;name=Video%20example%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                  <li><a href="http://twitter.com/home?status=Video%20example%20-%20Canada.ca%20http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                  <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=Video%20example%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fvideo-en.html%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+               </ul>
+               <p class="col-sm-12 shr-dscl">No endorsement of any products or services is expressed or implied.</p>
+               <div class="clearfix"></div>
+            </div>
+         </section>
+         <a href="#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default wb-lbx-inited wb-init" id="wb-auto-3"><span class="glyphicon glyphicon-share"></span>Share this page</a></div>
+   </div>
+   <div class="clear visible-xs"></div>
+</div>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

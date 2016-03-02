@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="PDF Download with Cover Image" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="col-md-3 pull-right mrgn-tp-md">
+         <figure class="thumbnail"> <a href="xxxxxxxxxxxxx.pdf"> <img src="xxxxxxxxxxxxx" alt="xxxxxxxxxxxxx" class="img-responsive " />
+            <figcaption class="caption text-center">
+               <p><span class="glyphicon glyphicon-download"></span> PDF Document</p>
+            </figcaption>
+            </a> </figure>
+      </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

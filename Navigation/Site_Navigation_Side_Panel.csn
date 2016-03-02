@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Site Navigation Side Panel" description="http://wet-boew.github.io/themes-dist/GCWeb/localnav/task1/index-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<nav class="wb-sec col-md-3 col-md-pull-9 wb-navcurr-inited" typeof="SiteNavigationElement" id="wb-sec" role="navigation">
+   <h2 id="wb-sec-h" class="wb-inv">Section menu</h2>
+   <section class="list-group menu list-unstyled">
+      <h3><a href="../index-en.html">[Topic - Local navigation]</a></h3>
+      <ul class="list-group menu list-unstyled">
+         <li><a href="./index-en.html" class="list-group-item wb-navcurr">[Task 1]</a>
+            <ul class="list-group menu list-unstyled">
+               <li><a href="./task1/index-en.html" class="list-group-item">[Sub task 1]</a></li>
+               <li><a href="./task2/index-en.html" class="list-group-item">[Sub task 2]</a></li>
+               <li><a href="./task3/index-en.html" class="list-group-item">[Sub task 3]</a></li>
+               <li><a href="./task4/index-en.html" class="list-group-item">[Sub task 4]</a></li>
+               <li><a href="./task5/index-en.html" class="list-group-item">[Sub task 5]</a></li>
+               <li><a href="./task6/index-en.html" class="list-group-item">[Sub task 6]</a></li>
+               <li><a href="./task7/index-en.html" class="list-group-item">[Sub task 7]</a></li>
+            </ul>
+         </li>
+         <li><a href="../task2/index-en.html" class="list-group-item">[Task 2]</a> </li>
+         <li><a href="../task3/index-en.html" class="list-group-item">[Task 3]</a> </li>
+         <li><a href="../task4/index-en.html" class="list-group-item">[Task 4]</a> </li>
+      </ul>
+   </section>
+</nav>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

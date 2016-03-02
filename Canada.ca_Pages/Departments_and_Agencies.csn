@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Departments and Agencies" description="http://wet-boew.github.io/themes-dist/GCWeb/dept-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<h1 property="name" id="wb-cont">Departments &amp; agencies</h1>
+<p class="pagetag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure amet, laboriosam a iusto repellat ea, quia quis, laborum quo pariatur repudiandae rem voluptates, fugiat. Laboriosam impedit repellendus nobis vel, architecto eius. Placeat, veniam quidem.</p>
+<div class="row">
+   <div class="col-md-12">
+      <form class="form-horizontal" role="form" method="get" action="#">
+         <div class="form-group">
+            <div class="col-lg-3">
+               <label for="deptSearch" class="control-label mrgn-rght-lg">What are you looking for?</label>
+            </div>
+            <div class="col-lg-9 input-group">
+               <input type="text" class="form-control" size="10" id="deptSearch" placeholder="Department or agancy">
+               <span class="input-group-btn">
+               <button type="submit" id="search-submit" class="btn btn-primary" name="search-submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search departments &amp; agencies</span></button>
+               </span> </div>
+         </div>
+      </form>
+   </div>
+</div>
+<hr>
+<ul class="list-unstyled lst-spcd">
+   <li><a class="h3" href="#">Department name</a><br>
+      <span class="badge badge-dept">8</span>Also works with…
+      <ul class="mrgn-bttm-lg mrgn-lft-lg">
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+      </ul>
+   </li>
+   <li><a class="h3" href="#">Department name</a><br>
+      <span class="badge badge-dept">6</span> Also works with…
+      <ul class="mrgn-bttm-lg mrgn-lft-lg">
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+      </ul>
+   </li>
+   <li><a class="h3" href="#">Department name</a><br>
+      <span class="badge badge-dept">16</span>Also works with…
+      <ul class="mrgn-bttm-lg mrgn-lft-lg">
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+         <li><a href="#">Institution name</a></li>
+      </ul>
+   </li>
+</ul>
+<div class="row pagedetails">
+   <div class="col-sm-5 col-xs-12 datemod">
+      <dl id="wb-dtmd">
+         <dt>Date modified: </dt>
+         <dd>
+            <time property="dateModified">2014-10-23</time>
+         </dd>
+      </dl>
+   </div>
+   <div class="clear visible-xs"></div>
+   <div class="col-sm-4 col-xs-6"> <a href="http://www.canada.ca/en/contact/feedback.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a> </div>
+   <div class="col-sm-3 col-xs-6 text-right">
+      <div class="wb-share wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default&quot;}" id="wb-auto-1">
+         <section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+            <header class="modal-header">
+               <h2 class="modal-title">Share this page</h2>
+            </header>
+            <div class="modal-body">
+               <ul class="list-unstyled colcount-xs-2">
+                  <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                  <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html&amp;n=Departments%20%26%20agencies%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                  <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html&amp;title=Departments%20%26%20agencies%20-%20Canada.ca" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                  <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html&amp;title=Departments%20%26%20agencies%20-%20Canada.ca" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                  <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html&amp;title=Departments%20%26%20agencies%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                  <li><a href="mailto:?to=&amp;subject=Departments%20%26%20agencies%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html%0A" class="shr-lnk email btn btn-default" target="_blank">Email</a></li>
+                  <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html&amp;t=Departments%20%26%20agencies%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                  <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=Departments%20%26%20agencies%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html&amp;hl=en" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                  <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html&amp;title=Departments%20%26%20agencies%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                  <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html&amp;t=Departments%20%26%20agencies%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                  <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html&amp;media=&amp;description=Departments%20%26%20agencies%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                  <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html&amp;title=Departments%20%26%20agencies%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                  <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html&amp;title=Departments%20%26%20agencies%20-%20Canada.ca" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                  <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html&amp;name=Departments%20%26%20agencies%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                  <li><a href="http://twitter.com/home?status=Departments%20%26%20agencies%20-%20Canada.ca%20http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                  <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=Departments%20%26%20agencies%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fdept-en.html%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+               </ul>
+               <p class="col-sm-12 shr-dscl">No endorsement of any products or services is expressed or implied.</p>
+               <div class="clearfix"></div>
+            </div>
+         </section>
+         <a href="#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default wb-lbx-inited wb-init" id="wb-auto-2"><span class="glyphicon glyphicon-share"></span>Share this page</a></div>
+   </div>
+   <div class="clear visible-xs"></div>
+</div>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

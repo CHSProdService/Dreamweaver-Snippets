@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Widget Page" description="http://wet-boew.github.io/themes-dist/GCWeb/widgets-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<h1 property="name" id="wb-cont">Stay connected</h1>
+<p class="pagetag">Find the latest information on the National Conservation Plan, including announcements, Frequently Asked Questions and links to our social media channels.</p>
+<div class="row">
+   <section class="col-md-4 fd-wdgt">
+      <div class="panel panel-default">
+         <div class="wb-feeds limit-10 wb-init wb-feeds-inited" id="wb-auto-1">
+            <div class="panel-heading">
+               <h3 class="panel-title">Facebook <span class="icon facebook"></span></h3>
+            </div>
+            <div class="panel-body">
+               <ul class="feeds-cont media-list feed-active">
+               </ul>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="col-md-4 mrgn-bttm-md">
+      <h2 class="wb-inv">Twitter</h2>
+      <div class="wb-twitter wb-init wb-twitter-inited" id="wb-auto-4">
+         <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered" style="position: static; visibility: visible; display: inline-block; width: 520px; height: 600px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;" data-widget-id="466584386855374848" data-search-query="#conservationplan AND # from:environmentca OR # from:DFO_MPO OR # from:parkscanada" title="Twitter Timeline"></iframe>
+      </div>
+   </section>
+   <div class="col-md-4">
+      <section>
+         <h2 class="mrgn-tp-0">Information</h2>
+         <ul>
+            <li><a href="http://www.pm.gc.ca/eng/news/2014/05/15/pm-launches-national-conservation-plan">News release</a> </li>
+            <li><a href="http://www.canada.ca/en/services/environment/ncp/faq.html">Frequently Asked Questions</a> </li>
+            <li><a href="http://pm.gc.ca/eng/news/2014/05/15/national-conservation-plan">Backgrounder</a> </li>
+         </ul>
+      </section>
+      <section>
+         <h2>Social Media</h2>
+         <section>
+            <h3 class="icon twitter">Twitter:</h3>
+            <ul>
+               <li><a href="https://twitter.com/environmentca" rel="external">Environment Canada’s Twitter</a> <span class="wb-inv">presence</span></li>
+               <li><a href="https://twitter.com/DFO_MPO" rel="external">Fisheries and Oceans Canada’s Twitter</a> <span class="wb-inv">presence</span></li>
+               <li><a href="https://twitter.com/ParksCanada" rel="external">Parks Canada’s Twitter</a> <span class="wb-inv">presence</span></li>
+            </ul>
+         </section>
+         <section>
+            <h3 class="icon facebook">Facebook:</h3>
+            <ul>
+               <li><a href="https://www.facebook.com/environmentcan?ref=ts&amp;fref=ts" rel="external">Environment Canada’s Facebook</a> <span class="wb-inv">presence</span></li>
+               <li><a href="https://www.facebook.com/ParksCanada" rel="external">Parks Canada’s Facebook</a> <span class="wb-inv">presence</span></li>
+            </ul>
+         </section>
+         <section>
+            <h3 class="icon flickr">Flickr:</h3>
+            <ul>
+               <li><a href="https://www.flickr.com/photos/environmentcan" rel="external">Environment Canada’s Flickr</a> <span class="wb-inv">presence</span></li>
+            </ul>
+         </section>
+         <section>
+            <h3 class="icon youtube">YouTube:</h3>
+            <ul>
+               <li><a href="https://www.youtube.com/user/ParksCanadaAgency" rel="external">Parks Canada’s YouTube</a> <span class="wb-inv">presence</span></li>
+               <li><a href="https://www.youtube.com/user/fisheriescanada?feature=results_main" rel="external">Department of Fisheries and Oceans’ YouTube</a> <span class="wb-inv">presence</span></li>
+            </ul>
+         </section>
+         <section>
+            <h3 class="icon pinterest">Pinterest:</h3>
+            <ul>
+               <li><a href="http://www.pinterest.com/healthycdns/" rel="external">Healthy Canadians</a> <span class="wb-inv">presence</span></li>
+            </ul>
+         </section>
+      </section>
+   </div>
+</div>
+<div class="row pagedetails">
+   <div class="col-sm-5 col-xs-12 datemod">
+      <dl id="wb-dtmd">
+         <dt>Date modified: </dt>
+         <dd>
+            <time property="dateModified">2014-06-12</time>
+         </dd>
+      </dl>
+   </div>
+   <div class="clear visible-xs"></div>
+   <div class="col-sm-4 col-xs-6"> <a href="http://www.canada.ca/en/contact/feedback.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a> </div>
+   <div class="col-sm-3 col-xs-6 text-right">
+      <div class="wb-share wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default&quot;}" id="wb-auto-5">
+         <section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+            <header class="modal-header">
+               <h2 class="modal-title">Share this page</h2>
+            </header>
+            <div class="modal-body">
+               <ul class="list-unstyled colcount-xs-2">
+                  <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                  <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html&amp;n=Stay%20connected%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                  <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html&amp;title=Stay%20connected%20-%20Canada.ca" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                  <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html&amp;title=Stay%20connected%20-%20Canada.ca" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                  <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html&amp;title=Stay%20connected%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                  <li><a href="mailto:?to=&amp;subject=Stay%20connected%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html%0A" class="shr-lnk email btn btn-default" target="_blank">Email</a></li>
+                  <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html&amp;t=Stay%20connected%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                  <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=Stay%20connected%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html&amp;hl=en" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                  <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html&amp;title=Stay%20connected%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                  <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html&amp;t=Stay%20connected%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                  <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html&amp;media=&amp;description=Stay%20connected%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                  <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html&amp;title=Stay%20connected%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                  <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html&amp;title=Stay%20connected%20-%20Canada.ca" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                  <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html&amp;name=Stay%20connected%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                  <li><a href="http://twitter.com/home?status=Stay%20connected%20-%20Canada.ca%20http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                  <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=Stay%20connected%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fwidgets-en.html%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+               </ul>
+               <p class="col-sm-12 shr-dscl">No endorsement of any products or services is expressed or implied.</p>
+               <div class="clearfix"></div>
+            </div>
+         </section>
+         <a href="#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default wb-lbx-inited wb-init" id="wb-auto-6"><span class="glyphicon glyphicon-share"></span>Share this page</a></div>
+   </div>
+   <div class="clear visible-xs"></div>
+</div>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

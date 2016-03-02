@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Advanced Service Initiation Pages" description="http://wet-boew.github.io/themes-dist/GCWeb/advancedservice/index-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<h1 property="name" id="wb-cont">[Service name] - 1. [Step name]</h1>
+<p class="pagetag"><strong>From <a href="../institution-en.html">[Institution name]</a></strong></p>
+<div class="mrgn-tp-md mrgn-bttm-lg brdr-bttm">
+   <div class="row">
+      <ul class="toc lst-spcd col-md-12">
+         <li class="col-md-4 col-sm-6"><a class="list-group-item active" href="index-en.html">1. [Step name]</a></li>
+         <li class="col-md-4 col-sm-6"><a class="list-group-item" href="page2-en.html">2. [Step name]</a></li>
+         <li class="col-md-4 col-sm-6"><a class="list-group-item" href="page3-en.html">3. [Step name]</a></li>
+         <li class="col-md-4 col-sm-6"><a class="list-group-item" href="page4-en.html">4. [Step name]</a></li>
+         <li class="col-md-4 col-sm-6"><a class="list-group-item" href="page5-en.html">5. [Step name]</a></li>
+         <li class="col-md-4 col-sm-6"><a class="list-group-item" href="page6-en.html">6. [Step name]</a></li>
+      </ul>
+   </div>
+</div>
+<div class="row">
+   <section class="col-md-8">
+      <h2 class="mrgn-tp-0">1. [Step name]</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ipsam deserunt, doloremque mollitia laudantium quas ut accusamus perspiciatis repellendus quaerat omnis corporis laborum quasi magni possimus qui necessitatibus, aperiam enim.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium odio adipisci ad neque distinctio quod molestias, molestiae accusamus quo aspernatur expedita blanditiis quam! Esse cum modi atque, beatae aliquam, dolor.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aliquid hic numquam obcaecati ea, laborum accusamus culpa atque voluptate distinctio et omnis! Alias, beatae, tenetur.</p>
+      <section>
+         <h3>[Sub heading]</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti cupiditate voluptatem praesentium, facilis corporis magni esse reiciendis distinctio. Vitae totam iste porro, esse facere obcaecati? Laborum earum minus harum enim.</p>
+      </section>
+      <section>
+         <h3>[Sub heading]</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa hic minima magni nesciunt nam. Facilis perferendis, adipisci voluptates, enim illo perspiciatis molestias itaque iste qui distinctio asperiores quidem voluptatum sunt.</p>
+      </section>
+      <nav role="navigation" class="mrgn-bttm-lg">
+         <h3 class="wb-inv">Document navigation</h3>
+         <ul class="pager">
+            <li class="next"><a href="page2-en.html" rel="next">Next<span class="wb-inv">: 2. [Step name]</span></a></li>
+         </ul>
+      </nav>
+   </section>
+   <div class="col-md-4">
+      <section>
+         <h2 class="mrgn-tp-0">Guides and help</h2>
+         <ul class="lst-spcd">
+            <li><a href="#">[Related guides and help 1]</a></li>
+            <li><a href="#">[Related guides and help 2]</a></li>
+            <li><a href="#">[Related guides and help 3]</a></li>
+         </ul>
+      </section>
+      <section>
+         <h2>Related services and information</h2>
+         <ul class="lst-spcd">
+            <li><a href="#">[Related services 1]</a></li>
+            <li><a href="#">[Related services 2]</a></li>
+            <li><a href="#">[Related information 1]</a></li>
+            <li><a href="#">[Related information 2]</a></li>
+         </ul>
+      </section>
+      <section>
+         <h2>Related program</h2>
+         <ul class="lst-spcd">
+            <li><a href="#">[Program name]</a></li>
+         </ul>
+      </section>
+   </div>
+</div>
+<div class="row pagedetails">
+   <div class="col-sm-5 col-xs-12 datemod">
+      <dl id="wb-dtmd">
+         <dt>Date modified: </dt>
+         <dd>
+            <time property="dateModified">2014-10-23</time>
+         </dd>
+      </dl>
+   </div>
+   <div class="clear visible-xs"></div>
+   <div class="col-sm-4 col-xs-6"> <a href="http://www.canada.ca/en/contact/feedback.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a> </div>
+   <div class="col-sm-3 col-xs-6 text-right">
+      <div class="wb-share wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default&quot;}" id="wb-auto-1">
+         <section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+            <header class="modal-header">
+               <h2 class="modal-title">Share this page</h2>
+            </header>
+            <div class="modal-body">
+               <ul class="list-unstyled colcount-xs-2">
+                  <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                  <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html&amp;n=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                  <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html&amp;title=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                  <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html&amp;title=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                  <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html&amp;title=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                  <li><a href="mailto:?to=&amp;subject=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html%0A" class="shr-lnk email btn btn-default" target="_blank">Email</a></li>
+                  <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html&amp;t=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                  <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html&amp;hl=en" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                  <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html&amp;title=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                  <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html&amp;t=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                  <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html&amp;media=&amp;description=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                  <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html&amp;title=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                  <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html&amp;title=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                  <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html&amp;name=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                  <li><a href="http://twitter.com/home?status=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca%20http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                  <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=%5BService%20name%5D%20-%201.%20%5BStep%20name%5D%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fadvancedservice%2Findex-en.html%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+               </ul>
+               <p class="col-sm-12 shr-dscl">No endorsement of any products or services is expressed or implied.</p>
+               <div class="clearfix"></div>
+            </div>
+         </section>
+         <a href="#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default wb-lbx-inited wb-init" id="wb-auto-2"><span class="glyphicon glyphicon-share"></span>Share this page</a></div>
+   </div>
+   <div class="clear visible-xs"></div>
+</div>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

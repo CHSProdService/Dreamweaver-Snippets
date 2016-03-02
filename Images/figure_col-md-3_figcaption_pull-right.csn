@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="<figure col-md-3 figcaption pull-right>" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="col-md-3 pull-right">
+      <figure class="thumbnail"> <a href="xxxxxxxxxxxx"> <img src="xxxxxxxxxxxx" class="img-responsive" /> </a>
+         <figcaption class="caption">
+            <p>xxxxxxxxxxxx</p>
+         </figcaption>
+      </figure>
+   </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="Tabbed Panels Content Page" description="A content page with Tabbed Panels
 - uses the Science WET4 theme
-- container is set to col-md-12" preview="code" type="wrap">
+- container is set to col-md-12" preview="code" type="block">
 <insertText location="beforeSelection">
 <![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
 <%

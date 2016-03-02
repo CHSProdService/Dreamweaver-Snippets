@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Section Menu Examples" description="http://wet-boew.github.io/themes-dist/GCWeb/localnav/task1/index-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<h1 property="name" id="wb-cont">Task 1</h1>
+<section>
+   <h2>Heading 2 (<code>h2</code>)</h2>
+   <section>
+      <h3>Heading 3 (<code>h3</code>)</h3>
+      <section>
+         <h4>Heading 4 (<code>h4</code>)</h4>
+         <section>
+            <h5>Heading 5 (<code>h5</code>)</h5>
+            <section>
+               <h6>Heading 6 (<code>h6</code>)</h6>
+               <p>Paragraph - default appearance</p>
+            </section>
+         </section>
+      </section>
+   </section>
+</section>
+<p><a href="#">Link</a></p>
+<ul>
+   <li>unordered list (<code>ul</code>) - level 1
+      <ul>
+         <li>unordered list (<code>ul</code>) - level 2
+            <ul>
+               <li>unordered list (<code>ul</code>) - level 3</li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+</ul>
+<ol>
+   <li>ordered list (<code>ol</code>) - level 1</li>
+   <li>ordered list (<code>ol</code>) - level 1
+      <ol>
+         <li>ordered list (<code>ol</code>) - level 2</li>
+         <li>ordered list (<code>ol</code>) - level 2
+            <ol>
+               <li>ordered list (<code>ol</code>) - level 3</li>
+               <li>ordered list (<code>ol</code>) - level 3</li>
+            </ol>
+         </li>
+      </ol>
+   </li>
+</ol>
+<table class="table table-striped">
+   <caption>
+   Table caption
+   </caption>
+   <thead>
+      <tr>
+         <th scope="col">Table header (<code>th</code>)</th>
+         <th scope="col">Table header (<code>th</code>)</th>
+         <th scope="col">Table header (<code>th</code>)</th>
+         <th scope="col">Table header (<code>th</code>)</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Table data (<code>td</code>)</td>
+         <td>Table data (<code>td</code>)</td>
+         <td>Table data (<code>td</code>)</td>
+         <td>Table data (<code>td</code>)</td>
+      </tr>
+      <tr>
+         <td>Table data (<code>td</code>)</td>
+         <td>Table data (<code>td</code>)</td>
+         <td>Table data (<code>td</code>)</td>
+         <td>Table data (<code>td</code>)</td>
+      </tr>
+      <tr>
+         <td>Table data (<code>td</code>)</td>
+         <td>Table data (<code>td</code>)</td>
+         <td>Table data (<code>td</code>)</td>
+         <td>Table data (<code>td</code>)</td>
+      </tr>
+   </tbody>
+</table>
+<form method="post" action="#" class="form-horizontal">
+   <div class="form-group">
+      <label for="data1" class="col-sm-3 control-label">Form <code>input</code></label>
+      <div class="col-sm-9">
+         <input type="text" id="data1" name="data1" class="form-control">
+      </div>
+   </div>
+   <div class="form-group">
+      <label for="data2" class="col-sm-3 control-label">Form <code>textarea</code></label>
+      <div class="col-sm-9">
+         <textarea id="data2" rows="3" cols="15" name="data2" class="form-control"></textarea>
+      </div>
+   </div>
+   <div class="form-group">
+      <label for="data4" class="col-sm-3 control-label">Form <code>select</code></label>
+      <div class="col-sm-9">
+         <select name="data4" id="data4" class="form-control">
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+         </select>
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="col-sm-offset-3 col-sm-9">
+         <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+   </div>
+</form>
+<blockquote>
+   <p>"<code>blockquote</code>"</p>
+</blockquote>
+<div class="row pagedetails">
+   <div class="col-sm-5 col-xs-12 datemod">
+      <dl id="wb-dtmd">
+         <dt>Date modified: </dt>
+         <dd>
+            <time property="dateModified">2015-01-11</time>
+         </dd>
+      </dl>
+   </div>
+   <div class="clear visible-xs"></div>
+   <div class="col-sm-4 col-xs-6"> <a href="http://www.canada.ca/en/contact/feedback.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a> </div>
+   <div class="col-sm-3 col-xs-6 text-right">
+      <div class="wb-share wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default&quot;}" id="wb-auto-1">
+         <section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+            <header class="modal-header">
+               <h2 class="modal-title">Share this page</h2>
+            </header>
+            <div class="modal-body">
+               <ul class="list-unstyled colcount-xs-2">
+                  <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                  <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html&amp;n=Task%201%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                  <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html&amp;title=Task%201%20-%20Canada.ca" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                  <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html&amp;title=Task%201%20-%20Canada.ca" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                  <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html&amp;title=Task%201%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                  <li><a href="mailto:?to=&amp;subject=Task%201%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html%0A" class="shr-lnk email btn btn-default" target="_blank">Email</a></li>
+                  <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html&amp;t=Task%201%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                  <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=Task%201%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html&amp;hl=en" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                  <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html&amp;title=Task%201%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                  <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html&amp;t=Task%201%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                  <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html&amp;media=&amp;description=Task%201%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                  <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html&amp;title=Task%201%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                  <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html&amp;title=Task%201%20-%20Canada.ca" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                  <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html&amp;name=Task%201%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                  <li><a href="http://twitter.com/home?status=Task%201%20-%20Canada.ca%20http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                  <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=Task%201%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Flocalnav%2Ftask1%2Findex-en.html%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+               </ul>
+               <p class="col-sm-12 shr-dscl">No endorsement of any products or services is expressed or implied.</p>
+               <div class="clearfix"></div>
+            </div>
+         </section>
+         <a href="#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default wb-lbx-inited wb-init" id="wb-auto-2"><span class="glyphicon glyphicon-share"></span>Share this page</a></div>
+   </div>
+   <div class="clear visible-xs"></div>
+</div>
+<nav class="wb-sec col-md-3 col-md-pull-9 wb-navcurr-inited" typeof="SiteNavigationElement" id="wb-sec" role="navigation">
+   <h2 id="wb-sec-h" class="wb-inv">Section menu</h2>
+   <section class="list-group menu list-unstyled">
+      <h3><a href="../index-en.html">[Topic - Local navigation]</a></h3>
+      <ul class="list-group menu list-unstyled">
+         <li><a href="./index-en.html" class="list-group-item wb-navcurr">[Task 1]</a>
+            <ul class="list-group menu list-unstyled">
+               <li><a href="./task1/index-en.html" class="list-group-item">[Sub task 1]</a></li>
+               <li><a href="./task2/index-en.html" class="list-group-item">[Sub task 2]</a></li>
+               <li><a href="./task3/index-en.html" class="list-group-item">[Sub task 3]</a></li>
+               <li><a href="./task4/index-en.html" class="list-group-item">[Sub task 4]</a></li>
+               <li><a href="./task5/index-en.html" class="list-group-item">[Sub task 5]</a></li>
+               <li><a href="./task6/index-en.html" class="list-group-item">[Sub task 6]</a></li>
+               <li><a href="./task7/index-en.html" class="list-group-item">[Sub task 7]</a></li>
+            </ul>
+         </li>
+         <li><a href="../task2/index-en.html" class="list-group-item">[Task 2]</a> </li>
+         <li><a href="../task3/index-en.html" class="list-group-item">[Task 3]</a> </li>
+         <li><a href="../task4/index-en.html" class="list-group-item">[Task 4]</a> </li>
+      </ul>
+   </section>
+</nav>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Campaign Page" description="http://wet-boew.github.io/themes-dist/GCWeb/campaign-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<aside class="prm-flpr">
+   <div class="row">
+      <h2 class="wb-inv">Promotions</h2>
+      <div class="wb-tabs carousel-s2 show-thumbs playing slow wb-init wb-tabs-inited" id="wb-auto-1">
+         <ul role="tablist" aria-live="off">
+            <li class="control prv"><a class="prv" href="javascript:;" role="button" title="Previous"><span class="glyphicon glyphicon-chevron-left"></span><span class="wb-inv">Previous</span></a></li>
+            <li class="control  tab-count" tabindex="0">
+               <div>Item
+                  <div class="curr-count"><span class="curr-index">2</span> of 3</div>
+               </div>
+            </li>
+            <li class="control nxt"><a class="nxt" href="javascript:;" role="button" title="Next"><span class="glyphicon glyphicon-chevron-right"></span><span class="wb-inv">Next</span></a></li>
+            <li class="" role="presentation"> <a href="#tab1" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab1" id="tab1-lnk"><img src="./img/promos/1170x347-1.png" alt=""><span class="wb-inv">Tab 1: Banff National Park</span></a> </li>
+            <li role="presentation" class="active"> <a href="#tab2" tabindex="0" role="tab" aria-selected="true" aria-controls="tab2" id="tab2-lnk"><img src="./img/promos/1170x347-1.png" alt=""><span class="wb-inv">Tab 2: Algonquin Provincial Park</span></a> </li>
+            <li role="presentation" class=""> <a href="#tab3" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab3" id="tab3-lnk"><img src="./img/promos/1170x347-1.png" alt=""><span class="wb-inv">Tab 3: Rideau Canal</span></a> </li>
+            <li class="control plypause"><a class="plypause" href="javascript:;" role="button" title="Pause"><span class="glyphicon glyphicon-pause"></span> <span>Pause</span><span class="wb-inv"> -  Stop tab rotation</span></a></li>
+         </ul>
+         <div class="tabpanels">
+            <div role="tabpanel" id="tab1" class="fade out noheight" tabindex="-1" aria-hidden="true" aria-expanded="false" aria-labelledby="tab1-lnk"> <a href="#" class="learnmore">
+               <figure> <img src="./img/promos/1170x347-1.png" alt="">
+                  <figcaption>
+                     <p>Banff National Park </p>
+                  </figcaption>
+               </figure>
+               </a> </div>
+            <div role="tabpanel" id="tab2" class="fade in" tabindex="-1" aria-hidden="false" aria-expanded="true" aria-labelledby="tab2-lnk"> <a href="#" class="learnmore">
+               <figure> <img src="./img/promos/1170x347-2.png" alt="">
+                  <figcaption>
+                     <p>Algonquin Provincial Park </p>
+                  </figcaption>
+               </figure>
+               </a> </div>
+            <div role="tabpanel" id="tab3" class="fade out noheight" tabindex="-1" aria-hidden="true" aria-expanded="false" aria-labelledby="tab3-lnk"> <a href="#" class="learnmore">
+               <figure> <img src="./img/promos/1170x347-3.png" alt="">
+                  <figcaption>
+                     <p>Rideau Canal </p>
+                  </figcaption>
+               </figure>
+               </a> </div>
+         </div>
+      </div>
+   </div>
+</aside>
+<h1 property="name" id="wb-cont">Campaign name</h1>
+<div class="row">
+   <section class="col-md-6"> <a href="#">
+      <h2 class="h5">Promotional hyperlink text</h2>
+      <img src="./img/520x296.png" alt="" class="img-responsive thumbnail"> </a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+   </section>
+   <section class="col-md-6"> <a href="#">
+      <h2 class="h5">Promotional hyperlink text</h2>
+      <img src="./img/520x296.png" alt="" class="img-responsive thumbnail"> </a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+   </section>
+</div>
+<section>
+   <h2>[Heading]</h2>
+   <div class="row wb-eqht wb-init wb-eqht-inited" id="wb-auto-2">
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 133px;">
+         <h3 class="h5"><a href="#">[Hyperlink text]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque praesentium, nulla ab nobis architecto repellendus hic iure laboriosam.</p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 133px;">
+         <h3 class="h5"><a href="#">[Hyperlink text]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quaerat error illum iusto, harum temporibus quae totam nisi.</p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 133px;">
+         <h3 class="h5"><a href="#">[Hyperlink text]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint tempora suscipit vel. Cumque quia sunt, incidunt. Ratione, sed?</p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 154px;">
+         <h3 class="h5"><a href="#">[Hyperlink text]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quo doloribus quibusdam in similique labore tempore, neque sed.</p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 154px;">
+         <h3 class="h5"><a href="#">[Hyperlink text]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus beatae eveniet laboriosam! Suscipit deserunt nobis voluptas dolor molestiae?</p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 154px;">
+         <h3 class="h5"><a href="#">[Hyperlink text]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt perferendis adipisci vero repudiandae asperiores, vel placeat repellat ea.</p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 156px;">
+         <h3 class="h5"><a href="#">[Hyperlink text]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, facere reprehenderit consectetur repudiandae hic ipsam nesciunt nostrum et!</p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 156px;">
+         <h3 class="h5"><a href="#">[Hyperlink text]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime consequatur dignissimos velit fugiat repellendus tempore officia, commodi, ratione.</p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 156px;">
+         <h3 class="h5"><a href="#">[Hyperlink text]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci suscipit perspiciatis, quae voluptas necessitatibus quas hic accusamus sequi.</p>
+      </section>
+   </div>
+</section>
+<div class="row">
+   <section class="col-md-8">
+      <h2>Join the conversation</h2>
+      <div class="row">
+         <section class="col-md-6">
+            <h3 class="wb-inv">Twitter</h3>
+            <div class="wb-twitter wb-init wb-twitter-inited" id="wb-auto-3">
+               <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered" style="position: static; visibility: visible; display: inline-block; width: 520px; height: 600px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;" data-widget-id="466584386855374848" data-search-query="#conservationplan AND # from:environmentca OR # from:DFO_MPO OR # from:parkscanada" title="Twitter Timeline"></iframe>
+            </div>
+         </section>
+         <div class="col-md-6">
+            <section class="col-md-12 panel panel-default fd-wdgt">
+               <div class="wb-feeds limit-5 wb-init wb-feeds-inited" id="wb-auto-4">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">Facebook <span class="icon facebook"></span></h3>
+                  </div>
+                  <div class="panel-body">
+                     <ul class="feeds-cont media-list feed-active">
+                     </ul>
+                  </div>
+               </div>
+            </section>
+            <section class="panel panel-default col-md-12 fd-wdgt">
+               <div class="wb-feeds limit-10 wb-init wb-feeds-inited" id="wb-auto-6">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">Flickr or Pinterest or other<span class="icon flickr"></span></h3>
+                  </div>
+                  <div class="panel-body">
+                     <ul class="feeds-cont list-inline mrgn-tp-md feed-active">
+                        <li><a class="feed-flickr" href="javascript:;" data-flickr="{&quot;title&quot;:&quot;Prime Minister Trudeau and Mnister Catherine McKenna at COP21&quot;,&quot;thumbnail&quot;:&quot;https://farm6.staticflickr.com/5832/23592642111_916f0a55ce_s.jpg&quot;,&quot;image&quot;:&quot;https://farm6.staticflickr.com/5832/23592642111_916f0a55ce.jpg&quot;,&quot;description&quot;:&quot; <p>On November 30t 2015, Minister McKenna takes a moment to snap a picture with Prime Minister Justin Trudeau.</p>&quot;}"><img src="https://farm6.staticflickr.com/5832/23592642111_916f0a55ce_s.jpg" alt="Prime Minister Trudeau and Mnister Catherine McKenna at COP21" title="Prime Minister Trudeau and Mnister Catherine McKenna at COP21" class="img-responsive"></a></li>
+                        <li><a class="feed-flickr" href="javascript:;" data-flickr="{&quot;title&quot;:&quot;Minister McKenna standing with Canada’s negotiators at #COP21&quot;,&quot;thumbnail&quot;:&quot;https://farm1.staticflickr.com/648/23046941344_e3e37bb2f5_s.jpg&quot;,&quot;image&quot;:&quot;https://farm1.staticflickr.com/648/23046941344_e3e37bb2f5.jpg&quot;,&quot;description&quot;:&quot; <p>Minister of Environment and Climate Change, the Honourable Catherine McKenna, meeting with representatives of indigenous communities on December 1, 2015.</p>&quot;}"><img src="https://farm1.staticflickr.com/648/23046941344_e3e37bb2f5_s.jpg" alt="Minister McKenna standing with Canada’s negotiators at #COP21" title="Minister McKenna standing with Canada’s negotiators at #COP21" class="img-responsive"></a></li>
+                        <li><a class="feed-flickr" href="javascript:;" data-flickr="{&quot;title&quot;:&quot;Minister McKenna reports as facilitator to COP21 plenary on Cooperative Approaches and Mechanisms.&quot;,&quot;thumbnail&quot;:&quot;https://farm1.staticflickr.com/571/23048039823_8788d05a7f_s.jpg&quot;,&quot;image&quot;:&quot;https://farm1.staticflickr.com/571/23048039823_8788d05a7f.jpg&quot;,&quot;description&quot;:&quot; <p>Minister McKenna met with Perry Bellegarde, National Chief of the Assembly of First Nations (Canada) to discuss climate change action at COP21 in Paris, France on December 1, 2015.</p>&quot;}"><img src="https://farm1.staticflickr.com/571/23048039823_8788d05a7f_s.jpg" alt="Minister McKenna reports as facilitator to COP21 plenary on Cooperative Approaches and Mechanisms." title="Minister McKenna reports as facilitator to COP21 plenary on Cooperative Approaches and Mechanisms." class="img-responsive"></a></li>
+                        <li><a class="feed-flickr" href="javascript:;" data-flickr="{&quot;title&quot;:&quot;Minister McKenna meeting with representatives of indigenous communities&quot;,&quot;thumbnail&quot;:&quot;https://farm1.staticflickr.com/683/23675105795_7f5bc686aa_s.jpg&quot;,&quot;image&quot;:&quot;https://farm1.staticflickr.com/683/23675105795_7f5bc686aa.jpg&quot;,&quot;description&quot;:&quot; <p>On December 1, 2015, the Minister of Environment and Climate Change, the Honourable Catherine McKenna, announces $10M to improve early extreme weather warning systems. For more information: URL<br /> <br /> <a href=\&quot;http://news.gc.ca/web/article-en.do?nid=1022719\&quot; rel=\&quot;nofollow\&quot;>news.gc.ca/web/article-en.do?nid=1022719</a></p>&quot;}"><img src="https://farm1.staticflickr.com/683/23675105795_7f5bc686aa_s.jpg" alt="Minister McKenna meeting with representatives of indigenous communities" title="Minister McKenna meeting with representatives of indigenous communities" class="img-responsive"></a></li>
+                        <li><a class="feed-flickr" href="javascript:;" data-flickr="{&quot;title&quot;:&quot;Minister McKenna announces $10M to improve early extreme weather warning systems.&quot;,&quot;thumbnail&quot;:&quot;https://farm1.staticflickr.com/743/23048039213_e1b58a34f7_s.jpg&quot;,&quot;image&quot;:&quot;https://farm1.staticflickr.com/743/23048039213_e1b58a34f7.jpg&quot;,&quot;description&quot;:&quot; <p>Minister McKenna standing with Canada’s negotiators at #COP21 in Paris, France on December 5, 2015.</p>&quot;}"><img src="https://farm1.staticflickr.com/743/23048039213_e1b58a34f7_s.jpg" alt="Minister McKenna announces $10M to improve early extreme weather warning systems." title="Minister McKenna announces $10M to improve early extreme weather warning systems." class="img-responsive"></a></li>
+                        <li><a class="feed-flickr" href="javascript:;" data-flickr="{&quot;title&quot;:&quot;Minister McKenna meets with Perry Bellegarde, National Chief of the Assembly of First Nations (Canada&quot;,&quot;thumbnail&quot;:&quot;https://farm1.staticflickr.com/690/23649012746_59d68898f4_s.jpg&quot;,&quot;image&quot;:&quot;https://farm1.staticflickr.com/690/23649012746_59d68898f4.jpg&quot;,&quot;description&quot;:&quot; <p>On December 8, 2015, Minister McKenna reports as facilitator to COP21 plenary on Cooperative Approaches and Mechanisms.</p>&quot;}"><img src="https://farm1.staticflickr.com/690/23649012746_59d68898f4_s.jpg" alt="Minister McKenna meets with Perry Bellegarde, National Chief of the Assembly of First Nations (Canada" title="Minister McKenna meets with Perry Bellegarde, National Chief of the Assembly of First Nations (Canada" class="img-responsive"></a></li>
+                        <li><a class="feed-flickr" href="javascript:;" data-flickr="{&quot;title&quot;:&quot;On December 6, 2015, Minister McKenna met with her provincial and territorial counterparts in Paris to discuss the COP21 negotiations as well as domestic climate change issues.&quot;,&quot;thumbnail&quot;:&quot;https://farm6.staticflickr.com/5700/23272776240_3c7f00f7fc_s.jpg&quot;,&quot;image&quot;:&quot;https://farm6.staticflickr.com/5700/23272776240_3c7f00f7fc.jpg&quot;,&quot;description&quot;:&quot; <p>On December 6, 2015, Minister McKenna met with her provincial and territorial counterparts in Paris to discuss the COP21 negotiations as well as domestic climate change issues.<br /> <br /> Back row, left to right:<br /> • The Hon. Glen Murray – Minister, Environment and Climate Change, Government of Ontario<br /> • The Hon. David Heurtel – Minister of Sustainable Development, Environment and the Fight against Climate Change, Government of Québec<br /> • The Hon. Herb Cox – Minister of Environment and Parks, Government of Saskatchewan<br /> • The Hon. Randy Michael Delorey – Minister of Environment, Government of Nova Scotia<br /> • The Hon. Mary Ruth Polak – Minister of the Environment, Government of British Columbia<br /> <br /> Front row, left to right:<br /> • The Hon. Shannon Rosella Phillips – Minister of Environment and Parks, Government of Alberta<br /> • The Hon. Catherine McKenna – Minister of Environment and Climate Change, Government of Canada<br /> • The Hon. Thomas George Nevakshonoff – Minister of Conservation and Water Stewardship, Government of Manitoba</p>&quot;}"><img src="https://farm6.staticflickr.com/5700/23272776240_3c7f00f7fc_s.jpg" alt="On December 6, 2015, Minister McKenna met with her provincial and territorial counterparts in Paris to discuss the COP21 negotiations as well as domestic climate change issues." title="On December 6, 2015, Minister McKenna met with her provincial and territorial counterparts in Paris to discuss the COP21 negotiations as well as domestic climate change issues." class="img-responsive"></a></li>
+                        <li><a class="feed-flickr" href="javascript:;" data-flickr="{&quot;title&quot;:&quot;Minister of Environment and Climate Change the Honourable Catherine McKenna, with her provincial counterpart, the Alberta’s Minister of Environment and Parks, the Honourable Shannon Phillips, at the Alberta’s Legislature Building in Edmonton.&quot;,&quot;thumbnail&quot;:&quot;https://farm1.staticflickr.com/630/22730275557_373dc92305_s.jpg&quot;,&quot;image&quot;:&quot;https://farm1.staticflickr.com/630/22730275557_373dc92305.jpg&quot;,&quot;description&quot;:&quot; <p><a href=\&quot;http://news.gc.ca/web/article-en.do?nid=1021109\&quot; rel=\&quot;nofollow\&quot;>Minister of Environment and Climate Change the Honourable Catherine McKenna, with her provincial counterpart, the Alberta’s Minister of Environment and Parks, the Honourable Shannon Phillips, at the Alberta’s Legislature Building in Edmonton.</a></p>&quot;}"><img src="https://farm1.staticflickr.com/630/22730275557_373dc92305_s.jpg" alt="Minister of Environment and Climate Change the Honourable Catherine McKenna, with her provincial counterpart, the Alberta’s Minister of Environment and Parks, the Honourable Shannon Phillips, at the Alberta’s Legislature Building in Edmonton." title="Minister of Environment and Climate Change the Honourable Catherine McKenna, with her provincial counterpart, the Alberta’s Minister of Environment and Parks, the Honourable Shannon Phillips, at the Alberta’s Legislature Building in Edmonton." class="img-responsive"></a></li>
+                        <li><a class="feed-flickr" href="javascript:;" data-flickr="{&quot;title&quot;:&quot;Minister of Environment and Climate Change, the Honourable Catherine McKenna, meets with Edmonton Mayor Don Iveson to discuss environmental priorities for the City.&quot;,&quot;thumbnail&quot;:&quot;https://farm1.staticflickr.com/666/22828548000_1b57aaf4c2_s.jpg&quot;,&quot;image&quot;:&quot;https://farm1.staticflickr.com/666/22828548000_1b57aaf4c2.jpg&quot;,&quot;description&quot;:&quot; <p><a href=\&quot;http://news.gc.ca/web/article-en.do?nid=1021109\&quot; rel=\&quot;nofollow\&quot;>Minister of Environment and Climate Change, the Honourable Catherine McKenna, meets with Edmonton Mayor Don Iveson to discuss environmental priorities for the City.</a></p>&quot;}"><img src="https://farm1.staticflickr.com/666/22828548000_1b57aaf4c2_s.jpg" alt="Minister of Environment and Climate Change, the Honourable Catherine McKenna, meets with Edmonton Mayor Don Iveson to discuss environmental priorities for the City." title="Minister of Environment and Climate Change, the Honourable Catherine McKenna, meets with Edmonton Mayor Don Iveson to discuss environmental priorities for the City." class="img-responsive"></a></li>
+                        <li><a class="feed-flickr" href="javascript:;" data-flickr="{&quot;title&quot;:&quot;Minister McKenna concludes her first successful international meeting at Pre-COP in Paris&quot;,&quot;thumbnail&quot;:&quot;https://farm1.staticflickr.com/700/22509654458_760836aeb9_s.jpg&quot;,&quot;image&quot;:&quot;https://farm1.staticflickr.com/700/22509654458_760836aeb9.jpg&quot;,&quot;description&quot;:&quot; &quot;}"><img src="https://farm1.staticflickr.com/700/22509654458_760836aeb9_s.jpg" alt="Minister McKenna concludes her first successful international meeting at Pre-COP in Paris" title="Minister McKenna concludes her first successful international meeting at Pre-COP in Paris" class="img-responsive"></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
+   </section>
+   <div class="col-md-4">
+      <section class="col-md-12">
+         <h2>Watch</h2>
+         <figure class="wb-mltmd wb-init wb-mltmd-inited video youtube" data-wb-mltmd="{&quot;shareUrl&quot;: &quot;http://www.youtube.com/watch?v=9znKJqnFuuY&quot;}" id="wb-auto-8">
+            <div class="wb-share wb-share-inited" data-wb-share="{&quot;type&quot;: &quot;video&quot;, &quot;title&quot;: &quot;Suspect&quot;, &quot;url&quot;: &quot;http://www.youtube.com/watch?v=9znKJqnFuuY&quot;, &quot;pnlId&quot;: &quot;wb-auto-8-shr&quot;}" id="wb-auto-18">
+               <section id="shr-pg-wb-auto-8-shr" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+                  <header class="modal-header">
+                     <h2 class="modal-title">Share this video</h2>
+                  </header>
+                  <div class="modal-body">
+                     <ul class="list-unstyled colcount-xs-2">
+                        <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                        <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY&amp;n=Suspect" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                        <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY&amp;title=Suspect" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                        <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY&amp;title=Suspect" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                        <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY&amp;title=Suspect" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                        <li><a href="mailto:?to=&amp;subject=Suspect&amp;body=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY%0A" class="shr-lnk email btn btn-default" target="_blank">Email</a></li>
+                        <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY&amp;t=Suspect" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                        <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=Suspect&amp;body=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                        <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY&amp;hl=en" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                        <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY&amp;title=Suspect&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                        <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY&amp;t=Suspect" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                        <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY&amp;media=&amp;description=Suspect" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                        <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY&amp;title=Suspect" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                        <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY&amp;title=Suspect" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                        <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY&amp;name=Suspect&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                        <li><a href="http://twitter.com/home?status=Suspect%20http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                        <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=Suspect&amp;body=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9znKJqnFuuY%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+                     </ul>
+                     <p class="col-sm-12 shr-dscl">No endorsement of any products or services is expressed or implied.</p>
+                     <div class="clearfix"></div>
+                  </div>
+               </section>
+               <a href="#shr-pg-wb-auto-8-shr" aria-controls="shr-pg-wb-auto-8-shr" class="shr-opn wb-lbx  wb-lbx-inited wb-init" id="wb-auto-19"><span class="glyphicon glyphicon-share"></span>Share this video</a></div>
+            <div class="display">
+               <iframe title="YouTube video player" id="wb-auto-8-md" frameborder="0" allowfullscreen="1" width="640" height="360" src="https://www.youtube.com/embed/9znKJqnFuuY?autoplay=0&amp;controls=0&amp;origin=http%3A%2F%2Fwet-boew.github.io&amp;modestbranding=1&amp;rel=0&amp;showinfo=0&amp;html5=1&amp;cc_load_policy=1&amp;widget_referrer=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Findex-en.html&amp;enablejsapi=1" tabindex="-1" style="height: 185px;"></iframe>
+            </div>
+            
+            <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html --> 
+            <!-- DataAjaxFragmentStart -->
+            <div class="wb-mm-cc">&nbsp;</div>
+            <div class="wb-mm-ctrls">
+               <div class="frstpnl">
+                  <div class="btn-group">
+                     <button type="button" class="btn btn-default playpause" aria-controls="wb-auto-8-md" title="Play" data-state-on="Play" data-state-off="Pause"><span class="glyphicon glyphicon-play"><span class="wb-inv">Play</span></span></button>
+                     <button type="button" class="btn btn-default mute" aria-controls="wb-auto-8-md" title="Mute" data-state-on="Mute" data-state-off="Unmute" aria-pressed="false"><span class="glyphicon glyphicon-volume-up"><span class="wb-inv">Mute</span></span></button>
+                     <input type="range" class="volume" aria-controls="wb-auto-8-md" title="Volume" min="0" max="100" value="100" step="5">
+                  </div>
+               </div>
+               <div class="tline">
+                  <div class="wb-mm-txtonly">
+                     <p class="wb-mm-tmln-crrnt"><span class="wb-inv">Current position:</span><span>00:00:00</span></p>
+                     <p class="wb-mm-tmln-ttl"><span class="wb-inv">Total time:</span><span>00:00:32</span></p>
+                  </div>
+                  <div class="wb-mm-prgrss">
+                     <progress tabindex="0" aria-live="off" max="100" value="0"></progress>
+                  </div>
+               </div>
+               <div class="lastpnl">
+                  <div class="btn-group">
+                     <button type="button" class="btn btn-default cc" aria-controls="wb-auto-8-md" title="Show closed captioning" data-state-on="Show closed captioning" data-state-off="Hide closed captioning" aria-pressed="false"><span class="glyphicon glyphicon-subtitles"><span class="wb-inv">Show closed captioning</span></span></button>
+                  </div>
+               </div>
+            </div>
+            <!-- DataAjaxFragmentEnd -->
+            
+            <figcaption>
+               <p>Suspect</p>
+            </figcaption>
+         </figure>
+      </section>
+      <section class="col-md-12">
+         <h2>Listen</h2>
+         <figure class="wb-mltmd wb-init wb-mltmd-inited audio" data-wb-mltmd="{&quot;shareUrl&quot;: &quot;http://www.archive.org/download/RideOfTheValkyries/ride_of_the_valkyries_2.mp3&quot;}" id="wb-auto-9">
+            <div class="wb-share wb-share-inited wb-init" data-wb-share="{&quot;type&quot;: &quot;audio&quot;, &quot;title&quot;: &quot;Ride of the Valkyries&quot;, &quot;url&quot;: &quot;http://www.archive.org/download/RideOfTheValkyries/ride_of_the_valkyries_2.mp3&quot;, &quot;pnlId&quot;: &quot;wb-auto-9-shr&quot;}" id="wb-auto-14">
+               <section id="shr-pg-wb-auto-9-shr" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+                  <header class="modal-header">
+                     <h2 class="modal-title">Share this audio file</h2>
+                  </header>
+                  <div class="modal-body">
+                     <ul class="list-unstyled colcount-xs-2">
+                        <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                        <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3&amp;n=Ride%20of%20the%20Valkyries" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                        <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3&amp;title=Ride%20of%20the%20Valkyries" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                        <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3&amp;title=Ride%20of%20the%20Valkyries" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                        <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3&amp;title=Ride%20of%20the%20Valkyries" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                        <li><a href="mailto:?to=&amp;subject=Ride%20of%20the%20Valkyries&amp;body=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3%0A" class="shr-lnk email btn btn-default" target="_blank">Email</a></li>
+                        <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3&amp;t=Ride%20of%20the%20Valkyries" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                        <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=Ride%20of%20the%20Valkyries&amp;body=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                        <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3&amp;hl=en" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                        <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3&amp;title=Ride%20of%20the%20Valkyries&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                        <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3&amp;t=Ride%20of%20the%20Valkyries" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                        <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3&amp;media=&amp;description=Ride%20of%20the%20Valkyries" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                        <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3&amp;title=Ride%20of%20the%20Valkyries" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                        <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3&amp;title=Ride%20of%20the%20Valkyries" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                        <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3&amp;name=Ride%20of%20the%20Valkyries&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                        <li><a href="http://twitter.com/home?status=Ride%20of%20the%20Valkyries%20http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                        <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=Ride%20of%20the%20Valkyries&amp;body=http%3A%2F%2Fwww.archive.org%2Fdownload%2FRideOfTheValkyries%2Fride_of_the_valkyries_2.mp3%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+                     </ul>
+                     <p class="col-sm-12 shr-dscl">No endorsement of any products or services is expressed or implied.</p>
+                     <div class="clearfix"></div>
+                  </div>
+               </section>
+               <a href="#shr-pg-wb-auto-9-shr" aria-controls="shr-pg-wb-auto-9-shr" class="shr-opn wb-lbx  wb-lbx-inited wb-init" id="wb-auto-15"><span class="glyphicon glyphicon-share"></span>Share this audio file</a></div>
+            <div class="display">
+               <audio title="Ride of the Valkyries" id="wb-auto-9-md">
+                  <source src="http://www.archive.org/download/RideOfTheValkyries/ride_of_the_valkyries_2.mp3" type="audio/mp3">
+                  <source src="http://www.archive.org/download/RideOfTheValkyries/ride_of_the_valkyries_2.ogg" type="audio/ogg">
+               </audio>
+            </div>
+            
+            <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html --> 
+            <!-- DataAjaxFragmentStart -->
+            <div class="wb-mm-cc">&nbsp;</div>
+            <div class="wb-mm-ctrls">
+               <div class="frstpnl">
+                  <div class="btn-group">
+                     <button type="button" class="btn btn-default playpause" aria-controls="wb-auto-9-md" title="Play" data-state-on="Play" data-state-off="Pause"><span class="glyphicon glyphicon-play"><span class="wb-inv">Play</span></span></button>
+                     <button type="button" class="btn btn-default mute" aria-controls="wb-auto-9-md" title="Mute" data-state-on="Mute" data-state-off="Unmute" aria-pressed="false"><span class="glyphicon glyphicon-volume-up"><span class="wb-inv">Mute</span></span></button>
+                     <input type="range" class="volume" aria-controls="wb-auto-9-md" title="Volume" min="0" max="100" value="100" step="5">
+                  </div>
+               </div>
+               <div class="tline">
+                  <div class="wb-mm-txtonly">
+                     <p class="wb-mm-tmln-crrnt"><span class="wb-inv">Current position:</span><span>00:00:00</span></p>
+                     <p class="wb-mm-tmln-ttl"><span class="wb-inv">Total time:</span><span>00:04:06</span></p>
+                  </div>
+                  <div class="wb-mm-prgrss">
+                     <progress tabindex="0" aria-live="off" max="100" value="0"></progress>
+                  </div>
+               </div>
+               <div class="lastpnl">
+                  <div class="btn-group">
+                     <button type="button" class="btn btn-default cc" aria-controls="wb-auto-9-md" title="Show closed captioning" data-state-on="Show closed captioning" data-state-off="Hide closed captioning" aria-pressed="false"><span class="glyphicon glyphicon-subtitles"><span class="wb-inv">Show closed captioning</span></span></button>
+                  </div>
+               </div>
+            </div>
+            <!-- DataAjaxFragmentEnd -->
+            
+            <figcaption>
+               <p>Ride of the Valkyries</p>
+            </figcaption>
+         </figure>
+      </section>
+   </div>
+</div>
+<section class="gc-prtts">
+   <h2>Features</h2>
+   <div class="row">
+      <section class="col-lg-4 col-md-6 mrgn-bttm-md"> <a href="#">
+         <h3 class="h5">[Feature hyperlink text]</h3>
+         <img src="./img/360x203.png" alt="" class="img-responsive thumbnail mrgn-bttm-sm"> </a>
+         <p>Brief description of the feature being promoted.</p>
+      </section>
+      <section class="col-lg-4 col-md-6 mrgn-bttm-md"> <a href="#">
+         <h3 class="h5">[Feature hyperlink text]</h3>
+         <img src="./img/360x203.png" alt="" class="img-responsive thumbnail mrgn-bttm-sm"> </a>
+         <p>Brief description of the feature being promoted.</p>
+      </section>
+      <section class="col-lg-4 col-md-6 mrgn-bttm-md"> <a href="#">
+         <h3 class="h5">[Feature hyperlink text]</h3>
+         <img src="./img/360x203.png" alt="" class="img-responsive thumbnail mrgn-bttm-sm"> </a>
+         <p>Brief description of the feature being promoted.</p>
+      </section>
+   </div>
+</section>
+<div class="row pagedetails">
+   <div class="col-sm-5 col-xs-12 datemod">
+      <dl id="wb-dtmd">
+         <dt>Date modified: </dt>
+         <dd>
+            <time property="dateModified">2014-10-22</time>
+         </dd>
+      </dl>
+   </div>
+   <div class="clear visible-xs"></div>
+   <div class="col-sm-4 col-xs-6"> <a href="http://www.canada.ca/en/contact/feedback.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a> </div>
+   <div class="col-sm-3 col-xs-6 text-right">
+      <div class="wb-share wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default&quot;}" id="wb-auto-10">
+         <section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+            <header class="modal-header">
+               <h2 class="modal-title">Share this page</h2>
+            </header>
+            <div class="modal-body">
+               <ul class="list-unstyled colcount-xs-2">
+                  <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                  <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html&amp;n=Campaign%20name%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                  <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html&amp;title=Campaign%20name%20-%20Canada.ca" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                  <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html&amp;title=Campaign%20name%20-%20Canada.ca" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                  <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html&amp;title=Campaign%20name%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                  <li><a href="mailto:?to=&amp;subject=Campaign%20name%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html%0A" class="shr-lnk email btn btn-default" target="_blank">Email</a></li>
+                  <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html&amp;t=Campaign%20name%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                  <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=Campaign%20name%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html&amp;hl=en" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                  <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html&amp;title=Campaign%20name%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                  <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html&amp;t=Campaign%20name%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                  <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html&amp;media=&amp;description=Campaign%20name%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                  <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html&amp;title=Campaign%20name%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                  <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html&amp;title=Campaign%20name%20-%20Canada.ca" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                  <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html&amp;name=Campaign%20name%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                  <li><a href="http://twitter.com/home?status=Campaign%20name%20-%20Canada.ca%20http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                  <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=Campaign%20name%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fcampaign-en.html%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+               </ul>
+               <p class="col-sm-12 shr-dscl">No endorsement of any products or services is expressed or implied.</p>
+               <div class="clearfix"></div>
+            </div>
+         </section>
+         <a href="#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default wb-lbx-inited wb-init" id="wb-auto-11"><span class="glyphicon glyphicon-share"></span>Share this page</a></div>
+   </div>
+   <div class="clear visible-xs"></div>
+</div>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
