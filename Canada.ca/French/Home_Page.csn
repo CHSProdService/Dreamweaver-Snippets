@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Home Page" description="http://wet-boew.github.io/themes-dist/GCWeb/home-fr.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<aside class="prm-flpr">
+   <div class="row">
+      <h2 class="wb-inv">Promotions</h2>
+      <div class="wb-tabs carousel-s2 show-thumbs playing slow wb-init wb-tabs-inited" id="wb-auto-1">
+         <ul role="tablist" aria-live="off">
+            <li class="control prv"><a class="prv" href="javascript:;" role="button" title="Précédent"><span class="glyphicon glyphicon-chevron-left"></span><span class="wb-inv">Précédent</span></a></li>
+            <li class="control  tab-count" tabindex="0">
+               <div>Article
+                  <div class="curr-count"><span class="curr-index">1</span> de 3</div>
+               </div>
+            </li>
+            <li class="control nxt"><a class="nxt" href="javascript:;" role="button" title="Suivant"><span class="glyphicon glyphicon-chevron-right"></span><span class="wb-inv">Suivant</span></a></li>
+            <li class="active" role="presentation"> <a href="#tab1" tabindex="0" role="tab" aria-selected="true" aria-controls="tab1" id="tab1-lnk"><img src="./img/promos/1170x347-1.png" alt=""><span class="wb-inv">Languette 1 : Parc national Banff</span></a> </li>
+            <li role="presentation"> <a href="#tab2" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab2" id="tab2-lnk"><img src="./img/promos/1170x347-1.png" alt=""><span class="wb-inv">Languette 2 : Parc Provincial Algonquin</span></a> </li>
+            <li role="presentation"> <a href="#tab3" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab3" id="tab3-lnk"><img src="./img/promos/1170x347-1.png" alt=""><span class="wb-inv">Languette 3 : Canal Rideau</span></a> </li>
+            <li class="control plypause"><a class="plypause" href="javascript:;" role="button" title="Pause"><span class="glyphicon glyphicon-pause"></span> <span>Pause</span><span class="wb-inv"> -  Arrêter la rotation d'onglets</span></a></li>
+         </ul>
+         <div class="tabpanels">
+            <div role="tabpanel" id="tab1" class="in fade" tabindex="-1" aria-hidden="false" aria-expanded="true" aria-labelledby="tab1-lnk"> <a href="#" class="learnmore">
+               <figure> <img src="./img/promos/1170x347-1.png" alt="">
+                  <figcaption>
+                     <p> Parc national Banff</p>
+                  </figcaption>
+               </figure>
+               </a> </div>
+            <div role="tabpanel" id="tab2" class="out fade" tabindex="-1" aria-hidden="true" aria-expanded="false" aria-labelledby="tab2-lnk"> <a href="#" class="learnmore">
+               <figure> <img src="./img/promos/1170x347-2.png" alt="">
+                  <figcaption>
+                     <p> Parc Provincial Algonquin</p>
+                  </figcaption>
+               </figure>
+               </a> </div>
+            <div role="tabpanel" id="tab3" class="out fade" tabindex="-1" aria-hidden="true" aria-expanded="false" aria-labelledby="tab3-lnk"> <a href="#" class="learnmore">
+               <figure> <img src="./img/promos/1170x347-3.png" alt="">
+                  <figcaption>
+                     <p> Canal Rideau</p>
+                  </figcaption>
+               </figure>
+               </a> </div>
+         </div>
+      </div>
+   </div>
+</aside>
+<h1 property="name" id="wb-cont" class="wb-inv">Bienvenue au site Canada.ca</h1>
+<section>
+   <div class="row">
+      <div class="col-md-12">
+         <h2 class="h1">Services et renseignements les plus demandés</h2>
+         <p class="pagetag">Accédez rapidement et facilement aux services et aux renseignements les plus demandés du gouvernement du Canada.</p>
+      </div>
+   </div>
+   <div class="wb-eqht row wb-init wb-eqht-inited" id="wb-auto-2">
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 224px;">
+         <h3 class="h5"><a href="http://www.esdc.gc.ca/fr/emplois/opportunites/index.page?" rel="external">Trouver un emploi</a></h3>
+         <p>Trouvez des possibilités d’emploi et des programmes d’embauche dans les secteurs public et privé, demandez ou prolongez un permis de travail, obtenez un numéro d’assurance sociale, une vérification du casier judiciaire ou une vérification de sécurité.</p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 224px;">
+         <h3 class="h5"><a href="http://wwww.canada.ca/fr/services/prestations/ae/index.html">Assurance-emploi</a></h3>
+         <p>Renseignements sur les prestations temporaires d’assurance-emploi pour les travailleurs, les prestations de maladie, les prestations de pêcheur, les prestations en lien avec la situation familiale, ainsi que la marche à suivre pour présenter une demande en ligne et faire une déclaration.</p>
+      </section>
+      <div class="clearfix visible-md" style="vertical-align: top; min-height: 1px;"></div>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 225px;">
+         <h3 class="h5"><a href="http://www.cra-arc.gc.ca/esrvc-srvce/tx/ndvdls/myccnt/menu-fra.html" rel="external">Mon dossier pour les particuliers – Agence du revenu du Canada</a></h3>
+         <p>Renseignements sur le fonctionnement du service, la façon de vous inscrire et ce que vous pouvez faire en ligne.</p>
+      </section>
+      <div class="clearfix visible-lg" style="vertical-align: top; min-height: 225px;"></div>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 178px;">
+         <h3 class="h5"><a href="http://www.servicecanada.gc.ca/fra/services/pensions/rpc/retraite/index.shtml" rel="external">Régime de pensions du Canada</a></h3>
+         <p>Renseignements sur les critères d’admissibilité, sur le choix du moment où vous commencerez à recevoir votre pension, sur la façon de présenter une demande en ligne et sur les montants auxquels vous aurez droit.</p>
+      </section>
+      <div class="clearfix visible-md" style="vertical-align: top; min-height: 1px;"></div>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 178px;">
+         <h3 class="h5"><a href="http://www.servicecanada.gc.ca/fra/services/pensions/sv/pension/index.shtml" rel="external">Pension de la Sécurité de la vieillesse</a></h3>
+         <p>Renseignements sur une pension que vous pouvez recevoir si vous avez 65 ans ou plus et que vous avez habité au Canada pendant au moins 10&nbsp;ans (même si vous n’y avez jamais travaillé).</p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 178px;">
+         <h3 class="h5"><a href="http://www.cic.gc.ca/francais/residents/passeport.asp" rel="external">Obtenir un passeport</a></h3>
+         <p>Demandes de passeport, bureaux des passeports et délais de traitement pour les renouvellements et les nouvelles demandes.</p>
+      </section>
+      <div class="clearfix visible-md visible-lg" style="vertical-align: top; min-height: 178px;"></div>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 178px;">
+         <h3 class="h5"><a href="http://meteo.gc.ca/?&amp;wb48617274=AAB6929C" rel="external">Renseignements météorologiques</a></h3>
+         <p>Renseignements sur les conditions actuelles, les prévisions à court et long terme et les alertes météo publiques, accès aux prévisions maritimes, à la Cote air santé et aux données climatiques historiques.</p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 178px;">
+         <h3 class="h5"><a href="http://www.forces.ca/fr/home" rel="external">S'enrôler dans les Forces armées canadiennes</a></h3>
+         <p>Renseignements sur les emplois dans les Forces armées canadiennes, la rémunération, les avantages sociaux et l’emplacement des centres de recrutement.</p>
+      </section>
+      <div class="clearfix visible-md" style="vertical-align: top; min-height: 1px;"></div>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 180px;">
+         <h3 class="h5"><a href="http://www.entreprisescanada.ca/fra/page/2865/" rel="external">Planification d’entreprise</a></h3>
+         <p>Des listes de contrôle et des guides sur le démarrage d’entreprise, des conseils utiles ainsi que des modèles et des exemples de plans d’affaires.</p>
+      </section>
+      <div class="clearfix visible-lg" style="vertical-align: top; min-height: 180px;"></div>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 177px;">
+         <h3 class="h5"><a href="#" rel="external">Aînés</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+      </section>
+      <div class="clearfix visible-md" style="vertical-align: top; min-height: 1px;"></div>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 178px;">
+         <h3 class="h5"><a href="#" rel="external">Autochtones</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 178px;">
+         <h3 class="h5"><a href="#">Anciens combattants</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+      </section>
+   </div>
+   <div class="row margin-top-large">
+      <p class="col-md-12 text-right learnmore"><strong><a href="http://www.canada.ca/fr/services/index.html">Tous les services</a></strong></p>
+   </div>
+</section>
+<div class="row mrgn-tp-lg">
+   <div class="col-md-12">
+      <figure> <a href="http://www1.canada.ca/blogue/"> <img alt="Visitez notre blogue, au courant" src="https://www.canada.ca/content/canadasite/assets/canada/blog-lg_e.jpg" class="img-responsive"> </a>
+         <figcaption> Restez à l’affût des nouvelles fonctions et des progrès du site Canada.ca&nbsp;: visitez notre blogue, <a href="http://www1.canada.ca/blogue/">Au courant</a>. </figcaption>
+      </figure>
+   </div>
+</div>
+<div class="row pagedetails">
+   <div class="col-sm-5 col-xs-12 datemod">
+      <dl id="wb-dtmd">
+         <dt>Date de modification&nbsp;: </dt>
+         <dd>
+            <time property="dateModified">2014-02-19</time>
+         </dd>
+      </dl>
+   </div>
+   <div class="clear visible-xs"></div>
+   <div class="col-sm-4 col-xs-6"> <a href="http://www.canada.ca/fr/contact/retroaction.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Rétroaction<span class="wb-inv"> sur ce site Web</span></a> </div>
+   <div class="col-sm-3 col-xs-6 text-right">
+      <div class="wb-share wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default&quot;}" id="wb-auto-3">
+         <section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+            <header class="modal-header">
+               <h2 class="modal-title">Partagez cette page</h2>
+            </header>
+            <div class="modal-body">
+               <ul class="list-unstyled colcount-xs-2">
+                  <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                  <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html&amp;n=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                  <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html&amp;title=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                  <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html&amp;title=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                  <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html&amp;title=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                  <li><a href="mailto:?to=&amp;subject=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html%0A" class="shr-lnk email btn btn-default" target="_blank">Courriel</a></li>
+                  <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html&amp;t=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                  <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html&amp;hl=fr" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                  <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html&amp;title=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                  <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html&amp;t=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                  <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html&amp;media=&amp;description=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                  <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html&amp;title=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                  <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html&amp;title=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                  <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html&amp;name=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                  <li><a href="http://twitter.com/home?status=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca%20http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                  <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=Bienvenue%20au%20site%20Canada.ca%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fhome-fr.html%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+               </ul>
+               <p class="col-sm-12 shr-dscl">Aucun appui n’est accordé, soit de façon expresse ou tacite, à aucun produit ou service.</p>
+               <div class="clearfix"></div>
+            </div>
+         </section>
+         <a href="#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default wb-lbx-inited wb-init" id="wb-auto-4"><span class="glyphicon glyphicon-share"></span>Partagez cette page</a></div>
+   </div>
+   <div class="clear visible-xs"></div>
+</div>
+<aside class="gc-nttvs container">
+   <h2>Activités et initiatives du gouvernement du Canada</h2>
+   <div class="wb-eqht row wb-init">
+      <section class="col-lg-4 col-md-6 mrgn-bttm-md" style="vertical-align: top; min-height: 238px;"> <a rel="external" href="#">
+         <h3 class="h5">[Texte de l’hyperlien d’activités et initiatives]</h3>
+         <img class="img-responsive thumbnail mrgn-bttm-sm" src="./img/features/355x113.png" alt=""> </a>
+         <p>Brève description de l’initiative, la tâche ou des renseignements en promotion.</p>
+      </section>
+      <section class="col-lg-4 col-md-6 mrgn-bttm-md" style="vertical-align: top; min-height: 238px;"> <a rel="external" href="#">
+         <h3 class="h5">[Texte de l’hyperlien d’activités et initiatives]</h3>
+         <img class="img-responsive thumbnail mrgn-bttm-sm" src="./img/features/355x113.png" alt=""> </a>
+         <p>Brève description de l’initiative, la tâche ou des renseignements en promotion.</p>
+      </section>
+      <section class="col-lg-4 col-md-6 mrgn-bttm-md" style="vertical-align: top; min-height: 238px;"> <a rel="external" href="#">
+         <h3 class="h5">[Texte de l’hyperlien d’activités et initiatives]</h3>
+         <img class="img-responsive thumbnail mrgn-bttm-sm" src="./img/features/355x113.png" alt=""> </a>
+         <p>Brève description de l’initiative, la tâche ou des renseignements en promotion.</p>
+      </section>
+   </div>
+   <div id="gcwb_prts" class="wb-eqht row wb-init">
+      <section class="col-lg-4 col-md-6 mrgn-bttm-md" style="vertical-align: top; min-height: 238px;"> <a rel="external" href="#">
+         <h3 class="h5">[Texte de l’hyperlien d’activités et initiatives]</h3>
+         <img class="img-responsive thumbnail mrgn-bttm-sm" src="./img/features/355x113.png" alt=""> </a>
+         <p>Brève description de l’initiative, la tâche ou des renseignements en promotion.</p>
+      </section>
+      <section class="col-lg-4 col-md-6 mrgn-bttm-md" style="vertical-align: top; min-height: 238px;"> <a rel="external" href="#">
+         <h3 class="h5">[Texte de l’hyperlien d’activités et initiatives]</h3>
+         <img class="img-responsive thumbnail mrgn-bttm-sm" src="./img/features/355x113.png" alt=""> </a>
+         <p>Brève description de l’initiative, la tâche ou des renseignements en promotion.</p>
+      </section>
+      <section class="col-lg-4 col-md-6 mrgn-bttm-md" style="vertical-align: top; min-height: 238px;"> <a rel="external" href="#">
+         <h3 class="h5">[Texte de l’hyperlien d’activités et initiatives]</h3>
+         <img class="img-responsive thumbnail mrgn-bttm-sm" src="./img/features/355x113.png" alt=""> </a>
+         <p>Brève description de l’initiative, la tâche ou des renseignements en promotion.</p>
+      </section>
+   </div>
+</aside>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

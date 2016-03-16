@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Blog" description="http://wet-boew.github.io/themes-dist/GCWeb/blog-fr.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<h1 property="name" id="wb-cont">Au courant : Canada.ca</h1>
+<p class="pagetag">Demeurez à l’affût des nouvelles caractéristiques et des progrès réalisés sur Canada.ca en lisant nos mises à jour où vous pouvez également nous laisser vos commentaires. De plus, vous pouvez nous faire part de ce que vous pensez du site Web en remplissant le <a href="http://www.canada.ca/fr/contact/retroaction.html">formulaire de rétroaction</a>.</p>
+<div class="row">
+   <div class="col-md-8 blog zbra">
+      <div class="mrgn-bttm-lg"> <img src="http://www.canada.ca/blogue/mediaresource/1cafa6b9-538c-4e99-839e-2add2a4567b7" class="img-responsive" alt="Au courant"> </div>
+      <section class="brdr-tp">
+         <div class="row">
+            <h2 class="col-md-9 mrgn-tp-md"><a href="http://www.canada.ca/blogue/anniversaire">Canada.ca célèbre son 1<sup>er</sup> anniversaire!</a></h2>
+            <div class="col-md-3 hidden-sm hidden-xs brdr-lft text-left"><a href="http://www.canada.ca/blogue/anniversaire#comments" class="mrgn-tp-md center-block no-undrln"><span class="glyphicon glyphicon-comment"></span>&nbsp;Commenter</a></div>
+         </div>
+         <div class="row">
+            <p class="pagetag col-md-12 small">décembre 19, 2014</p>
+         </div>
+         <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"> <a href="http://www.canada.ca/blogue/anniversaire"><img src="http://www.canada.ca/blogue/mediaresource/501e130f-90bd-440d-be51-43442874df0a?t=false" class="img-responsive thumbnail" alt=""></a> </div>
+            <p class="col-md-9 col-sm-12">Il y a un an, le site Canada.ca voyait le jour, et voyez tout ce que nous avons accompli! <br>
+               <a class="mrgn-tp-md mrgn-bttm-sm center-block col-md-12 col-xs-6" href="http://www.canada.ca/blogue/anniversaire"> Pour en savoir plus…</a><span class="col-xs-6 hidden-md hidden-lg text-right mrgn-tp-md"><a class="no-undrln" href="http://www.canada.ca/blogue/anniversaire#comments"><span class="glyphicon glyphicon-comment"></span>&nbsp;Commenter</a></span></p>
+         </div>
+      </section>
+      <section class="brdr-tp">
+         <div class="row">
+            <h2 class="col-md-9 mrgn-tp-md"><a href="http://www.canada.ca/blogue/citoyennet">Vivre – Travailler – Jouer – Canada!</a></h2>
+            <div class="col-md-3 hidden-sm hidden-xs brdr-lft text-left"><a href="http://www.canada.ca/blogue/citoyennet#comments" class="mrgn-tp-md center-block no-undrln"><span class="glyphicon glyphicon-comment"></span>&nbsp;Commenter</a></div>
+         </div>
+         <div class="row">
+            <p class="pagetag col-md-12 small">décembre 05, 2014</p>
+         </div>
+         <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"> <a href="http://www.canada.ca/blogue/citoyennet"><img src="http://www.canada.ca/blogue/mediaresource/8f12eabd-a205-41af-adf5-5a10505567c9?t=false" class="img-responsive thumbnail" alt=""></a> </div>
+            <p class="col-md-9 col-sm-12">Canada.ca est LE site à consulter pour toute personne à l’extérieur du Canada qui souhaite visiter le Canada, y étudier, y travailler ou même y vivre. Vous trouverez sous le thème <a href="http://www.cic.gc.ca/francais/index.asp">Immigration et citoyenneté</a> tous les renseignements dont vous avez besoin avant d’arriver dans notre beau pays. <br>
+               <a class="mrgn-tp-md mrgn-bttm-sm center-block col-md-12 col-xs-6" href="http://www.canada.ca/blogue/citoyennet"> Pour en savoir plus…</a><span class="col-xs-6 hidden-md hidden-lg text-right mrgn-tp-md"><a class="no-undrln" href="http://www.canada.ca/blogue/citoyennet#comments"><span class="glyphicon glyphicon-comment"></span>&nbsp;Commenter</a></span></p>
+         </div>
+      </section>
+      <section class="brdr-tp">
+         <div class="row">
+            <h2 class="col-md-9 mrgn-tp-md"><a href="http://www.canada.ca/blogue/transport">Avions, trains et automobiles… et bien sûr les navires!</a></h2>
+            <div class="col-md-3 hidden-sm hidden-xs brdr-lft text-left"><a href="http://www.canada.ca/blogue/transport#comments" class="mrgn-tp-md center-block no-undrln"><span class="glyphicon glyphicon-comment"></span>&nbsp;Commenter</a></div>
+         </div>
+         <div class="row">
+            <p class="pagetag col-md-12 small">novembre 21, 2014</p>
+         </div>
+         <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"> <a href="http://www.canada.ca/blogue/transport"><img src="http://www.canada.ca/blogue/mediaresource/46613856-c7e2-4fbd-86fd-c277ccfa881b?t=false" class="img-responsive thumbnail" alt=""></a> </div>
+            <p class="col-md-9 col-sm-12">Que vous soyez passager dans un avion ou que vous fassiez voler votre propre drone, Canada.ca vous indiquera la bonne direction! <br>
+               <a class="mrgn-tp-md mrgn-bttm-sm center-block col-md-12 col-xs-6" href="http://www.canada.ca/blogue/transport"> Pour en savoir plus…</a><span class="col-xs-6 hidden-md hidden-lg text-right mrgn-tp-md"><a class="no-undrln" href="http://www.canada.ca/blogue/transport#comments"><span class="glyphicon glyphicon-comment"></span>&nbsp;Commenter</a></span></p>
+         </div>
+      </section>
+      <section class="brdr-tp">
+         <div class="row">
+            <h2 class="col-md-9 mrgn-tp-md"><a href="http://www.canada.ca/blogue/governementouvert">Le gouvernement ouvert</a></h2>
+            <div class="col-md-3 hidden-sm hidden-xs brdr-lft text-left"><a href="http://www.canada.ca/blogue/governementouvert#comments" class="mrgn-tp-md center-block no-undrln"><span class="glyphicon glyphicon-comment"></span>&nbsp;Commenter</a></div>
+         </div>
+         <div class="row">
+            <p class="pagetag col-md-12 small">novembre 07, 2014</p>
+         </div>
+         <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"> <a href="http://www.canada.ca/blogue/governementouvert"><img src="http://www.canada.ca/blogue/mediaresource/3cf8d007-51e5-4545-8edc-c8f694e4ae3b?t=false" class="img-responsive thumbnail" alt=""></a> </div>
+            <p class="col-md-9 col-sm-12">Sur Canada.ca, vous pouvez désormais vous informer sur les activités associées à l’initiative pour un gouvernement ouvert. <br>
+               <a class="mrgn-tp-md mrgn-bttm-sm center-block col-md-12 col-xs-6" href="http://www.canada.ca/blogue/governementouvert"> Pour en savoir plus…</a><span class="col-xs-6 hidden-md hidden-lg text-right mrgn-tp-md"><a class="no-undrln" href="http://www.canada.ca/blogue/governementouvert#comments"><span class="glyphicon glyphicon-comment"></span>&nbsp;Commenter</a></span></p>
+         </div>
+      </section>
+   </div>
+   <div class="col-md-4 pull-right">
+      <div class="text-right mrgn-bttm-md">
+         <div class="wb-share wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default&quot;}" id="wb-auto-1">
+            <section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+               <header class="modal-header">
+                  <h2 class="modal-title">Partagez cette page</h2>
+               </header>
+               <div class="modal-body">
+                  <ul class="list-unstyled colcount-xs-2">
+                     <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                     <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html&amp;n=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                     <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html&amp;title=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                     <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html&amp;title=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                     <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html&amp;title=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                     <li><a href="mailto:?to=&amp;subject=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html%0A" class="shr-lnk email btn btn-default" target="_blank">Courriel</a></li>
+                     <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html&amp;t=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                     <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                     <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html&amp;hl=fr" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                     <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html&amp;title=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                     <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html&amp;t=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                     <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html&amp;media=&amp;description=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                     <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html&amp;title=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                     <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html&amp;title=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                     <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html&amp;name=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                     <li><a href="http://twitter.com/home?status=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca%20http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                     <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=Au%20courant%20%3A%20Canada.ca%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fblog-fr.html%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+                  </ul>
+                  <p class="col-sm-12 shr-dscl">Aucun appui n’est accordé, soit de façon expresse ou tacite, à aucun produit ou service.</p>
+                  <div class="clearfix"></div>
+               </div>
+            </section>
+            <a href="#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default wb-lbx-inited wb-init" id="wb-auto-2"><span class="glyphicon glyphicon-share"></span>Partagez cette page</a></div>
+      </div>
+      <section class="panel panel-default">
+         <div class="panel-heading">
+            <h2 class="panel-title">Récents articles de blogue</h2>
+         </div>
+         <div class="panel-body">
+            <ul>
+               <li><a href="http://www.canada.ca/blogue/anniversaire">Canada.ca célèbre son 1<sup>er</sup> anniversaire! </a></li>
+               <li><a href="http://www.canada.ca/blogue/citoyennet">Vivre – Travailler – Jouer – Canada!</a></li>
+               <li><a href="http://www.canada.ca/blogue/transport">Avions, trains et automobiles… et bien sûr les navires!</a></li>
+               <li><a href="http://www.canada.ca/blogue/governementouvert">Le gouvernement ouvert</a></li>
+               <li><a href="http://www.canada.ca/blogue/sante2">Un grand pas pour la santé!</a></li>
+            </ul>
+            <p><a href="http://www.canada.ca/blogue/">Tous les articles du blogue…</a></p>
+         </div>
+      </section>
+      <div class="alert alert-info">
+         <p><a href="http://www.canada.ca/blogue/page/normesdecommentaires">Politiques sur les commentaires</a></p>
+      </div>
+      <div class="alert alert-info">
+         <p><a href="http://www.canada.ca/fr/transparence/confidentialite.html">Confidentialité</a></p>
+      </div>
+   </div>
+</div>
+<div class="row pagedetails">
+   <div class="col-xs-6 datemod">
+      <dl id="wb-dtmd">
+         <dt>Date de modification&nbsp;: </dt>
+         <dd>
+            <time property="dateModified">2014-06-12</time>
+         </dd>
+      </dl>
+   </div>
+   <div class="col-xs-6 text-right"> <a href="http://www.canada.ca/fr/contact/retroaction.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Rétroaction<span class="wb-inv"> sur ce site Web</span></a> </div>
+</div>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

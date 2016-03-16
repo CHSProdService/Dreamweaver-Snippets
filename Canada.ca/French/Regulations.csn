@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Regulations" description="http://wet-boew.github.io/themes-dist/GCWeb/regulations-fr.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<h1 property="name" id="wb-cont">[Nom du règlement] <small>([NN-XX])</small></h1>
+<div class="wb-tabs wb-init wb-tabs-inited tabs-acc wb-eqht" id="wb-auto-1">
+   <ul role="tablist" aria-live="off" class="generated" aria-hidden="false" style="vertical-align: top; min-height: 45px;">
+      <li class="active" role="presentation"><a id="details-panel1-lnk" href="#details-panel1" tabindex="0" role="tab" aria-selected="true" aria-controls="details-panel1">À propos de cette loi</a></li>
+      <li role="presentation"><a id="details-panel2-lnk" href="#details-panel2" tabindex="-1" role="tab" aria-selected="false" aria-controls="details-panel2">Lire le texte de loi</a></li>
+      <li role="presentation"><a id="details-panel3-lnk" href="#details-panel3" tabindex="-1" role="tab" aria-selected="false" aria-controls="details-panel3">Changement législatif</a></li>
+   </ul>
+   <div class="tabpanels" style="vertical-align: top; min-height: 818px;">
+      <details id="details-panel1" open class="wb-auto-1-grp fade in" role="tabpanel" tabindex="-1" aria-hidden="false" aria-expanded="true" aria-labelledby="details-panel1-lnk">
+         <summary class="wb-toggle tgl-tab wb-init wb-toggle-inited" data-toggle="{&quot;parent&quot;: &quot;#wb-auto-1&quot;, &quot;group&quot;: &quot;.wb-auto-1-grp&quot;}" aria-hidden="true" id="wb-auto-2" role="tab" aria-selected="true" tabindex="0" aria-posinset="1" aria-setsize="3">À propos de cette loi</summary>
+         <div class="tgl-panel" aria-labelledby="wb-auto-2" aria-expanded="true" aria-hidden="false">
+            <p class="pagetag mrgn-tp-lg">Le [Nom du règlement] <small>([NN-XX])</small> lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ad soluta rem assumenda excepturi! Temporibus ipsa qui suscipit, quidem dolorem, veniam iusto quasi eos voluptate aliquam alias modi veritatis nesciunt, aliquid illum quos nemo cumque eius omnis tempore cum repellat. Mollitia vel id, non. Fuga non, consectetur ad sunt.</p>
+            <section>
+               <h2>Sujets connexes</h2>
+               <ul class="list-inline">
+                  <li><a href="#">[Sujet A],</a>,</li>
+                  <li><a href="#">[Sujet B],</a>,</li>
+                  <li><a href="#">[Sujet C]</a></li>
+               </ul>
+            </section>
+            <section>
+               <h2>Établissements connexes</h2>
+               <ul class="list-inline">
+                  <li><a href="#">[Établissement A],</a>,</li>
+                  <li><a href="#">[Établissement B],</a>,</li>
+                  <li><a href="#">[Établissement C]</a></li>
+               </ul>
+            </section>
+            <section>
+               <h2>Lois connexes</h2>
+               <ul class="list-inline">
+                  <li><a href="#">[Titre de la loi A],</a>,</li>
+                  <li><a href="#">[Titre de la loi B],</a>,</li>
+                  <li><a href="#">[Titre de la loi C]</a></li>
+               </ul>
+            </section>
+            <section>
+               <h2>Règlements connexes</h2>
+               <ul class="list-inline">
+                  <li><a href="#">[Règlement A],</a>,</li>
+                  <li><a href="#">[Règlement B],</a>,</li>
+                  <li><a href="#">[Règlement C]</a></li>
+               </ul>
+            </section>
+            <section>
+               <h2>Renseignements supplémentaires</h2>
+               <ul>
+                  <li><a href="#">Communiquer avec [nom de l'établissement]</a></li>
+                  <li><a href="#">Foire aux questions</a></li>
+                  <li><a href="#">Orientation</a></li>
+                  <li><a href="#">Renseignements sur la conformité et l’application de la loi</a></li>
+                  <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></li>
+                  <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></li>
+                  <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima architecto quis necessitatibus.</a></li>
+                  <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></li>
+                  <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima architecto quis necessitatibus.</a></li>
+               </ul>
+            </section>
+         </div>
+      </details>
+      <details id="details-panel2" class="wb-auto-1-grp fade noheight out" role="tabpanel" open tabindex="-1" aria-hidden="true" aria-expanded="false" aria-labelledby="details-panel2-lnk">
+         <summary class="wb-toggle tgl-tab wb-init wb-toggle-inited" data-toggle="{&quot;parent&quot;: &quot;#wb-auto-1&quot;, &quot;group&quot;: &quot;.wb-auto-1-grp&quot;}" aria-hidden="true" id="wb-auto-3" role="tab" aria-selected="true" tabindex="0" aria-posinset="2" aria-setsize="3">Lire le texte de loi</summary>
+         <div class="tgl-panel" aria-labelledby="wb-auto-3" aria-expanded="true" aria-hidden="false">
+            <p class="pagetag mrgn-tp-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, recusandae! Dolor aliquam, nostrum, velit inventore incidunt vero error at iste, sit, ut odit dignissimos ipsa sequi vel repellendus quis ratione esse debitis quas reiciendis minima eius quia! Necessitatibus molestiae eaque quia ullam ab. Deserunt, eveniet?</p>
+         </div>
+      </details>
+      <details id="details-panel3" class="wb-auto-1-grp fade noheight out" role="tabpanel" open tabindex="-1" aria-hidden="true" aria-expanded="false" aria-labelledby="details-panel3-lnk">
+         <summary class="wb-toggle tgl-tab wb-init wb-toggle-inited" data-toggle="{&quot;parent&quot;: &quot;#wb-auto-1&quot;, &quot;group&quot;: &quot;.wb-auto-1-grp&quot;}" aria-hidden="true" id="wb-auto-4" role="tab" aria-selected="true" tabindex="0" aria-posinset="3" aria-setsize="3">Changement législatif</summary>
+         <div class="tgl-panel" aria-labelledby="wb-auto-4" aria-expanded="true" aria-hidden="false">
+            <p class="pagetag mrgn-tp-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, recusandae! Dolor aliquam, nostrum, velit inventore incidunt vero error at iste, sit, ut odit dignissimos ipsa sequi vel repellendus quis ratione esse debitis quas reiciendis minima eius quia! Necessitatibus molestiae eaque quia ullam ab. Deserunt, eveniet?</p>
+            <div class="col-md-6">
+               <section class="panel panel-default">
+                  <header class="panel-heading">
+                     <h2 class="panel-title">Nouvelles, avis et amendements récents</h2>
+                  </header>
+                  <div class="panel-body">
+                     <section>
+                        <h3 class="h5 mrgn-tp-0">Amendements récents</h3>
+                        <ul class="lst-spcd">
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit Placeat</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit Recusandae id repellendus alias.</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                        </ul>
+                     </section>
+                     <section>
+                        <h3 class="h5">Gazette du Canada, Partie II</h3>
+                        <ul class="lst-spcd">
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat temporibus repellendus iusto cumque unde perspiciatis, quod illo.</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus!</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi molestiae, unde vitae.</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat adipisci libero distinctio sequi officiis provident tenetur ullam eligendi ipsum assumenda.</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam.</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat reprehenderit est nisi sequi ea modi qui praesentium?</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, labore quia!</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                        </ul>
+                     </section>
+                     <section>
+                        <h3>Avis</h3>
+                        <section>
+                           <h4 class="h5">Gazette du Canada, Partie I</h4>
+                           <ul class="lst-spcd">
+                              <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a><br>
+                                 <small>
+                                 <time>2015-01-01 08:00</time>
+                                 </small></li>
+                              <li><a href="#">Lorem ipsum dolor sit amet, consectetur.</a><br>
+                                 <small>
+                                 <time>2015-01-01 08:00</time>
+                                 </small></li>
+                              <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id labore expedita doloremque?</a><br>
+                                 <small>
+                                 <time>2015-01-01 08:00</time>
+                                 </small></li>
+                           </ul>
+                        </section>
+                        <section>
+                           <h4 class="h5">Communiqués de presse</h4>
+                           <ul class="lst-spcd">
+                              <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a><br>
+                                 <small>
+                                 <time>2015-01-01 08:00</time>
+                                 </small></li>
+                              <li><a href="#">Lorem ipsum dolor sit amet, consectetur.</a><br>
+                                 <small>
+                                 <time>2015-01-01 08:00</time>
+                                 </small></li>
+                              <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id labore expedita doloremque?</a><br>
+                                 <small>
+                                 <time>2015-01-01 08:00</time>
+                                 </small></li>
+                              <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing.</a><br>
+                                 <small>
+                                 <time>2015-01-01 08:00</time>
+                                 </small></li>
+                           </ul>
+                        </section>
+                     </section>
+                  </div>
+               </section>
+            </div>
+            <div class="col-md-6">
+               <section class="panel panel-default">
+                  <header class="panel-heading">
+                     <h2 class="panel-title">Consultations et changements prévus</h2>
+                  </header>
+                  <div class="panel-body">
+                     <section>
+                        <h3 class="h5">Projets de loi déposés récemment</h3>
+                        <ul class="lst-spcd">
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam.</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat reprehenderit est nisi sequi ea modi qui praesentium?</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                        </ul>
+                     </section>
+                     <section>
+                        <h3 class="h5">Plan futurs en matière de réglementation connexe</h3>
+                        <ul class="lst-spcd">
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat adipisci libero distinctio sequi officiis provident tenetur ullam eligendi ipsum assumenda.</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                        </ul>
+                     </section>
+                     <section>
+                        <h3 class="h5">Mesures de réduction de la bureaucratie connexes</h3>
+                        <ul class="lst-spcd">
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat temporibus repellendus iusto cumque unde perspiciatis, quod illo.</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus!</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                        </ul>
+                     </section>
+                     <section>
+                        <h3 class="h5">Possibilités de consultation à venir</h3>
+                        <ul class="lst-spcd">
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus!</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat adipisci libero distinctio sequi officiis provident tenetur ullam eligendi ipsum assumenda.</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, labore quia!</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                        </ul>
+                     </section>
+                     <section>
+                        <h3 class="h5">Consultations antérieures</h3>
+                        <ul class="lst-spcd">
+                           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi molestiae, unde vitae.</a><br>
+                              <small>
+                              <time>2015-01-01 08:00</time>
+                              </small></li>
+                        </ul>
+                     </section>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </details>
+   </div>
+</div>
+<div class="row">
+   <section class="col-xs-12">
+      <h2>En savoir plus sur les lois du Canada</h2>
+      <div class="row">
+         <section class="col-md-6">
+            <h3 class="h5"><a href="#">Lorem ipsum dolor sit</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eaque harum, nam, earum sed inventore!</p>
+         </section>
+         <section class="col-md-6">
+            <h3 class="h5"><a href="#">Lorem ipsum dolor sit</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eaque harum, nam, earum sed inventore!</p>
+         </section>
+         <section class="col-md-6">
+            <h3 class="h5"><a href="#">Lorem ipsum dolor sit</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eaque harum, nam, earum sed inventore!</p>
+         </section>
+         <section class="col-md-6">
+            <h3 class="h5"><a href="#">Lorem ipsum dolor sit</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eaque harum, nam, earum sed inventore!</p>
+         </section>
+      </div>
+   </section>
+</div>
+<div class="row pagedetails">
+   <div class="col-sm-5 col-xs-12 datemod">
+      <dl id="wb-dtmd">
+         <dt>Date de modification&nbsp;: </dt>
+         <dd>
+            <time property="dateModified">2014-10-23</time>
+         </dd>
+      </dl>
+   </div>
+   <div class="clear visible-xs"></div>
+   <div class="col-sm-4 col-xs-6"> <a href="http://www.canada.ca/fr/contact/retroaction.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Rétroaction<span class="wb-inv"> sur ce site Web</span></a> </div>
+   <div class="col-sm-3 col-xs-6 text-right">
+      <div class="wb-share wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default&quot;}" id="wb-auto-5">
+         <section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+            <header class="modal-header">
+               <h2 class="modal-title">Partagez cette page</h2>
+            </header>
+            <div class="modal-body">
+               <ul class="list-unstyled colcount-xs-2">
+                  <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                  <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html&amp;n=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                  <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html&amp;title=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                  <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html&amp;title=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                  <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html&amp;title=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                  <li><a href="mailto:?to=&amp;subject=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html%0A" class="shr-lnk email btn btn-default" target="_blank">Courriel</a></li>
+                  <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html&amp;t=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                  <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html&amp;hl=fr" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                  <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html&amp;title=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                  <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html&amp;t=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                  <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html&amp;media=&amp;description=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                  <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html&amp;title=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                  <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html&amp;title=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                  <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html&amp;name=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                  <li><a href="http://twitter.com/home?status=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca%20http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                  <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=%5BNom%20du%20r%C3%A8glement%5D%20%3Csmall%3E(%5BNN-XX%5D)%3C%2Fsmall%3E%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Fregulations-fr.html%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+               </ul>
+               <p class="col-sm-12 shr-dscl">Aucun appui n’est accordé, soit de façon expresse ou tacite, à aucun produit ou service.</p>
+               <div class="clearfix"></div>
+            </div>
+         </section>
+         <a href="#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default wb-lbx-inited wb-init" id="wb-auto-6"><span class="glyphicon glyphicon-share"></span>Partagez cette page</a></div>
+   </div>
+   <div class="clear visible-xs"></div>
+</div>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

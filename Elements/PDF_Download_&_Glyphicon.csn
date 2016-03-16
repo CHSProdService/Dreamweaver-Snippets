@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="PDF Download & Glyphicon" description="Inserts a paragraph tag, pulled right, with a glyphicon download icon and an anchor tag to the PDF document's download URL." preview="code" type="block">
-<insertText location="beforeSelection">
-<![CDATA[<p class="text-right"><span class="glyphicon glyphicon-download"></span> <a href="xxxxxxxxxx"><abbr title="Portable Document Format">PDF</abbr> document</a></p>]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

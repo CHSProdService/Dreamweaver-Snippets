@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Organizational Profile" description="http://wet-boew.github.io/themes-dist/GCWeb/organizational-fr.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxxxxxxxx"
+Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<h1 property="name" id="wb-cont">[Nom de l’organisme]</h1>
+<div class="row">
+   <div class="col-md-9">
+      <p class="pagetag">[Nom de l'organisme] fait partie du <a href="institution-fr.html">[ministère d'attache]</a> lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis massa sed libero eleifend, ac iaculis urna tempor.</p>
+      <p>Nous sommes un organisme fédéral qui [mène/participe] dans <a href="#">le portefeuille [nom du portefeuille]</a> et qui travaille avec <a href="#">ses partenaires</a>. </p>
+   </div>
+</div>
+<section class="followus mrgn-bttm-md">
+   <h2>Suivez&nbsp;:</h2>
+   <ul>
+      <li><a href="#facebook" class="facebook wb-lbx wb-init wb-lbx-inited" id="wb-auto-1"><span class="wb-inv">Facebook</span></a></li>
+      <li><a href="#" class="twitter" rel="external"><span class="wb-inv">Twitter</span></a></li>
+      <li><a href="#youtube" class="youtube wb-lbx wb-init wb-lbx-inited" id="wb-auto-2"><span class="wb-inv">YouTube</span></a></li>
+      <li><a href="#" class="flickr" rel="external"><span class="wb-inv">Flickr</span></a></li>
+      <li><a href="#" class="foursquare" rel="external"><span class="wb-inv">Foursquare</span></a></li>
+      <li><a href="#" class="pinterest" rel="external"><span class="wb-inv">Pinterest</span></a></li>
+      <li><a href="#" class="linkedin" rel="external"><span class="wb-inv">LinkedIn</span></a></li>
+   </ul>
+</section>
+<section id="facebook" class="mfp-hide modal-dialog modal-content overlay-def">
+   <header class="modal-header">
+      <h2 class="modal-title">Facebook</h2>
+   </header>
+   <div class="modal-body">
+      <ul class="list-unstyled lst-spcd">
+         <li><a href="#" rel="external">[Titre du premier compte Facebook]</a></li>
+         <li><a href="#" rel="external">[Titre du deuxième compte Facebook]</a></li>
+      </ul>
+   </div>
+</section>
+<section id="youtube" class="mfp-hide modal-dialog modal-content overlay-def">
+   <header class="modal-header">
+      <h2 class="modal-title">YouTube</h2>
+   </header>
+   <div class="modal-body">
+      <ul class="list-unstyled lst-spcd">
+         <li><a href="#" rel="external">[Titre du premier compte YouTube]</a></li>
+         <li><a href="#" rel="external">[Titre du deuxième compte YouTube]</a></li>
+         <li><a href="#" rel="external">[Titre du troisième compte YouTube]</a></li>
+      </ul>
+   </div>
+</section>
+<section>
+   <h2>Nouveautés</h2>
+   <div class="gc-nws row">
+      <div class="col-lg-4 col-md-6"> <a href="#"> <img src="./img/360x203.png" alt="" class="img-responsive thumbnail">
+         <p>[Titre de l’article]</p>
+         </a> <small>[YYYY-MM-DD hh:mm] - Type de produit médiatique</small>
+         <p>Brève description des nouvelles.</p>
+      </div>
+      <div class="col-lg-4 col-md-6"> <a href="#"> <img src="./img/360x203.png" alt="" class="img-responsive thumbnail">
+         <p>[Titre de l’article]</p>
+         </a> <small>[YYYY-MM-DD hh:mm] - Type de produit médiatique</small>
+         <p>Brève description des nouvelles.</p>
+      </div>
+      <div class="clearfix visible-md"></div>
+      <div class="wb-feeds limit-3 col-lg-4 pull-right wb-init wb-feeds-inited" id="wb-auto-3">
+         <ul class="feeds-cont list-unstyled lst-spcd feed-active">
+            <li><a href="http://nouvelles.gc.ca/web/article-fr.do?nid=1040249&amp;tp=1">Le gouvernement du Canada fournit une nouvelle technologie à la Marine royale canadienne</a><br>
+               <small class="feeds-date">
+               <time>2016-03-15 14:00</time>
+               </small></li>
+            <li><a href="http://nouvelles.gc.ca/web/article-fr.do?nid=1039959&amp;tp=3">Les secrétaires parlementaires Alghabra et Virani tiendront une rencontre avec les médias</a><br>
+               <small class="feeds-date">
+               <time>2016-03-14 18:02</time>
+               </small></li>
+            <li><a href="http://nouvelles.gc.ca/web/article-fr.do?nid=1039769&amp;tp=1">Le gouvernement du Canada fait un investissement important dans la construction navale</a><br>
+               <small class="feeds-date">
+               <time>2016-03-14 13:45</time>
+               </small></li>
+         </ul>
+         <p class="text-right"><strong><a href="#">Toutes les nouvelles</a></strong></p>
+      </div>
+   </div>
+</section>
+<div class="row">
+   <section class="col-md-8">
+      <h2>Nos services et renseignements</h2>
+      <section>
+         <h3 class="h5"><a href="#">[Lien à une principale tâche]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, praesentium est eius. Non, id. Totam ea saepe ipsa!</p>
+      </section>
+      <section>
+         <h3 class="h5"><a href="#">[Lien à une principale tâche]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis debitis, deserunt, temporibus rem saepe eligendi maxime nobis alias!</p>
+      </section>
+      <section>
+         <h3 class="h5"><a href="#">[Lien à une principale tâche]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, accusamus perferendis quia est sequi architecto illum ad laborum!</p>
+      </section>
+      <section>
+         <h3 class="h5"><a href="#">[Lien à une principale tâche]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro officiis voluptatibus reiciendis accusamus illum, consequuntur aliquam, animi dignissimos.</p>
+      </section>
+      <section>
+         <h3 class="h5"><a href="#">[Lien à une principale tâche]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis fugit eligendi, quasi quia tenetur cum maiores. Voluptate, provident?</p>
+      </section>
+      <section>
+         <h3 class="h5"><a href="#">[Lien à une principale tâche]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui itaque nemo fuga officiis minima ducimus commodi eos tempora?</p>
+      </section>
+      <section>
+         <h3 class="h5"><a href="#">[Lien à une principale tâche]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius neque enim cum, facilis aut maiores quibusdam, ipsa quas?</p>
+      </section>
+      <section>
+         <h3 class="h5"><a href="#">[Lien à une principale tâche]</a></h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum perspiciatis ipsum non architecto nisi debitis omnis nam dolore!</p>
+      </section>
+      <p class="text-right"><strong><a href="#">Tous nos services et renseignements </a></strong></p>
+   </section>
+   <aside class="col-md-4 mrgn-tp-lg">
+      <div class="well">
+         <h2 class="mrgn-tp-0">Sujets</h2>
+         <ul class="lst-spcd">
+            <li><a href="#">[Lien à un sujet ou sous-sujet]</a></li>
+            <li><a href="#">[Lien à un sujet ou sous-sujet]</a></li>
+            <li><a href="#">[Lien à un sujet ou sous-sujet]</a></li>
+            <li><a href="#">[Lien à un sujet ou sous-sujet]</a></li>
+            <li><a href="#">[Lien à un sujet ou sous-sujet]</a></li>
+            <li><a href="#">[Lien à un sujet ou sous-sujet]</a></li>
+            <li><a href="#">[Lien à un sujet ou sous-sujet]</a></li>
+            <li><a href="#">[Lien à un sujet ou sous-sujet]</a></li>
+            <li><a href="#">[Lien à un sujet ou sous-sujet]</a></li>
+            <li><a href="#">[Lien à un sujet ou sous-sujet]</a></li>
+         </ul>
+      </div>
+      <div class="well">
+         <h2 class="mrgn-tp-0">Autres renseignements pour les</h2>
+         <ul class="lst-spcd">
+            <li><a href="#">[Lien à un sujet pour une auditoire ciblée]</a></li>
+            <li><a href="#">[Lien à un sujet pour une auditoire ciblée]</a></li>
+            <li><a href="#">[Lien à un sujet pour une auditoire ciblée]</a></li>
+         </ul>
+      </div>
+   </aside>
+</div>
+<section>
+   <h2>Ce que nous faisons</h2>
+   <div class="row wb-eqht wb-init wb-eqht-inited" id="wb-auto-5">
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 253px;">
+         <h3>Lois et règlements</h3>
+         <ul class="mrgn-bttm-lg lst-spcd">
+            <li><a href="#">[Règlement 1]</a></li>
+            <li><a href="#">[Lois 1 avec un long titre]</a></li>
+            <li><a href="#">[Règlement 2 avec un long titre]</a></li>
+            <li><a href="#">[Règlement 3]</a></li>
+         </ul>
+         <p class="text-right"><strong><a href="#">Tous les règlements et lois connexes</a></strong></p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 253px;">
+         <h3>Publications</h3>
+         <ul class="mrgn-bttm-lg lst-spcd">
+            <li><a href="#">[Publication 1]</a></li>
+            <li><a href="#">[Publication 2 avec un long titre]</a></li>
+            <li><a href="#">[Publication 3]</a></li>
+            <li><a href="#">[Publication 4]</a></li>
+         </ul>
+         <p class="text-right"><strong><a href="#">Toutes les publications connexes</a></strong></p>
+      </section>
+      <section class="col-lg-4 col-md-6" style="vertical-align: top; min-height: 253px;">
+         <h3>Consultations</h3>
+         <ul class="mrgn-bttm-lg lst-spcd">
+            <li><a href="#">[Consultation 1]</a></li>
+            <li><a href="#">[Consultation 2 avec un long titre]</a></li>
+            <li><a href="#">[Consultation 3]</a></li>
+            <li><a href="#">[Consultation 4 avec un long titre... et plus...]</a></li>
+         </ul>
+         <p class="text-right"><strong><a href="#">Toutes les consultations connexes</a></strong></p>
+      </section>
+   </div>
+</section>
+<section class="gc-prtts">
+   <h2>En vedette</h2>
+   <div class="row">
+      <section class="col-lg-4 col-md-6 mrgn-bttm-md"> <a href="#">
+         <h3 class="h5">[Lien à l’élément en vedette]</h3>
+         <img src="./img/360x203.png" alt="" class="img-responsive thumbnail mrgn-bttm-sm"> </a>
+         <p>Brève description de l’élément en vedette.</p>
+      </section>
+      <section class="col-lg-4 col-md-6 mrgn-bttm-md"> <a href="#">
+         <h3 class="h5">[Lien à l’élément en vedette]</h3>
+         <img src="./img/360x203.png" alt="" class="img-responsive thumbnail mrgn-bttm-sm"> </a>
+         <p>Brève description de l’élément en vedette.</p>
+      </section>
+      <section class="col-lg-4 col-md-6 mrgn-bttm-md"> <a href="#">
+         <h3 class="h5">[Lien à l’élément en vedette]</h3>
+         <img src="./img/360x203.png" alt="" class="img-responsive thumbnail mrgn-bttm-sm"> </a>
+         <p>Brève description de l’élément en vedette.</p>
+      </section>
+   </div>
+</section>
+<section>
+   <h2>Renseignements sur l’organisation</h2>
+   <div class="row">
+      <div class="col-md-4">
+         <ul class="list-unstyled lst-spcd">
+            <li><a href="#">Mandat</a></li>
+            <li><a href="#">Programmes</a></li>
+            <li><a href="#">Structure organisationnelle</a></li>
+            <li><a href="#">Possibilités d’emplois</a></li>
+            <li><a href="#">Contactez-nous </a></li>
+         </ul>
+      </div>
+      <div class="col-md-8">
+         <div class="row">
+            <div class="col-md-4"> <a href="#">
+               <figure> <img src="./img/218x291.png" alt="" class="img-responsive thumbnail mrgn-bttm-sm">
+                  <figcaption>[Président]</figcaption>
+               </figure>
+               </a>
+               <p>Chef de l’organisme</p>
+            </div>
+            <div class="col-md-4"> <a href="#">
+               <figure> <img src="./img/218x291.png" alt="" class="img-responsive thumbnail mrgn-bttm-sm">
+                  <figcaption>[Président]</figcaption>
+               </figure>
+               </a>
+               <p>Chef de l’organisme</p>
+            </div>
+            <div class="col-md-4"> <a href="#">
+               <figure> <img src="./img/218x291.png" alt="" class="img-responsive thumbnail mrgn-bttm-sm">
+                  <figcaption>[Président]</figcaption>
+               </figure>
+               </a>
+               <p>Chef de l’organisme</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<div class="row pagedetails">
+   <div class="col-sm-5 col-xs-12 datemod">
+      <dl id="wb-dtmd">
+         <dt>Date de modification&nbsp;: </dt>
+         <dd>
+            <time property="dateModified">2014-10-24</time>
+         </dd>
+      </dl>
+   </div>
+   <div class="clear visible-xs"></div>
+   <div class="col-sm-4 col-xs-6"> <a href="http://www.canada.ca/fr/contact/retroaction.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Rétroaction<span class="wb-inv"> sur ce site Web</span></a> </div>
+   <div class="col-sm-3 col-xs-6 text-right">
+      <div class="wb-share wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default&quot;}" id="wb-auto-6">
+         <section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def">
+            <header class="modal-header">
+               <h2 class="modal-title">Partagez cette page</h2>
+            </header>
+            <div class="modal-body">
+               <ul class="list-unstyled colcount-xs-2">
+                  <li><a href="https://bitly.com/a/bitmarklet?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html" class="shr-lnk bitly btn btn-default" target="_blank">bitly</a></li>
+                  <li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html&amp;n=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" target="_blank">Blogger</a></li>
+                  <li><a href="http://delicious.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html&amp;title=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca" class="shr-lnk delicious btn btn-default" target="_blank">Delicious</a></li>
+                  <li><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html&amp;title=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca" class="shr-lnk digg btn btn-default" target="_blank">Digg</a></li>
+                  <li><a href="http://www.diigo.com/post?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html&amp;title=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" target="_blank">Diigo</a></li>
+                  <li><a href="mailto:?to=&amp;subject=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html%0A" class="shr-lnk email btn btn-default" target="_blank">Courriel</a></li>
+                  <li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html&amp;t=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" target="_blank">Facebook</a></li>
+                  <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html%0A" class="shr-lnk gmail btn btn-default" target="_blank">Gmail</a></li>
+                  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html&amp;hl=fr" class="shr-lnk googleplus btn btn-default" target="_blank">Google+</a></li>
+                  <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html&amp;title=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" target="_blank">LinkedIn®</a></li>
+                  <li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html&amp;t=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" target="_blank">MySpace</a></li>
+                  <li><a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html&amp;media=&amp;description=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" target="_blank">Pinterest</a></li>
+                  <li><a href="http://reddit.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html&amp;title=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" target="_blank">reddit</a></li>
+                  <li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html&amp;title=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca" class="shr-lnk stumbleupon btn btn-default" target="_blank">StumbleUpon</a></li>
+                  <li><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html&amp;name=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" target="_blank">tumblr</a></li>
+                  <li><a href="http://twitter.com/home?status=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca%20http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html" class="shr-lnk twitter btn btn-default" target="_blank">Twitter</a></li>
+                  <li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=%5BNom%20de%20l%E2%80%99organisme%5D%20-%20Canada.ca&amp;body=http%3A%2F%2Fwet-boew.github.io%2Fthemes-dist%2FGCWeb%2Forganizational-fr.html%0A" class="shr-lnk yahoomail btn btn-default" target="_blank">Yahoo! Mail</a></li>
+               </ul>
+               <p class="col-sm-12 shr-dscl">Aucun appui n’est accordé, soit de façon expresse ou tacite, à aucun produit ou service.</p>
+               <div class="clearfix"></div>
+            </div>
+         </section>
+         <a href="#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default wb-lbx-inited wb-init" id="wb-auto-7"><span class="glyphicon glyphicon-share"></span>Partagez cette page</a></div>
+   </div>
+   <div class="clear visible-xs"></div>
+</div>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

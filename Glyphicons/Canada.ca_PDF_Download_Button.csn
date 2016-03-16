@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Canada.ca PDF Download Button" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<section class="col-md-2 pull-right"><a href="xxxxxxxxxxx" class="btn btn-primary"><span class="glyphicon glyphicon-download"></span> Download PDF</a></section>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

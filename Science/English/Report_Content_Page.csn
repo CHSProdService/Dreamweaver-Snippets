@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Report Content Page" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxx"
+Breadcrumb = "<li>xxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<h1>xxxxxxxxxx</h1>
+<p class="pull-right"><span class="glyphicon glyphicon-download"></span> <a href="xxxxxxxxxx">PDF Document</a></p>
+<h2>Table of Contents</h2>
+<ul role="presentation">
+   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">Complete Text</a></li>
+   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+</ul>
+<h2>xxxxxxxxx</h2>
+<p>xxxxxxxxx</p>
+<nav>
+   <h2 class="wb-inv">Document navigation</h2>
+   <ul class="pager">
+      <li class="previous"><a href="xxxxxxxxxx" rel="prev">Previous</a></li>
+      <li><a href="xxxxxxxxxx">Complete Text</a></li>
+      <li class="next"><a href="xxxxxxxxxx" rel="next">Next</a></li>
+   </ul>
+</nav>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="Lightbox (with text)" description="A hyperlinked section which hides a definition list which appears as text underneath an image in WET4's Lightbox.  id and data-title MUST match" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<section> <a href="xxxxxxxxxxxx" title="xxxxxxxxxxxx" data-title="photo000">
+<![CDATA[<section class="wb-lbx lbx-gal">
+         <div class="row wb-eqht">
+              <section> <a href="xxxxxxxxxxxx" title="xxxxxxxxxxxx" data-title="photo000">
    <div class="hidden" id="photo000">
       <dl>
          <dt>xxxxxxxxxxxx</dt>
@@ -15,7 +17,9 @@
          <h5>xxxxxxxxxxxx</h5>
       </figcaption>
    </figure>
-   </a> </section>]]>
+   </a> </section>
+   </div>
+</section>]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Photo Gallery" description="A template Photo Gallery page.  Each image is hyperlinked, and the WET4 lightbox plugin is used to provide additional information for each image." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "xxxxxxxxxx"
+Breadcrumb = "<li>xxxxxxxxxx</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+
+<!-- MainContentStart -->
+
+
+<h1>xxxxxxxxxx</h1>
+<p>Click on a picture to view more details.</p>
+<section class="wb-lbx lbx-gal">
+   <div class="row wb-eqht">
+      <section> <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo1">
+         <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+            <figcaption class="caption text-center">
+               <h5>xxxxxxxxxx</h5>
+            </figcaption>
+         </figure>
+         </a>
+         <div class="hidden" id="photo1">
+            <dl>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+            </dl>
+         </div>
+      </section>
+      <section> <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo2">
+         <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+            <figcaption class="caption text-center">
+               <h5>xxxxxxxxxx</h5>
+            </figcaption>
+         </figure>
+         </a>
+         <div class="hidden" id="photo2">
+            <dl>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+            </dl>
+         </div>
+      </section>
+      <section> <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo3">
+         <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+            <figcaption class="caption text-center">
+               <h5>xxxxxxxxxx</h5>
+            </figcaption>
+         </figure>
+         </a>
+         <div class="hidden" id="photo3">
+            <dl>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+            </dl>
+         </div>
+      </section>
+      <section> <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo4">
+         <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+            <figcaption class="caption text-center">
+               <h5>xxxxxxxxxx</h5>
+            </figcaption>
+         </figure>
+         </a>
+         <div class="hidden" id="photo4">
+            <dl>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+            </dl>
+         </div>
+      </section>
+      <section> <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo5">
+         <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+            <figcaption class="caption text-center">
+               <h5>xxxxxxxxxx</h5>
+            </figcaption>
+         </figure>
+         </a>
+         <div class="hidden" id="photo5">
+            <dl>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+            </dl>
+         </div>
+      </section>
+      <section> <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo6">
+         <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+            <figcaption class="caption text-center">
+               <h5>xxxxxxxxxx</h5>
+            </figcaption>
+         </figure>
+         </a>
+         <div class="hidden" id="photo6">
+            <dl>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+            </dl>
+         </div>
+      </section>
+      <section> <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo7">
+         <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+            <figcaption class="caption text-center">
+               <h5>xxxxxxxxxx</h5>
+            </figcaption>
+         </figure>
+         </a>
+         <div class="hidden" id="photo7">
+            <dl>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+            </dl>
+         </div>
+      </section>
+      <section> <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo8">
+         <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+            <figcaption class="caption text-center">
+               <h5>xxxxxxxxxx</h5>
+            </figcaption>
+         </figure>
+         </a>
+         <div class="hidden" id="photo8">
+            <dl>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+            </dl>
+         </div>
+      </section>
+      <section> <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo9">
+         <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+            <figcaption class="caption text-center">
+               <h5>xxxxxxxxxx</h5>
+            </figcaption>
+         </figure>
+         </a>
+         <div class="hidden" id="photo9">
+            <dl>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+               <dt>xxxxxxxxxx</dt>
+               <dd>xxxxxxxxxx</dd>
+            </dl>
+         </div>
+      </section>
+   </div>
+</section>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
