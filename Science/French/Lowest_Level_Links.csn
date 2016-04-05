@@ -11,7 +11,7 @@ Breadcrumb = "<li>xxxxxxxxxxxxxxxx</li>"
 <!-- MainContentStart -->
 
 <h1>Niveau le plus bas Liens</h1>
-<div class="row wb-eqht wb-eqht-inited">
+<div class="row wb-eqht">
    <section>
       <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
       <p>xxxxxxxxxx</p>
