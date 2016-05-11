@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Report PDF image & download glyphicon" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[      <div class="col-md-6 pull-right mrgn-tp-lg">
+         <div class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" />
+            <p class="text-center mrgn-tp-sm"> <span class="glyphicon glyphicon-download"></span> <a href="xxxxxxxxxx">PDF Document</a></p>
+         </div>
+      </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

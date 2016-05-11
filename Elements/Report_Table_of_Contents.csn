@@ -1,18 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Report Content Page" description="" preview="code" type="block">
+<snippet name="Report Table of Contents" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
-<%
-Title = "xxxxxxxxxx"
-Breadcrumb = "<li>xxxxxxxxxx</li>"
-%>
-<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
-
-<!-- MainContentStart -->
-
-
-<h1>xxxxxxxxxx</h1>
-<div class="row">
+<![CDATA[<div class="row">
    <div class="col-sm-6">
       <h2>Table of Contents</h2>
       <ul role="presentation">
@@ -35,20 +24,7 @@ Breadcrumb = "<li>xxxxxxxxxx</li>"
          </div>
       </div>
    </div>
-</div>
-<h2>xxxxxxxxx</h2>
-<p>xxxxxxxxx</p>
-<nav>
-   <h2 class="wb-inv">Document navigation</h2>
-   <ul class="pager">
-      <li class="previous"><a href="xxxxxxxxxx" rel="prev">Previous</a></li>
-      <li><a href="xxxxxxxxxx">Complete Text</a></li>
-      <li class="next"><a href="xxxxxxxxxx" rel="next">Next</a></li>
-   </ul>
-</nav>
-
-<!-- MainContentEnd --> 
-<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</div>]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

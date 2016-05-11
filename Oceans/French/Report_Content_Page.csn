@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="Report Content Page" description="" preview="code" type="block">
 <insertText location="beforeSelection">
 <![CDATA[<!--#include virtual="/oceans/theme-wet4/asp/init.asp" -->
@@ -12,21 +12,30 @@ Breadcrumb = "<li>xxxxxxxxxx</li>"
 
 
 <h1>xxxxxxxxxx</h1>
-<p class="pull-right"><span class="glyphicon glyphicon-download"></span> <a href="xxxxxxxxxx">PDF Document</a></p>
-<h2>Table des matières</h2>
-<ul role="presentation">
-   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">Texte Complet</a></li>
-   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
-   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
-   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
-   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
-   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
-   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
-   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
-   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
-   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
-   <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
-</ul>
+<div class="row">
+   <div class="col-sm-6">
+      <h2>Table of Contents</h2>
+      <ul role="presentation">
+         <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">Texte Complet</a></li>
+         <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+         <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+         <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+         <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+         <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+         <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+         <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+         <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+         <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+      </ul>
+   </div>
+   <div class="col-sm-6">
+      <div class="col-md-6 pull-right mrgn-tp-lg">
+         <div class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" />
+            <p class="text-center mrgn-tp-sm"> <span class="glyphicon glyphicon-download"></span> <a href="xxxxxxxxxx">PDF Document</a></p>
+         </div>
+      </div>
+   </div>
+</div>
 <h2>xxxxxxxxx</h2>
 <p>xxxxxxxxx</p>
 <nav>
