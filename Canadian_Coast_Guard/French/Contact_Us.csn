@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Contact Us" description="A template Contact Us page.  Contains the following Tabs:
+- By Phone
+- By Email
+- By Fax
+- By Mail" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<%
+Title = "Contact Us"
+Breadcrumb =  "BcRoot<li>Contact Us</li>"
+%>
+<!--#include virtual="/science/theme-wet4/asp/template-head.asp"-->
+
+<!-- MainContentStart -->
+
+
+<h1>Contact Us</h1>
+<div class="row">
+   <div class="col-md-9">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper scelerisque nunc in fringilla. Aenean gravida faucibus venenatis. Praesent vel magna sodales, congue libero id, pharetra tortor. Nullam porttitor, sapien ut feugiat tincidunt, sapien risus sodales augue, eget tincidunt lorem mauris id lorem. Phasellus pretium dignissim massa, varius mollis turpis. Suspendisse potenti. Suspendisse in tellus vitae sem egestas tincidunt id et est. Vivamus eu tempor mauris, at fringilla ligula. Nullam massa felis, elementum ut turpis id, pellentesque fermentum purus.</p>
+   </div>
+   <div class="col-md-3">
+      <div class="well">
+         <h2 class="mrgn-tp-sm h4">Most requested</h2>
+         <ul>
+            <li><a href="xxxxxxxxx">xxxxxxxxxx</a></li>
+            <li><a href="xxxxxxxxx">xxxxxxxxxx</a></li>
+            <li><a href="xxxxxxxxx">xxxxxxxxxx</a></li>
+            <li><a href="xxxxxxxxx">xxxxxxxxxx</a></li>
+         </ul>
+      </div>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-12">
+      <div class="wb-tabs">
+         <div class="tabpanels">
+            <details id="details-panel1">
+               <summary>By Phone</summary>
+               <div class="wb-eqht">
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+               </div>
+            </details>
+            <details id="details-panel2">
+               <summary>By Email</summary>
+               <div class="wb-eqht">
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxx">xxxxxxxxxx</a></p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxx">xxxxxxxxxx</a></p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxx">xxxxxxxxxx</a></p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxx">xxxxxxxxxx</a></p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxx">xxxxxxxxxx</a></p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxx">xxxxxxxxxx</a></p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxx">xxxxxxxxxx</a></p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxx">xxxxxxxxxx</a></p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxx">xxxxxxxxxx</a></p>
+                  </section>
+               </div>
+            </details>
+            <details id="details-panel3">
+               <summary>By Fax</summary>
+               <div class="wb-eqht">
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+                  <section>
+                     <p><strong>xxxxxxxxxx</strong><br>
+                        <span class="glyphicon glyphicon-phone"></span> (000) 000-0000</p>
+                  </section>
+               </div>
+            </details>
+            <details id="details-panel4">
+               <summary>By Mail</summary>
+               <div class="wb-eqht">
+                  <section>
+                     <address>
+                     <strong>xxxxxxxxxx</strong><br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx
+                     </address>
+                  </section>
+                  <section>
+                     <address>
+                     <strong>xxxxxxxxxx</strong><br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx
+                     </address>
+                  </section>
+                  <section>
+                     <address>
+                     <strong>xxxxxxxxxx</strong><br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx
+                     </address>
+                  </section>
+                  <section>
+                     <address>
+                     <strong>xxxxxxxxxx</strong><br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx
+                     </address>
+                  </section>
+                  <section>
+                     <address>
+                     <strong>xxxxxxxxxx</strong><br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx
+                     </address>
+                  </section>
+                  <section>
+                     <address>
+                     <strong>xxxxxxxxxx</strong><br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx
+                     </address>
+                  </section>
+                  <section>
+                     <address>
+                     <strong>xxxxxxxxxx</strong><br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx
+                     </address>
+                  </section>
+                  <section>
+                     <address>
+                     <strong>xxxxxxxxxx</strong><br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx
+                     </address>
+                  </section>
+                  <section>
+                     <address>
+                     <strong>xxxxxxxxxx</strong><br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx<br>
+                     xxxxxxxxxx
+                     </address>
+                  </section>
+               </div>
+            </details>
+         </div>
+      </div>
+   </div>
+</div>
+
+<!-- MainContentEnd --> 
+<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
