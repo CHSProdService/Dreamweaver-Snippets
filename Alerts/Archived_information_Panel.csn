@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Archived information Panel" description="Adds a Warning panel explaining the page's content has been archived, and also places a floating warning bar along the top of the browser when scrolling down the page." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<section id="archived" class="alert alert-warning wb-inview" data-inview="archived-bnr">
+   <h2>Archived information</h2>
+   <p>The <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=24227">Standard on Web Usability</a> replaces this content. This content is archived because Common Look and Feel 2.0 Standards have been rescinded.</p>
+   <p>Archived information is provided for reference, research or recordkeeping purposes. It is not subject to the Government of Canada Web Standards and has not been altered or updated since it was archived. Please contact us to request a format other than those available.</p>
+</section>
+<section id="archived-bnr" class="wb-overlay modal-content overlay-def wb-bar-t">
+   <header>
+      <h2 class="wb-inv">Archived</h2>
+   </header>
+   <p><a href="#archived">This page has been archived on the Web.</a></p>
+</section>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
