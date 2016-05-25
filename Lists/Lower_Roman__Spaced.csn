@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Lower Roman | Spaced" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ol class="lst-lwr-rmn lst-spcd">
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+	<li>xxxxxxxxxx</li>
+</ol>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

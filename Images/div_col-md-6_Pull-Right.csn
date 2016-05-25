@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="<div col-md-6> Pull-Right" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="col-md-6 pull-right">
+	<div class="thumbnail">
+		<img src="xxxxxxxxxxxx" class="img-responsive" />
+	</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

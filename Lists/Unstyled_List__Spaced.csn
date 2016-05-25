@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Unstyled List | Spaced" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="list-unstyled lst-spcd">
+   <li>xxxxxxxxxx</li>
+   <li>xxxxxxxxxx</li>
+   <li>xxxxxxxxxx</li>
+   <li>xxxxxxxxxx</li>
+   <li>xxxxxxxxxx</li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
