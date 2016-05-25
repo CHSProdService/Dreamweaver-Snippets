@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="Topic Page" description="Blank Topic page
 - uses Science WET4 theme
 - Topic tiles on left, Most Requested wells on right" preview="code" type="block">
@@ -18,7 +18,7 @@ Breadcrumb = "<li>xxxxxxxxxxxxxxxx</li>"
       <h1>xxxxxxxxxxxxxxxx</h1>
       <p>xxxxxxxxxxxxxxxx</p>
    </div>
-   <div class="col-md-6 margin-top-small hidden-sm hidden-xs"> <img src="xxxxxxxxxxxxxxxx" alt="" class="pull-right img-responsive thumbnail"> </div>
+   <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs"> <img src="xxxxxxxxxxxxxxxx" alt="" class="pull-right img-responsive thumbnail"> </div>
 </div>
 <div class="row">
    <aside class="col-md-4 col-md-push-8 mrgn-tp-lg">
