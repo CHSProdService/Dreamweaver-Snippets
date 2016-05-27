@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Validation State - Warning" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group has-warning">
+   <label class="control-label" for="inputWarning">Input with warning</label>
+   <input type="text" class="form-control" id="inputWarning" />
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

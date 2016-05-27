@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Form Validation | Starting Point" description="The basic shell of a Form with WET4 validation.  Taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   
+   </form>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

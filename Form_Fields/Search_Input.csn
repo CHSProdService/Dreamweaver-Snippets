@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Search Input" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<input type="search" class="form-control" placeholder="Searc input" />]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="File input" description="Taken from http://wet-boew.github.io/wet-boew-styleguide/v4/design/forms-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+      <label for="exampleInputFile">File input</label>
+      <input type="file" id="exampleInputFile" />
+   </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

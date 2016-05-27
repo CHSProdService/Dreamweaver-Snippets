@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Reason for contacting us (required" description="A Select list with WET4 form validation required fields.  Taken from http://wet-boew.github.io/wet-boew/demos/feedback/feedback-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="fbrsn" class="required" aria-required="true"><span class="field-name">Reason for contacting us</span> <strong class="required" aria-required="true">(required)</strong> </label>
+   <select class="form-control" name="fbrsn" id="fbrsn" required aria-controls="fbweb" aria-required="true">
+      <option value="">Select a reason</option>
+      <option value="web">Critical problem with the website</option>
+      <option value="improvement">Suggested improvement for the website</option>
+      <option value="subject1">Question/comment about subject 1</option>
+      <option value="subject2">Question/comment about subject 2</option>
+      <option value="subject3">Question/comment about subject 3</option>
+      <option value="other">Other</option>
+   </select>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

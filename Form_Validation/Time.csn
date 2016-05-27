@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Time" description="A time form field.  Taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="time1"><span class="field-name">Time</span> (hh:mm)</label>
+   <input class="form-control" id="time1" name="time1" type="time" />
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

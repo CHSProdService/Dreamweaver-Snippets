@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Validation State - Warning (horizontal with icon)" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<form class="form-horizontal" role="form" method="get" action="#">
+   <div class="form-group has-warning has-feedback">
+      <label class="control-label col-sm-3" for="inputwarning3">Input with warning</label>
+      <div class="col-sm-9">
+         <input type="text" class="form-control full-width" id="inputwarning3" />
+         <span class="glyphicon glyphicon-ok form-control-feedback"></span> </div>
+   </div>
+</form>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

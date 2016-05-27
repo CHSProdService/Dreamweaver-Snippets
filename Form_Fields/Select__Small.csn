@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Select | Small" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<label for="form-select-sm" class="wb-inv"><code>input-sm</code> class on a select element</label>
+<select class="form-control input-sm mrgn-bttm-md" id="form-select-sm">
+   <option value="">.input-sm</option>
+</select>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Area Code (Canada) (required)" description="Canadian Area Code form field (with WET4 form validation).  Taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="pcodeca1" class="required"><span class="field-name">Postal code</span> <strong class="required">(required)</strong></label>
+   <input class="form-control" id="pcodeca1" name="pcodeca1" type="text" size="7" maxlength="7" required="required" data-rule-postalCodeCA="true" />
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

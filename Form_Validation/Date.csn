@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Date" description="A date form field.  Taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="date1"><span class="field-name">Date</span><span class="datepicker-format"> (YYYY-MM-DD)</span></label>
+   <input class="form-control" id="date1" name="date1" type="date" data-rule-dateISO="true" />
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

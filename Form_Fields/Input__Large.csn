@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Input | Large" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<label for="form-input-lg" class="wb-inv"><code>input-lg</code> class on an input element</label>
+<input class="form-control input-lg mrgn-bttm-md" type="text" id="form-input-lg" placeholder="input-lg" />]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="All Form Validation Examples" description="The entire page of WET4 Form Validation examples taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="wb-frmvld wb-init wb-frmvld-inited" id="wb-auto-1">
+   <form action="#" method="get" id="validation-example" novalidate>
+   <fieldset>
+   <legend>Contact information</legend>
+   <div class="form-group">
+      <label for="title1" class="required" aria-required="true"><span class="field-name">Title</span> <strong class="required" aria-required="true">(required)</strong> </label>
+      <select class="form-control" id="title1" name="title1" required aria-required="true">
+         <option label="Select a title"></option>
+         <option value="dr">Dr.</option>
+         <option value="esq">Esq.</option>
+         <option value="mr">Mr.</option>
+         <option value="ms">Ms.</option>
+      </select>
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="title1" class="required"><span class="field-name">Title</span> <strong class="required">(required)</strong></label>
+      <select class="form-control" id="title1" name="title1" required>
+         <option label="Select a title"></option>
+         <option value="dr">Dr.</option>
+         <option value="esq">Esq.</option>
+         <option value="mr">Mr.</option>
+         <option value="ms">Ms.</option>
+      </select>
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="fname1" class="required" aria-required="true"><span class="field-name">First name</span> <strong class="required" aria-required="true">(required)</strong> </label>
+      <input class="form-control" id="fname1" name="fname1" type="text" required="required" data-rule-minlength="2" aria-required="true">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="fname1" class="required"><span class="field-name">First name</span> <strong class="required">(required)</strong></label>
+      <input class="form-control" id="fname1" name="fname1" type="text" required="required" pattern=".{2,}" data-rule-minlength="2" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="lname1" class="required" aria-required="true"><span class="field-name">Last name</span> <strong class="required" aria-required="true">(required)</strong> </label>
+      <input class="form-control" id="lname1" name="lname1" type="text" required="required" data-rule-minlength="2" aria-required="true">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="lname1" class="required"><span class="field-name">Last name</span> <strong class="required">(required)</strong></label>
+      <input class="form-control" id="lname1" name="lname1" type="text" required="required" pattern=".{2,}" data-rule-minlength="2" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="tel1" class="required" aria-required="true"><span class="field-name">Telephone number (including area code)</span> <strong class="required" aria-required="true">(required)</strong> </label>
+      <input class="form-control" id="tel1" name="tel1" type="tel" required="required" data-rule-phoneus="true" aria-required="true">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="tel1" class="required"><span class="field-name">Telephone number</span> <strong class="required">(required)</strong></label>
+      <input class="form-control" id="tel1" name="tel1" type="tel" required="required" data-rule-phoneUS="true" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="pcodeca1" class="required" aria-required="true"><span class="field-name">Postal code (Canada)</span> <strong class="required" aria-required="true">(required)</strong> </label>
+      <input class="form-control" id="pcodeca1" name="pcodeca1" type="text" size="7" maxlength="7" required="required" data-rule-postalcodeca="true" aria-required="true">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="pcodeca1" class="required"><span class="field-name">Postal code</span> <strong class="required">(required)</strong></label>
+      <input class="form-control" id="pcodeca1" name="pcodeca1" type="text" size="7" maxlength="7" required="required" data-rule-postalCodeCA="true" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="email1"><span class="field-name">Email address</span> (yourname@domain.com) </label>
+      <input class="form-control" id="email1" name="email1" type="email">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="email1"><span class="field-name">Email address</span> (yourname@domain.com)</label>
+      <input class="form-control" id="email1" name="email1" type="email" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="url1"><span class="field-name">Website URL (http://www.url.com)</span> </label>
+      <input class="form-control" id="url1" name="url1" type="url">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="url1"><span class="field-name">Website URL (http://www.url.com)</span></label>
+      <input class="form-control" id="url1" name="url1" type="url" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="file1" class="required" aria-required="true"><span class="field-name">File</span> <strong class="required" aria-required="true">(required)</strong> </label>
+      <input id="file1" name="file1" type="file" required="required" aria-required="true">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="file1" class="required"><span class="field-name">File</span> <strong class="required">(required)</strong></label>
+      <input id="file1" name="file1" type="file" required="required" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   </fieldset>
+   <fieldset>
+   <legend>Other examples</legend>
+   <div class="form-group">
+      <label for="date1"><span class="field-name">Date</span><span class="datepicker-format"> (YYYY-MM-DD)</span> </label>
+      <input class="form-control" id="date1" name="date1" type="date" data-rule-dateiso="true">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="date1"><span class="field-name">Date</span><span class="datepicker-format"> (YYYY-MM-DD)</span></label>
+      <input class="form-control" id="date1" name="date1" type="date" data-rule-dateISO="true" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="time1"><span class="field-name">Time</span> (hh:mm) </label>
+      <input class="form-control" id="time1" name="time1" type="time">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="time1"><span class="field-name">Time</span> (hh:mm)</label>
+      <input class="form-control" id="time1" name="time1" type="time" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="number1"><span class="field-name">Number</span> (between 5 and 40) </label>
+      <input class="form-control" id="number1" name="number1" type="number" min="5" max="40">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="number1"><span class="field-name">Number</span> (between 5 and 40)</label>
+      <input class="form-control" id="number1" name="number1" type="number" min="5" max="40" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="an1"><span class="field-name">Alphanumeric</span> (at least 4 characters) </label>
+      <input class="form-control" id="an1" name="an1" type="text" data-rule-alphanumeric="true" data-rule-minlength="4">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="an1"><span class="field-name">Alphanumeric</span> (at least 4 characters)</label>
+      <input class="form-control" id="an1" name="an1" type="text" pattern="[A-Za-z0-9\s]{4,}" data-rule-alphanumeric="true" data-rule-minlength="4" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="numeric1"><span class="field-name">Numeric</span> (digits only) </label>
+      <input class="form-control" id="numeric1" name="numeric1" type="number" data-rule-digits="true">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="numeric1"><span class="field-name">Numeric</span> (digits only)</label>
+      <input class="form-control" id="numeric1" name="numeric1" type="number" data-rule-digits="true" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="letters1"><span class="field-name">Letters only</span> (maximum of 5 characters) </label>
+      <input class="form-control" id="letters1" name="letters1" type="text" size="5" maxlength="5" data-rule-lettersonly="true">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="letters1"><span class="field-name">Letters only</span> (maximum of 5 characters)</label>
+      <input class="form-control" id="letters1" name="letters1" type="text" size="5" maxlength="5" pattern="[A-Za-z\s]" data-rule-lettersonly="true" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="text1"><span class="field-name">Letters and punctuation only</span> (allowed punctuation: [. , ( ) "]) </label>
+      <input class="form-control" id="text1" name="text1" type="text" data-rule-letterswithbasicpunc="true">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="text1"><span class="field-name">Letters and punctuation only</span> (allowed punctuation: [. , ( ) "])</label>
+      <input class="form-control" id="text1" name="text1" type="text" pattern="[A-Za-z-.,()'"\s]" data-rule-letterswithbasicpunc="true" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="word1"><span class="field-name">Maximum of 10 words</span> </label>
+      <input class="form-control" id="word1" name="word1" type="text" data-rule-maxwords="10">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="word1"><span class="field-name">Maximum of 10 words</span></label>
+      <input class="form-control" id="word1" name="word1" type="text" data-rule-maxWords="10" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="word2"><span class="field-name">Minimum of 2 words</span> </label>
+      <input class="form-control" id="word2" name="word2" type="text" data-rule-minwords="2">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="word2"><span class="field-name">Minimum of 2 words</span></label>
+      <input class="form-control" id="word2" name="word2" type="text" data-rule-minWords="2" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="word3"><span class="field-name">Between 2 and 10 words</span> </label>
+      <input class="form-control" id="word3" name="word3" type="text" data-rule-rangewords="[2,10]">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="word3"><span class="field-name">Between 2 and 10 words</span></label>
+      <input class="form-control" id="word3" name="word3" type="text" data-rule-rangeWords="[2,10]" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="nowhitespace1"><span class="field-name">No white space</span> </label>
+      <input class="form-control" id="nowhitespace1" name="nowhitespace1" type="text" data-rule-nowhitespace="true">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="nowhitespace1"><span class="field-name">No white space</span></label>
+      <input class="form-control" id="nowhitespace1" name="nowhitespace1" type="text" pattern="[A-Za-z-.,()'"\s]" data-rule-nowhitespace="true" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   <div class="form-group">
+      <label for="password1"><span class="field-name">Password</span> (between 5 and 10 characters) </label>
+      <input class="form-control" id="password1" name="password1" type="password" maxlength="10" size="10" data-rule-rangelength="[5,10]">
+      <label for="passwordconfirm"><span class="field-name">Confirm your password</span> </label>
+      <input class="form-control" id="passwordconfirm" name="passwordconfirm" type="password" maxlength="10" size="10" data-rule-equalto="#password1">
+   </div>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <div class="form-group">
+      <label for="password1"><span class="field-name">Password</span> (between 5 and 10 characters)</label>
+      <input class="form-control" id="password1" name="password1" type="password" maxlength="10" size="10" pattern=".{5,10}" data-rule-rangelength="[5,10]" />
+      <label for="passwordconfirm"><span class="field-name">Confirm your password</span></label>
+      <input class="form-control" id="passwordconfirm" name="passwordconfirm" type="password" maxlength="10" size="10" data-rule-equalTo="#password1" />
+   </div>
+   </code>
+   </pre>
+   </details>
+   </fieldset>
+   <fieldset>
+      <legend class="required" aria-required="true"><span class="field-name">Favourite pets</span> <strong class="required" aria-required="true">(required)</strong></legend>
+      <div class="checkbox">
+         <label for="animal1">
+            <input type="checkbox" name="animal" value="1" id="animal1" required="required" aria-required="true">
+            &nbsp;&nbsp;Dog </label>
+      </div>
+      <div class="checkbox">
+         <label for="animal2">
+            <input type="checkbox" name="animal" value="2" id="animal2">
+            &nbsp;&nbsp;Cat </label>
+      </div>
+      <div class="checkbox">
+         <label for="animal3">
+            <input type="checkbox" name="animal" value="3" id="animal3">
+            &nbsp;&nbsp;Fish </label>
+      </div>
+      <div class="checkbox">
+         <label for="animal4">
+            <input type="checkbox" name="animal" value="4" id="animal4">
+            &nbsp;&nbsp;Other </label>
+      </div>
+   </fieldset>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+   ...
+   <fieldset>
+      <legend class="required"><span class="field-name">Favourite pets</span> <strong class="required">(required)</strong></legend>
+      <div class="checkbox">
+         <label for="animal1">
+            <input type="checkbox" name="animal" value="1" id="animal1" required="required" />
+            &amp;#160;&amp;#160;Dog</label>
+      </div>
+      <div class="checkbox">
+         <label for="animal2">
+            <input type="checkbox" name="animal" value="2" id="animal2" />
+            &amp;#160;&amp;#160;Cat</label>
+      </div>
+      <div class="checkbox">
+         <label for="animal3">
+            <input type="checkbox" name="animal" value="3" id="animal3" />
+            &amp;#160;&amp;#160;Fish</label>
+      </div>
+      <div class="checkbox">
+         <label for="animal4">
+            <input type="checkbox" name="animal" value="4" id="animal4" />
+            &amp;#160;&amp;#160;Other</label>
+      </div>
+   </fieldset>
+   </code>
+   </pre>
+   </details>
+   <fieldset>
+      <legend class="required" aria-required="true"><span class="field-name">Citizenship status</span> <strong class="required" aria-required="true">(required)</strong></legend>
+      <div class="radio">
+         <label for="status1">
+            <input type="radio" name="status" value="1" id="status1" required="required" aria-required="true">
+            &nbsp;&nbsp;Canadian citizen </label>
+      </div>
+      <div class="radio">
+         <label for="status2">
+            <input type="radio" name="status" value="2" id="status2">
+            &nbsp;&nbsp;Permanent resident </label>
+      </div>
+      <div class="radio">
+         <label for="status3">
+            <input type="radio" name="status" value="3" id="status3">
+            &nbsp;&nbsp;Work permit </label>
+      </div>
+      <div class="radio">
+         <label for="status4">
+            <input type="radio" name="status" value="4" id="status4">
+            &nbsp;&nbsp;Other </label>
+      </div>
+   </fieldset>
+   <details class="mrgn-bttm-md">
+   <summary>View code</summary>
+   <pre>
+   <code>
+   <div class="wb-frmvld">
+   <form action="#" method="get" id="validation-example">
+      ...
+      <fieldset>
+         <legend class="required"><span class="field-name">Citizenship status</span> <strong class="required">(required)</strong></legend>
+         <div class="radio">
+            <label for="status1">
+               <input type="radio" name="status" value="1" id="status1" required="required" />
+               &amp;#160;&amp;#160;Canadian citizen</label>
+         </div>
+         <div class="radio">
+            <label for="status2">
+               <input type="radio" name="status" value="2" id="status2" />
+               &amp;#160;&amp;#160;Permanent resident</label>
+         </div>
+         <div class="radio">
+            <label for="status3">
+               <input type="radio" name="status" value="3" id="status3" />
+               &amp;#160;&amp;#160;Work permit</label>
+         </div>
+         <div class="radio">
+            <label for="status4">
+               <input type="radio" name="status" value="4" id="status4" />
+               &amp;#160;&amp;#160;Other</label>
+         </div>
+      </fieldset>
+      </code>
+      </pre>
+      </details>
+      <input type="submit" value="Submit" class="btn btn-primary">
+      <input type="reset" value="Reset" class="btn btn-default">
+   </form>
+   <div class="arialive wb-inv" aria-live="polite" aria-relevant="all"></div></div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

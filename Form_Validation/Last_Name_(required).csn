@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Last Name (required)" description="Last Name form field with WET4 validation.  Taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="lname1" class="required"><span class="field-name">Last name</span> <strong class="required">(required)</strong></label>
+   <input class="form-control" id="lname1" name="lname1" type="text" required="required" pattern=".{2,}" data-rule-minlength="2" />
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

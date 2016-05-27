@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Column Sizing | Example" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="row">
+   <div class="col-xs-2">
+      <label for="form-input-col-xs-2" class="wb-inv"><code>col-xs-2</code> class on the parent element</label>
+      <input type="text" class="form-control" id="form-input-col-xs-2" placeholder="col-xs-2" />
+   </div>
+   <div class="col-xs-3">
+      <label for="form-input-col-xs-3" class="wb-inv"><code>col-xs-3</code> class on the parent element</label>
+      <input type="text" class="form-control" id="form-input-col-xs-3" placeholder="col-xs-3" />
+   </div>
+   <div class="col-xs-4">
+      <label for="form-input-col-xs-4" class="wb-inv"><code>col-xs-4</code> class on the parent element</label>
+      <input type="text" class="form-control" id="form-input-col-xs-4" placeholder="col-xs-4" />
+   </div>
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

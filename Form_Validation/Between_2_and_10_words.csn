@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Between 2 and 10 words" description="Text input form field which allows between 2 and 10 words.  Taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="word3"><span class="field-name">Between 2 and 10 words</span></label>
+   <input class="form-control" id="word3" name="word3" type="text" data-rule-rangeWords="[2,10]" />
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

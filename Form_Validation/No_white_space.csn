@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="No white space" description="Text input form field, with validation for no white space.  Taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="nowhitespace1"><span class="field-name">No white space</span></label>
+   <input class="form-control" id="nowhitespace1" name="nowhitespace1" type="text" pattern="[A-Za-z-.,()'"\s]" data-rule-nowhitespace="true" />
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

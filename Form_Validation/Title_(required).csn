@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Title (required)" description="taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="title1" class="required"><span class="field-name">Title</span> <strong class="required">(required)</strong></label>
+   <select class="form-control" id="title1" name="title1" required>
+      <option label="Select a title"></option>
+      <option value="dr">Dr.</option>
+      <option value="esq">Esq.</option>
+      <option value="mr">Mr.</option>
+      <option value="ms">Ms.</option>
+   </select>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

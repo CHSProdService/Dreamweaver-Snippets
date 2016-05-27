@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Email Address (required)" description="Email address form input field (with required WET4 form validation).  Taken from http://wet-boew.github.io/wet-boew/demos/feedback/feedback-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="fbeml" class="required" aria-required="true"><span class="field-name">E-mail address</span> <strong class="required" aria-required="true">(required)</strong> </label>
+   <input class="form-control" type="email" id="fbeml" name="fbeml" size="45" maxlength="60" required="required" aria-required="true">
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

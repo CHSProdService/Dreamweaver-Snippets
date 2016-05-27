@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Telephone number + area code" description="Telephone input form field, with area code.  Taken from http://wet-boew.github.io/wet-boew/demos/feedback/feedback-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="fbhphn"><span class="field-name">Home phone number</span> including area code (for example, 999-999-9999) </label>
+   <input class="form-control" type="tel" id="fbhphn" name="fbhphn" size="12" maxlength="12" data-rule-phoneus="true">
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

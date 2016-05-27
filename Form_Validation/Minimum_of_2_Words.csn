@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Minimum of 2 Words" description="Text input form field with a minimum of 2 words.  Taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="word2"><span class="field-name">Minimum of 2 words</span></label>
+   <input class="form-control" id="word2" name="word2" type="text" data-rule-minWords="2" />
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

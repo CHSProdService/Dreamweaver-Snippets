@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Number (min - max)" description="A number field (with settings for minimum and maximum values).  Taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="number1"><span class="field-name">Number</span> (between 5 and 40)</label>
+   <input class="form-control" id="number1" name="number1" type="number" min="5" max="40" />
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

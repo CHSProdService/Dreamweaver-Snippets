@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Telephone Number + area code (required)" description="Telephone number with area code input field (with WET4 form validation).  Taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="tel1" class="required"><span class="field-name">Telephone number</span> <strong class="required">(required)</strong></label>
+   <input class="form-control" id="tel1" name="tel1" type="tel" required="required" data-rule-phoneUS="true" />
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Disabled Form Field" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="disabled" />
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

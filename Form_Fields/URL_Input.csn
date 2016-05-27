@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="URL Input" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<input type="url" class="form-control" placeholder="URL input" />]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

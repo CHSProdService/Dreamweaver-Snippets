@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Letters and Punctuation only" description="Text input form field (with letters and punctuation only)" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="text1"><span class="field-name">Letters and punctuation only</span> (allowed punctuation: [. , ( ) "])</label>
+   <input class="form-control" id="text1" name="text1" type="text" pattern="[A-Za-z-.,()'"\s]" data-rule-letterswithbasicpunc="true" />
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

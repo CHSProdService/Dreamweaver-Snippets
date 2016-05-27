@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Input | Default" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<label for="form-input-md" class="wb-inv">Default input element</label>
+<input type="text" class="form-control mrgn-bttm-md" id="form-input-md" placeholder="Default input" />]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

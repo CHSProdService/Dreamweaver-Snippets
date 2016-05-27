@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Validation State - Success (with icons)" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group has-success has-feedback">
+   <label class="control-label" for="inputSuccess2">Input with success</label>
+   <input type="text" class="form-control full-width" id="inputSuccess2" />
+   <span class="glyphicon glyphicon-ok form-control-feedback"></span> 
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

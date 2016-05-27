@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Read-Only Form Field" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="emailReadonly" class="col-sm-2 control-label">Email</label>
+   <div class="col-sm-10">
+      <input type="email" readonly id="emailReadonly" value="email@example.com" />
+   </div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

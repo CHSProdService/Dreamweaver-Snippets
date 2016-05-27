@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Radio (2 buttons)" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="radio">
+   <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="checked" />
+      Option one is this and that&mdash;be sure to include why it's great</label>
+</div>
+<div class="radio">
+   <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
+      Option two can be something else and selecting it will deselect option one</label>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Email Input" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<input type="email" class="form-control" placeholder="Email input" />]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

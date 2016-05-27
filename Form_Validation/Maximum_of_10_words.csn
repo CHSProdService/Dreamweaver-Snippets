@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Maximum of 10 words" description="Text input form field with a maximum of 10 words.  Taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="word1"><span class="field-name">Maximum of 10 words</span></label>
+   <input class="form-control" id="word1" name="word1" type="text" data-rule-maxWords="10" />
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Select | Default" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<label for="form-select-md" class="wb-inv">Default select element</label>
+<select class="form-control mrgn-bttm-md" id="form-select-md">
+   <option value="">Default select</option>
+</select>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

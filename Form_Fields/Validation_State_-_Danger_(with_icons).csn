@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Validation State - Danger (with icons)" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group has-error has-feedback">
+   <label class="control-label" for="inputError2">Input with error</label>
+   <input type="text" class="form-control full-width" id="inputError2" />
+   <span class="glyphicon glyphicon-remove form-control-feedback"></span> 
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

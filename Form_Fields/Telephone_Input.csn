@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Telephone Input" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<input type="tel" class="form-control" placeholder="Telephone input" />]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

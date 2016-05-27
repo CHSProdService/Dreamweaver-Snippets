@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Date/Time - Local Input" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<input type="datetime-local" class="form-control" placeholder="Date/Time-Local input" />]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

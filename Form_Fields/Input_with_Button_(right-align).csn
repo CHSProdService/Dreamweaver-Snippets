@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Input with Button (right-align)" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="input-group">
+		<input type="text" class="form-control" id="btngrp-search2" />
+		<span class="input-group-btn">
+			<button class="btn btn-default" type="button">Go!</button>
+		</span>
+	</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

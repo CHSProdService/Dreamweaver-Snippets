@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Subject" description="Text input form field.  Taken from http://wet-boew.github.io/wet-boew/demos/feedback/feedback-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="fbsbj"><span class="field-name">Subject</span> </label>
+   <input class="form-control" type="text" id="fbsbj" name="fbsbj" size="45" maxlength="60">
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

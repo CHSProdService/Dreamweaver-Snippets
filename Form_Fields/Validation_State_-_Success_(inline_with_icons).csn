@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Validation State - Success (inline with icons)" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<form class="form-inline" role="form" method="get" action="#">
+   <div class="form-group has-success has-feedback">
+      <label class="control-label col-sm-3" for="inputsuccess3">Input with success</label>
+      <div class="col-sm-9">
+         <input type="text" class="form-control full-width" id="inputsuccess3" />
+         <span class="glyphicon glyphicon-ok form-control-feedback"></span> </div>
+   </div>
+</form>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

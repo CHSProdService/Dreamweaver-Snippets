@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Message Textfield (required)" description="A textfield form field (with WET4 form validation required).  Taken from http://wet-boew.github.io/wet-boew/demos/feedback/feedback-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="fbmsg" class="required" aria-required="true"><span class="field-name">Message</span> <strong class="required" aria-required="true">(required)</strong> </label>
+   <textarea class="form-control" id="fbmsg" name="fbmsg" rows="5" cols="45" required aria-required="true"></textarea>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

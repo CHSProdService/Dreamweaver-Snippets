@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Numeric (digits only)" description="A numeric form field (for digits only).  Taken from http://wet-boew.github.io/wet-boew/demos/formvalid/formvalid-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group">
+   <label for="numeric1"><span class="field-name">Numeric</span> (digits only)</label>
+   <input class="form-control" id="numeric1" name="numeric1" type="number" data-rule-digits="true" />
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
