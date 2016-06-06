@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="WET4 Dynamic Table" description="WET4 Table.  Integrates the DataTables plugin into WET providing searching, sorting, filtering, pagination and other advanced features for tables.
+
+Taken from http://wet-boew.github.io/wet-boew/demos/tables/tables-en.html" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<table title="xxxxx" class="wb-tables table">
+   <thead>
+      <tr>
+         <th class="col-sm-2">Document Date (mm/dd/yyyy)</th>
+         <th class="col-sm-8">Document Title</th>
+         <th class="col-sm-2">Download</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td class="text-center">mm/dd/yyyy</td>
+         <td>xxxxxxxxxxxxxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+      </tr>
+      <tr>
+         <td class="text-center">mm/dd/yyyy</td>
+         <td>xxxxxxxxxxxxxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+      </tr>
+      <tr>
+         <td class="text-center">mm/dd/yyyy</td>
+         <td>xxxxxxxxxxxxxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+      </tr>
+      <tr>
+         <td class="text-center">mm/dd/yyyy</td>
+         <td>xxxxxxxxxxxxxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+      </tr>
+      <tr>
+         <td class="text-center">mm/dd/yyyy</td>
+         <td>xxxxxxxxxxxxxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+      </tr>
+      <tr>
+         <td class="text-center">mm/dd/yyyy</td>
+         <td>xxxxxxxxxxxxxxxxxxxxxx</td>
+         <td>xxxxxxxxxxx</td>
+      </tr>
+   </tbody>
+</table>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
