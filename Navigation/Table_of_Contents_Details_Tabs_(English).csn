@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Table of Contents Details Tabs (English)" description="Tim Wiens' code for nesting child sections in a Publication's Table of Contents." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="list-unstyled">
+   <li>
+      <details>
+         <summary>
+            <h3>Document Navigation</h3>
+         </summary>
+         xxxxxxxxxx </details>
+   </li>
+   <li>
+      <details>
+         <summary>
+            <h3>xxxxxxxxxx</h3>
+         </summary>
+         xxxxxxxxxx </details>
+   </li>
+   <li>
+      <details>
+         <summary>
+            <h3>xxxxxxxxxx</h3>
+         </summary>
+         xxxxxxxxxx </details>
+   </li>
+   <li>
+      <details>
+         <summary>
+            <h3>xxxxxxxxxx</h3>
+         </summary>
+         xxxxxxxxxx </details>
+   </li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="DFO Social Media Bar" description="The ASP code for displaying the English and French social media icons for DFO-MPO" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<% if lang="eng" then %>
+<section class="mrgn-tp-md mrgn-lft-md mrgn-bttm-md">
+  <ul class="list-inline well well-sm">
+  	<li><strong>Follow:</strong></li>
+    <li> <a href="http://www.dfo-mpo.gc.ca/connect/twitter-eng.htm"><img src="http://dfo-mpo.gc.ca/wet-boew/dist/theme-gcwu-fegc/images/sl_twitter.png" alt="Twitter" /></a> </li>
+    <li> <a href="http://www.dfo-mpo.gc.ca/connect/youtube-eng.htm"><img src="http://www.dfo-mpo.gc.ca/wet-boew/dist/theme-gcwu-fegc/images/sl_youtube.png" alt="YouTube" /></a> </li>
+    <li> <a href="http://www.dfo-mpo.gc.ca/media/rss-eng.htm"><img src="http://www.dfo-mpo.gc.ca/wet-boew/dist/theme-gcwu-fegc/images/sl_feeds.png" alt="RSS feeds" /></a> </li>
+    <li> <a href="http://www.dfo-mpo.gc.ca/connect/flickr-eng.htm"><img src="http://www.dfo-mpo.gc.ca/images/flickr-sml.png" alt="Flickr" /></a> </li>
+  </ul>
+</section>
+<% else %>
+<section class="mrgn-tp-md mrgn-lft-md mrgn-bttm-md">
+  <ul class="list-inline well well-sm">
+  	<li><strong>Suivez :</strong></li>
+    <li> <a href="http://www.dfo-mpo.gc.ca/connect/twitter-fra.htm"><img src="http://dfo-mpo.gc.ca/wet-boew/dist/theme-gcwu-fegc/images/sl_twitter.png" alt="Twitter" /></a> </li>
+    <li> <a href="http://www.dfo-mpo.gc.ca/connect/youtube-fra.htm"><img src="http://www.dfo-mpo.gc.ca/wet-boew/dist/theme-gcwu-fegc/images/sl_youtube.png" alt="YouTube" /></a> </li>
+    <li> <a href="http://www.dfo-mpo.gc.ca/media/rss-eng.fra"><img src="http://www.dfo-mpo.gc.ca/wet-boew/dist/theme-gcwu-fegc/images/sl_feeds.png" alt="RSS feeds" /></a> </li>
+    <li> <a href="http://www.dfo-mpo.gc.ca/connect/flickr-fra.htm"><img src="http://www.dfo-mpo.gc.ca/images/flickr-sml.png" alt="Flickr" /></a> </li>
+  </ul>
+</section>
+<% end if %>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

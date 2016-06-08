@@ -17,6 +17,7 @@ Breadcrumb = "<li>xxxxxxxxxxxxxxxx</li>"
    <div class="col-md-6">
       <h1>xxxxxxxxxxxxxxxx</h1>
       <p>xxxxxxxxxxxxxxxx</p>
+      <!--#include virtual="/xxxxxxxxxx/inclu/follow-suivez.asp"-->
    </div>
    <div class="col-md-6 mrgn-tp-lg hidden-sm hidden-xs"> <img src="xxxxxxxxxxxxxxxx" alt="" class="pull-right img-responsive thumbnail"> </div>
 </div>
