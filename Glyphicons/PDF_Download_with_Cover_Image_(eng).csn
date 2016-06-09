@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="PDF Download with Cover Image" description="Figure with image of PDF cover and hyperlinked to PDF itself" preview="code" type="block">
+<snippet name="PDF Download with Cover Image (eng)" description="Figure with image of PDF cover and hyperlinked to PDF itself" preview="code" type="block">
 <insertText location="beforeSelection">
 <![CDATA[<div class="col-sm-3 mrgn-tp-md mrgn-lft-md pull-right"> <a href="xxxxxxxxxx">
    <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="xxxxxxxxxxxxx"/>
