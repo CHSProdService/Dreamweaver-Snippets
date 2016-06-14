@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="PDF Download with Cover Image (fra)" description="Figure with image of PDF cover and hyperlinked to PDF itself" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<div class="col-sm-3 mrgn-tp-md mrgn-lft-md pull-right"> 
-	<a href="xxxxxxxxxx">
-		<figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="xxxxxxxxxxxxx"/>
-			<figcaption class="caption text-center">
-				<p><span class="glyphicon glyphicon-download"></span> Document PDF</p>
-			</figcaption>
-		</figure>
-	</a> 
-</div>]]>
+<![CDATA[<div class="col-sm-2 mrgn-tp-md mrgn-lft-md pull-right"> <a href="xxxxxxxxxx">
+   <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive hidden-sm" alt="xxxxxxxxxxxxx"/>
+      <figcaption class="caption text-center">
+         <p><span class="glyphicon glyphicon-download"></span> Document PDF</p>
+      </figcaption>
+   </figure>
+   </a> </div>]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>
