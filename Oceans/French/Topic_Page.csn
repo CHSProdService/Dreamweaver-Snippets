@@ -24,7 +24,7 @@ Breadcrumb = "<li>xxxxxxxxxxxxxxxx</li>"
 <div class="row">
    <aside class="col-md-4 col-md-push-8 mrgn-tp-lg">
       <div class="well">
-         <h2 class="mrgn-tp-0">Les plus demandés</h2>
+         <h2 class="mrgn-tp-0">Renseignements les plus demandés</h2>
          <ul class="lst-spcd">
             <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
             <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
@@ -39,7 +39,7 @@ Breadcrumb = "<li>xxxxxxxxxxxxxxxx</li>"
          </ul>
       </div>
       <div class="well">
-         <h2 class="mrgn-tp-0">Autres renseignements pour les</h2>
+         <h2 class="mrgn-tp-0">Autres renseignements</h2>
          <ul class="lst-spcd">
             <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
             <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
