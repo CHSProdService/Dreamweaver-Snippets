@@ -299,7 +299,7 @@
         Title = "xxxxxxxx"\r
         Breadcrumb = "BcRoot<li>xxxxxxxx</li>"\r
         %>\r
-        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        <!--#include virtual="/science/theme-wet4/template-head.asp" -->\r
         \r
         <!-- MainContentStart -->\r
         \r
@@ -380,7 +380,7 @@
         </div>\r
         \r
         <!-- MainContentEnd --> \r
-        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+        <!--#include virtual="/science/theme-wet4/template-footer.asp"--> 
 
 - trigger: ccgContent
   description: Content Page template - CCG
@@ -392,7 +392,7 @@
         Title = "xxxxxxxxxxxxxxxx"\r
         Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"\r
         %>\r
-        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        <!--#include virtual="/science/theme-wet4/template-head.asp" -->\r
         \r
         <!-- MainContentStart -->\r
         \r
@@ -404,7 +404,7 @@
         </div>\r
         \r
         <!-- MainContentEnd --> \r
-        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+        <!--#include virtual="/science/theme-wet4/template-footer.asp"--> 
 
 - trigger: ccgLowest
   description: Lowest Level Topic Page - CCG
@@ -416,7 +416,7 @@
         Title = "xxxxxxxxxxxxxxxx"\r
         Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"\r
         %>\r
-        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        <!--#include virtual="/science/theme-wet4/template-head.asp" -->\r
         \r
         <!-- MainContentStart -->\r
         \r
@@ -488,7 +488,7 @@
         </div>\r
         \r
         <!-- MainContentEnd --> \r
-        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+        <!--#include virtual="/science/theme-wet4/template-footer.asp"--> 
 
 - trigger: ccgReport
   description: Report Content Page - CCG
@@ -500,7 +500,7 @@
         Title = "xxxxxxxxxx"\r
         Breadcrumb = "BcRoot<li>xxxxxxxxxx</li>"\r
         %>\r
-        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        <!--#include virtual="/science/theme-wet4/template-head.asp" -->\r
         \r
         <!-- MainContentStart -->\r
         \r
@@ -531,7 +531,7 @@
         </div>\r
         \r
         <!-- MainContentEnd --> \r
-        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+        <!--#include virtual="/science/theme-wet4/template-footer.asp"--> 
 
 - trigger: ccgSimple
   scope: html
@@ -543,7 +543,7 @@
         Title = "xxxxxxxxxxxxxxxx"\r
         Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"\r
         %>\r
-        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        <!--#include virtual="/science/theme-wet4/template-head.asp" -->\r
         \r
         <!-- MainContentStart -->\r
         \r
@@ -607,7 +607,7 @@
         </div>\r
         \r
         <!-- MainContentEnd --> \r
-        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+        <!--#include virtual="/science/theme-wet4/template-footer.asp"--> 
 
 - trigger: ccgTabbed
   scope: html
@@ -619,7 +619,7 @@
         Title = "xxxxxxxxxxxx"\r
         Breadcrumb = "BcRoot<li>xxxxxxxxxxxx</li>"\r
         %>\r
-        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        <!--#include virtual="/science/theme-wet4/template-head.asp" -->\r
         \r
         <!-- MainContentStart -->\r
         \r
@@ -665,7 +665,7 @@
         </div>\r
         \r
         <!-- MainContentEnd --> \r
-        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+        <!--#include virtual="/science/theme-wet4/template-footer.asp"--> 
 
 - trigger: ccgTopic
   scope: html
@@ -677,7 +677,7 @@
         Title = "xxxxxxxxxxxxxxxx"\r
         Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"\r
         %>\r
-        <!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->\r
+        <!--#include virtual="/science/theme-wet4/template-head.asp" -->\r
         \r
         <!-- MainContentStart -->\r
         \r
@@ -774,7 +774,7 @@
         </div>\r
         \r
         <!-- MainContentEnd --> \r
-        <!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> 
+        <!--#include virtual="/science/theme-wet4/template-footer.asp"--> 
 
 - trigger: box
   scope: css

@@ -11,7 +11,7 @@
 Title = "Contact Us"
 Breadcrumb =  "BcRoot<li>Contact Us</li>"
 %>
-<!--#include virtual="/science/theme-wet4/asp/template-head.asp"-->
+<!--#include virtual="/science/theme-wet4/template-head.asp"-->
 
 <!-- MainContentStart -->
 
@@ -319,7 +319,7 @@ Breadcrumb =  "BcRoot<li>Contact Us</li>"
 </div>
 
 <!-- MainContentEnd --> 
-<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+<!--#include virtual="/science/theme-wet4/template-footer.asp"--> ]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

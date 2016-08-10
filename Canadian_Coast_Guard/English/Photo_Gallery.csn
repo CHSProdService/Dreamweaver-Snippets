@@ -6,7 +6,7 @@
 Title = "xxxxxxxxxx"
 Breadcrumb = "<li>xxxxxxxxxx</li>"
 %>
-<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+<!--#include virtual="/science/theme-wet4/template-head.asp" -->
 
 <!-- MainContentStart -->
 
@@ -217,7 +217,7 @@ Breadcrumb = "<li>xxxxxxxxxx</li>"
 </section>
 
 <!-- MainContentEnd --> 
-<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+<!--#include virtual="/science/theme-wet4/template-footer.asp"--> ]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

@@ -6,7 +6,7 @@
 Title = "xxxxxxxxxxxxxxxx"
 Breadcrumb = "BcRoot<li>xxxxxxxxxxxxxxxx</li>"
 %>
-<!--#include virtual="/science/theme-wet4/asp/template-head.asp" -->
+<!--#include virtual="/science/theme-wet4/template-head.asp" -->
 
 <!-- MainContentStart -->
 
@@ -389,7 +389,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 </aside>
 
 <!-- MainContentEnd --> 
-<!--#include virtual="/science/theme-wet4/asp/template-footer.asp"--> ]]>
+<!--#include virtual="/science/theme-wet4/template-footer.asp"--> ]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>
