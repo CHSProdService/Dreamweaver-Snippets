@@ -1,2 +1,0 @@
-The folder containing Dreamweaver CC 2015 code snippets is located here:
-C:\Users\xxxxx\AppData\Roaming\Adobe\Dreamweaver CC 2015\en_US\Configuration\Snippets"

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="Topic Page" description="Blank Topic page
 - uses Science WET4 theme
 - Topic tiles on left, Most Requested wells on right" preview="code" type="block">
@@ -14,101 +14,176 @@ Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
 
 
 <div class="row">
-   <div class="col-md-6">
-      <h1>xxxxxxxxxxxxxxxx</h1>
-      <p>xxxxxxxxxxxxxxxx</p>
-      <!--#include virtual="/xxxxxxxxxx/inclu/follow-suivez.asp"-->
-   </div>
-   <div class="col-md-6 mrgn-tp-lg hidden-sm hidden-xs"> <img src="xxxxxxxxxxxxxxxx" alt="" class="pull-right img-responsive thumbnail"> </div>
+  <div class="col-md-6">
+    <h1>xxxxxxxxxxxxxxxx</h1>
+    <p>xxxxxxxxxxxxxxxx</p>
+    <!--#include virtual="/science/inclu/follow-suivez.asp"--> 
+  </div>
+  <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs"> <img src="/science/images/520x200.png" alt="" class="pull-right img-responsive thumbnail"> </div>
 </div>
 <div class="row">
-   <aside class="col-md-4 col-md-push-8 mrgn-tp-lg">
-      <div class="well">
-         <h2 class="mrgn-tp-0">Renseignements les plus demandés</h2>
-         <ul class="lst-spcd">
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-         </ul>
-      </div>
-      <div class="well">
-         <h2 class="mrgn-tp-0">Autres renseignements</h2>
-         <ul class="lst-spcd">
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-            <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
-         </ul>
-      </div>
-   </aside>
-   <section class="col-md-8 col-md-pull-4">
-      <h2>Sujets</h2>
-      <div class="row">
-         <section class="col-md-6">
+  <aside class="col-md-4 col-md-push-8 mrgn-tp-lg">
+    <div class="well">
+      <h2 class="mrgn-tp-0">En demande</h2>
+      <ul class="lst-spcd">
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+      </ul>
+    </div>
+    <div class="well">
+      <h2 class="mrgn-tp-0">Autres renseignements pour les</h2>
+      <ul class="lst-spcd">
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+        <li><a href="#">xxxxxxxxxxxxxxxx</a></li>
+      </ul>
+    </div>
+  </aside>
+  <section class="col-md-8 col-md-pull-4">
+    <h2>Services et renseignements</h2>
+    <div class="row">
+      <section class="col-md-6">
+        <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
+        <p>xxxxxxxxxxxxxxxx</p>
+      </section>
+      <section class="col-md-6">
+        <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
+        <p>xxxxxxxxxxxxxxxx</p>
+      </section>
+      <div class="clearfix"></div>
+      <section class="col-md-6">
+        <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
+        <p>xxxxxxxxxxxxxxxx</p>
+      </section>
+      <section class="col-md-6">
+        <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
+        <p>xxxxxxxxxxxxxxxx</p>
+      </section>
+      <div class="clearfix"></div>
+      <section class="col-md-6">
+        <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
+        <p>xxxxxxxxxxxxxxxx</p>
+      </section>
+      <section class="col-md-6">
+        <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
+        <p>xxxxxxxxxxxxxxxx</p>
+      </section>
+      <div class="clearfix"></div>
+      <section class="col-md-6">
+        <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
+        <p>xxxxxxxxxxxxxxxx</p>
+      </section>
+      <section class="col-md-6">
+        <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
+        <p>xxxxxxxxxxxxxxxx</p>
+      </section>
+      <div class="clearfix"></div>
+      <section class="col-md-6">
+        <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
+        <p>xxxxxxxxxxxxxxxx</p>
+      </section>
+      <section class="col-md-6">
+        <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
+        <p>xxxxxxxxxxxxxxxx</p>
+      </section>
+      <div class="clearfix"></div>
+      <details class="mrgn-tp-md mrgn-lft-sm brdr-0">
+        <summary class="btn btn-default text-center">Afficher plus de services et de renseignements</summary>
+        <div class="row">
+          <section class="col-md-6">
             <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
             <p>xxxxxxxxxxxxxxxx</p>
-         </section>
-         <section class="col-md-6">
+          </section>
+          <section class="col-md-6">
             <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
             <p>xxxxxxxxxxxxxxxx</p>
-         </section>
-         <div class="clearfix"></div>
-         <section class="col-md-6">
+          </section>
+          <div class="clearfix"></div>
+          <section class="col-md-6">
             <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
             <p>xxxxxxxxxxxxxxxx</p>
-         </section>
-         <section class="col-md-6">
+          </section>
+          <section class="col-md-6">
             <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
             <p>xxxxxxxxxxxxxxxx</p>
-         </section>
-         <div class="clearfix"></div>
-         <section class="col-md-6">
+          </section>
+          <div class="clearfix"></div>
+          <section class="col-md-6">
             <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
             <p>xxxxxxxxxxxxxxxx</p>
-         </section>
-      </div>
-   </section>
+          </section>
+          <section class="col-md-6">
+            <h3 class="h5"><a href="xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></h3>
+            <p>xxxxxxxxxxxxxxxx</p>
+          </section>
+          <div class="clearfix"></div>
+        </div>
+      </details>
+    </div>
+  </section>
 </div>
 <section>
-   <h2>Ce que nous faisons</h2>
-   <div class="row wb-eqht">
-      <div class="col-lg-4 col-md-6">
-         <h3>Lois et règlements</h3>
-         <ul class="mrgn-bttm-lg lst-spcd">
-            <li>xxxxxxxxxxxxxxxx</li>
-            <li>xxxxxxxxxxxxxxxx</li>
-            <li>xxxxxxxxxxxxxxxx</li>
-            <li>xxxxxxxxxxxxxxxx</li>
-         </ul>
-         <p><strong><a href="xxxxxxxxxxxxxxxx">Tous les règlements et lois connexes</a></strong></p>
-      </div>
-      <div class="col-lg-4 col-md-6">
-         <h3>Publications</h3>
-         <ul class="mrgn-bttm-lg lst-spcd">
-            <li>xxxxxxxxxxxxxxxx</li>
-            <li>xxxxxxxxxxxxxxxx</li>
-            <li>xxxxxxxxxxxxxxxx</li>
-            <li>xxxxxxxxxxxxxxxx</li>
-         </ul>
-         <p><strong><a href="xxxxxxxxxxxxxxxx">Toutes les publications connexes</a></strong></p>
-      </div>
-      <div class="col-lg-4 col-md-6">
-         <h3>Données ouvertes</h3>
-         <ul class="mrgn-bttm-lg lst-spcd">
-            <li>xxxxxxxxxxxxxxxx</li>
-            <li>xxxxxxxxxxxxxxxx</li>
-            <li>xxxxxxxxxxxxxxxx</li>
-            <li>xxxxxxxxxxxxxxxx</li>
-         </ul>
-         <p><strong><a href="xxxxxxxxxxxxxxxx">Toutes les données ouvertes connexes</a></strong></p>
-      </div>
-   </div>
+  <h2>Ce que nous faisons</h2>
+  <div class="row wb-eqht">
+    <div class="col-lg-4 col-md-6">
+      <h3>Lois et règlements</h3>
+      <ul class="mrgn-bttm-lg lst-spcd">
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+      </ul>
+      <p><strong><a href="xxxxxxxxxxxxxxxx">Tous les règlements et lois connexes</a></strong></p>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <h3>Publications</h3>
+      <ul class="mrgn-bttm-lg lst-spcd">
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+      </ul>
+      <p><strong><a href="xxxxxxxxxxxxxxxx">Toutes les publications connexes</a></strong></p>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <h3>Consultations</h3>
+      <ul class="mrgn-bttm-lg lst-spcd">
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+      </ul>
+      <p><strong><a href="xxxxxxxxxxxxxxxx">Toutes les consultations connexes</a></strong></p>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <h3>Données ouvertes</h3>
+      <ul class="mrgn-bttm-lg lst-spcd">
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+      </ul>
+      <p><strong><a href="xxxxxxxxxxxxxxxx">Toutes les données ouvertes connexes</a></strong></p>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <h3>Statistiques</h3>
+      <ul class="mrgn-bttm-lg lst-spcd">
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+        <li>xxxxxxxxxxxxxxxx</li>
+      </ul>
+      <p><strong><a href="xxxxxxxxxxxxxxxx">Toutes les statistiques connexes</a></strong></p>
+    </div>
+  </div>
 </section>
 
 <!-- MainContentEnd --> 
