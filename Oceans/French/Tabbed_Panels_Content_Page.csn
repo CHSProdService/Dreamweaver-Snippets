@@ -6,7 +6,7 @@
 <![CDATA[<!--#include virtual="/oceans/theme-wet4/asp/init.asp" -->
 <%
 Title = "xxxxxxxxxxxx"
-Breadcrumb = "<li>xxxxxxxxxxxx</li>"
+Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxx</li>"
 %>
 <!--#include virtual="/oceans/theme-wet4/template-head.asp" -->
 

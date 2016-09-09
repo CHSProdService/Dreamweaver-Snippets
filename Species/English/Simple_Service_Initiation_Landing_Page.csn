@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <snippet name="Simple Service Initiation Landing Page" description="Based on Science WET4 theme
 - content on left (col-md-8), wells on the right (col-md-4)" preview="code" type="block">
 <insertText location="beforeSelection">
 <![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
 <%
 Title = "xxxxxxxxxxxxxxxx"
-Breadcrumb = "<li>xxxxxxxxxxxxxxxx</li>"
+Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
 %>
 <!--#include virtual="/science/theme-wet4/template-head.asp" -->
 

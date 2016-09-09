@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <snippet name="Tabbed Panels Content Page" description="A content page with Tabbed Panels
 - uses the Science WET4 theme
 - container is set to col-md-12" preview="code" type="block">
@@ -6,7 +6,7 @@
 <![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
 <%
 Title = "xxxxxxxxxxxx"
-Breadcrumb = "<li>xxxxxxxxxxxx</li>"
+Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxx</li>"
 %>
 <!--#include virtual="/science/theme-wet4/template-head.asp" -->
 

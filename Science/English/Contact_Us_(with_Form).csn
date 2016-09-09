@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <snippet name="Contact Us (with Form)" description="A template Contact Us page. Must be used on an ASP page (so that the Email Us tab works properly). Contains the following tabs:
 - By Phone
 - By Email
@@ -10,7 +10,7 @@
 <!--#include virtual="/science/theme-wet4/asp/init.asp" -->
 <%
 Title = "Contact Us"
-Breadcrumb =  "BcRoot<li>Contact Us</li>"
+Breadcrumb =  BcRoot + "<li class='active'>Contact Us</li>"
 %>
 <!--#include virtual="/science/theme-wet4/template-head.asp"-->
 
