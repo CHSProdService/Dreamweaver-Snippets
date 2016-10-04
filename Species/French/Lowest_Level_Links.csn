@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snippet name="Lowest Level Links" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<![CDATA[<!--#include virtual="/species/theme-wet4/asp/init.asp" -->
 <%
 Title = "xxxxxxxxxxxxxxxx"
 Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
 %>
-<!--#include virtual="/science/theme-wet4/template-head.asp" -->
+<!--#include virtual="/species/theme-wet4/template-head.asp" -->
 
 <!-- MainContentStart -->
 
@@ -55,7 +55,7 @@ Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
 </div>
 
 <!-- MainContentEnd --> 
-<!--#include virtual="/science/theme-wet4/template-footer.asp"--> ]]>
+<!--#include virtual="/species/theme-wet4/template-footer.asp"--> ]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

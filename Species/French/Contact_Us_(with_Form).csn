@@ -6,12 +6,12 @@
 - By Mail" preview="code" type="block">
 <insertText location="beforeSelection">
 <![CDATA[<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<!--#include virtual="/species/theme-wet4/asp/init.asp" -->
 <%
 Title = "Contact Us"
 Breadcrumb =  BcRoot + "<li class='active'>Contact Us</li>"
 %>
-<!--#include virtual="/science/theme-wet4/template-head.asp"-->
+<!--#include virtual="/species/theme-wet4/template-head.asp"-->
 
 <!-- MainContentStart -->
 
@@ -319,7 +319,7 @@ Breadcrumb =  BcRoot + "<li class='active'>Contact Us</li>"
 </div>
 
 <!-- MainContentEnd --> 
-<!--#include virtual="/science/theme-wet4/template-footer.asp"--> ]]>
+<!--#include virtual="/species/theme-wet4/template-footer.asp"--> ]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

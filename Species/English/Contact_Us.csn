@@ -5,17 +5,17 @@
 - By Fax
 - By Mail" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<![CDATA[<!--#include virtual="/species/theme-wet4/asp/init.asp" -->
 <%
-Title = "xxxxxxxxxxxxxxxx"
-Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
+Title = "Contact Us"
+Breadcrumb = BcRoot + "<li class='active'>Contact Us</li>"
 %>
-<!--#include virtual="/science/theme-wet4/template-head.asp" -->
+<!--#include virtual="/species/theme-wet4/template-head.asp" -->
 
 <!-- MainContentStart -->
 
 
-<h1>xxxxxxxxxxxxxxxx</h1>
+<h1>Contact Us</h1>
 <p>xxxxxxxxxxxxxxxx</p>
 <div class="wb-tabs">
    <div class="tabpanels">
@@ -57,29 +57,29 @@ Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
          <div class="clearfix">
             <div class="col-md-4">
                <h5>xxxxxxxxxxxxxxxx</h5>
-               <p><span class="glyphicon glyphicon-envelope"></span> xxxxxxxxxxxxxxxx</p>
+               <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></p>
             </div>
             <div class="col-md-4">
                <h5>xxxxxxxxxxxxxxxx</h5>
-               <p><span class="glyphicon glyphicon-envelope"></span> xxxxxxxxxxxxxxxx</p>
+               <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></p>
             </div>
             <div class="col-md-4">
                <h5>xxxxxxxxxxxxxxxx</h5>
-               <p><span class="glyphicon glyphicon-envelope"></span> xxxxxxxxxxxxxxxx</p>
+               <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></p>
             </div>
          </div>
          <div class="clearfix">
             <div class="col-md-4">
                <h5>xxxxxxxxxxxxxxxx</h5>
-               <p><span class="glyphicon glyphicon-envelope"></span> xxxxxxxxxxxxxxxx</p>
+               <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></p>
             </div>
             <div class="col-md-4">
                <h5>xxxxxxxxxxxxxxxx</h5>
-               <p><span class="glyphicon glyphicon-envelope"></span> xxxxxxxxxxxxxxxx</p>
+               <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></p>
             </div>
             <div class="col-md-4">
                <h5>xxxxxxxxxxxxxxxx</h5>
-               <p><span class="glyphicon glyphicon-envelope"></span> xxxxxxxxxxxxxxxx</p>
+               <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxx</a></p>
             </div>
          </div>
       </details>
@@ -121,29 +121,41 @@ Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
          <div class="clearfix">
             <div class="col-md-4">
                <h5>xxxxxxxxxxxxxxxx</h5>
-               <p><span class="glyphicon glyphicon-envelope"></span> xxxxxxxxxxxxxxxx</p>
+               <address>
+               xxxxxx
+               </address>
             </div>
             <div class="col-md-4">
                <h5>xxxxxxxxxxxxxxxx</h5>
-               <p><span class="glyphicon glyphicon-envelope"></span> xxxxxxxxxxxxxxxx</p>
+               <address>
+               xxxxxx
+               </address>
             </div>
             <div class="col-md-4">
                <h5>xxxxxxxxxxxxxxxx</h5>
-               <p><span class="glyphicon glyphicon-envelope"></span> xxxxxxxxxxxxxxxx</p>
+               <address>
+               xxxxxx
+               </address>
             </div>
          </div>
          <div class="clearfix">
             <div class="col-md-4">
                <h5>xxxxxxxxxxxxxxxx</h5>
-               <p><span class="glyphicon glyphicon-envelope"></span> xxxxxxxxxxxxxxxx</p>
+               <address>
+               xxxxxx
+               </address>
             </div>
             <div class="col-md-4">
                <h5>xxxxxxxxxxxxxxxx</h5>
-               <p><span class="glyphicon glyphicon-envelope"></span> xxxxxxxxxxxxxxxx</p>
+               <address>
+               xxxxxx
+               </address>
             </div>
             <div class="col-md-4">
                <h5>xxxxxxxxxxxxxxxx</h5>
-               <p><span class="glyphicon glyphicon-envelope"></span> xxxxxxxxxxxxxxxx</p>
+               <address>
+               xxxxxx
+               </address>
             </div>
          </div>
       </details>
@@ -151,7 +163,7 @@ Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
 </div>
 
 <!-- MainContentEnd --> 
-<!--#include virtual="/science/theme-wet4/template-footer.asp"--> ]]>
+<!--#include virtual="/species/theme-wet4/template-footer.asp"--> ]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

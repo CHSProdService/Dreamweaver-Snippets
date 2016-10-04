@@ -2,12 +2,12 @@
 <snippet name="Simple Service Initiation Landing Page" description="Based on Science WET4 theme
 - content on left (col-md-8), wells on the right (col-md-4)" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--#include virtual="/science/theme-wet4/asp/init.asp" -->
+<![CDATA[<!--#include virtual="/species/theme-wet4/asp/init.asp" -->
 <%
 Title = "xxxxxxxxxxxxxxxx"
 Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
 %>
-<!--#include virtual="/science/theme-wet4/template-head.asp" -->
+<!--#include virtual="/species/theme-wet4/template-head.asp" -->
 
 <!-- MainContentStart -->
 
@@ -67,7 +67,7 @@ Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
 </div>
 
 <!-- MainContentEnd --> 
-<!--#include virtual="/science/theme-wet4/template-footer.asp"--> ]]>
+<!--#include virtual="/species/theme-wet4/template-footer.asp"--> ]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>
