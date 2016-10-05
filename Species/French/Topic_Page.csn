@@ -3,12 +3,12 @@
 - uses Science WET4 theme
 - Topic tiles on left, Most Requested wells on right" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--#include virtual="/species/theme-wet4/asp/init.asp" -->
+<![CDATA[<!--#include virtual="/species-especes/theme-wet4/asp/init.asp" -->
 <%
 Title = "xxxxxxxxxxxxxxxx"
 Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
 %>
-<!--#include virtual="/species/theme-wet4/template-head.asp" -->
+<!--#include virtual="/species-especes/theme-wet4/template-head.asp" -->
 
 <!-- MainContentStart -->
 
@@ -17,7 +17,7 @@ Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
   <div class="col-md-6">
     <h1>xxxxxxxxxxxxxxxx</h1>
     <p>xxxxxxxxxxxxxxxx</p>
-    <!--#include virtual="/species/inclu/follow-suivez.asp"--> 
+    <!--#include virtual="/species-especes/inclu/follow-suivez.asp"--> 
   </div>
   <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs"> <img src="/species/images/520x200.png" alt="" class="pull-right img-responsive thumbnail"> </div>
 </div>
@@ -187,7 +187,7 @@ Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
 </section>
 
 <!-- MainContentEnd --> 
-<!--#include virtual="/species/theme-wet4/template-footer.asp"--> ]]>
+<!--#include virtual="/species-especes/theme-wet4/template-footer.asp"--> ]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

@@ -2,12 +2,12 @@
 <snippet name="Content Page" description="A blank Content page using the Science WET4 theme
 - page is set to col-md-12 container" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--#include virtual="/species/theme-wet4/asp/init.asp" -->
+<![CDATA[<!--#include virtual="/species-especes/theme-wet4/asp/init.asp" -->
 <%
 Title = "xxxxxxxxxxxxxxxx"
 Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
 %>
-<!--#include virtual="/species/theme-wet4/template-head.asp" -->
+<!--#include virtual="/species-especes/theme-wet4/template-head.asp" -->
 
 <!-- MainContentStart -->
 
@@ -16,7 +16,7 @@ Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
 <p>xxxxxxxxxxxxxxxx</p>
 
 <!-- MainContentEnd --> 
-<!--#include virtual="/species/theme-wet4/template-footer.asp"--> ]]>
+<!--#include virtual="/species-especes/theme-wet4/template-footer.asp"--> ]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

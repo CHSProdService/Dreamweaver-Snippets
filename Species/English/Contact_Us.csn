@@ -5,12 +5,12 @@
 - By Fax
 - By Mail" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--#include virtual="/species/theme-wet4/asp/init.asp" -->
+<![CDATA[<!--#include virtual="/species-especes/theme-wet4/asp/init.asp" -->
 <%
 Title = "Contact Us"
 Breadcrumb = BcRoot + "<li class='active'>Contact Us</li>"
 %>
-<!--#include virtual="/species/theme-wet4/template-head.asp" -->
+<!--#include virtual="/species-especes/theme-wet4/template-head.asp" -->
 
 <!-- MainContentStart -->
 
@@ -163,7 +163,7 @@ Breadcrumb = BcRoot + "<li class='active'>Contact Us</li>"
 </div>
 
 <!-- MainContentEnd --> 
-<!--#include virtual="/species/theme-wet4/template-footer.asp"--> ]]>
+<!--#include virtual="/species-especes/theme-wet4/template-footer.asp"--> ]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>
