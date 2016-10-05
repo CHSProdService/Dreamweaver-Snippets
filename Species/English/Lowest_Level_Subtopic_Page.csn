@@ -19,7 +19,7 @@ Breadcrumb = BcRoot + "<li class='active'>xxxxxxxxxxxxxxxx</li>"
     <p>xxxxxxxxxxxxxxxx</p>
     <!--#include virtual="/species-especes/inclu/follow-suivez.asp"--> 
   </div>
-  <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs"> <img src="/species/images/520x200.png" alt="" class="pull-right img-responsive thumbnail"> </div>
+  <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs"> <img src="/species-especes/images/520x200.png" alt="" class="pull-right img-responsive thumbnail"> </div>
 </div>
 <div class="row">
   <aside class="col-md-4 col-md-push-8 mrgn-tp-lg">
