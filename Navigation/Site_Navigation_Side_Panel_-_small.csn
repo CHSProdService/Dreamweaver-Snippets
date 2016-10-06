@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Site Navigation Side Panel - small" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="hidden-sm hidden-xs wb-navcurr-inited">
+   <h2>Navigation Menu</h2>
+   <ul class="list-group menu list-unstyled">
+      <li><a class="list-group-item" href="xxxxxxxxxx">xxxxxxxxxx</a>
+         <ul class="list-group menu list-unstyled">
+            <li><a class="list-group-item" href="xxxxxxxxxx">xxxxxxxxxx</a></li>
+            <li><a class="list-group-item" href="xxxxxxxxxx">xxxxxxxxxx</a></li>
+            <li><a class="list-group-item" href="xxxxxxxxxx">xxxxxxxxxx</a></li>
+            <li><a class="list-group-item" href="xxxxxxxxxx">xxxxxxxxxx</a></li>
+            <li><a class="list-group-item" href="xxxxxxxxxx">xxxxxxxxxx</a></li>
+            <li><a class="list-group-item" href="xxxxxxxxxx">xxxxxxxxxx</a></li>
+         </ul>
+      </li>
+   </ul>
+</nav>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
