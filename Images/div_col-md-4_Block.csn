@@ -3,7 +3,7 @@
 <insertText location="beforeSelection">
 <![CDATA[<div class="col-md-4">
 	<div class="thumbnail">
-		<img src="xxxxxxxxxxxx" class="img-responsive" />
+		<img src="xxxxxxxxxxxx" class="img-responsive" alt="xxxxxxxxxxxx" />
 	</div>
 </div>]]>
 </insertText>

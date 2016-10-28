@@ -6,12 +6,12 @@
 <![CDATA[<div class="row">
 	<div class="col-md-6">
 		<figure class="thumbnail">
-			<img src="xxxxxxxxxxxx" class="img-responsive" />
+			<img src="xxxxxxxxxxxx" class="img-responsive" alt="xxxxxxxxxxxx" />
 		</figure>
 	</div>
 	<div class="col-md-6">
 		<figure class="thumbnail">
-			<img src="xxxxxxxxxxxx" class="img-responsive" />
+			<img src="xxxxxxxxxxxx" class="img-responsive" alt="xxxxxxxxxxxx" />
 		</figure>
 	</div>
 </div>]]>

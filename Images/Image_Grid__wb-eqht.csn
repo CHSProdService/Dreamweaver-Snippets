@@ -7,28 +7,28 @@
 <insertText location="beforeSelection">
 <![CDATA[<div class="row wb-eqht">
          <section> <a href="xxxxxxxxxxxx">
-            <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" />
+            <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" alt="xxxxxxxxxxxx" />
                <figcaption class="caption text-center">
                   <h5>xxxxxxxxxxxx</h5>
                </figcaption>
             </figure>
             </a> </section>
          <section> <a href="xxxxxxxxxxxx">
-            <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" />
+            <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" alt="xxxxxxxxxxxx" />
                <figcaption class="caption text-center">
                   <h5>xxxxxxxxxxxx</h5>
                </figcaption>
             </figure>
             </a> </section>
          <section> <a href="xxxxxxxxxxxx">
-            <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" />
+            <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" alt="xxxxxxxxxxxx" />
                <figcaption class="caption text-center">
                   <h5>xxxxxxxxxxxx</h5>
                </figcaption>
             </figure>
             </a> </section>
          <section> <a href="xxxxxxxxxxxx">
-            <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" />
+            <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" alt="xxxxxxxxxxxx" />
                <figcaption class="caption text-center">
                   <h5>xxxxxxxxxxxx</h5>
                </figcaption>

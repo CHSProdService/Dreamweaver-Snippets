@@ -2,7 +2,7 @@
 <snippet name="<figure col-md-4 figcaption>" description="" preview="code" type="block">
 <insertText location="beforeSelection">
 <![CDATA[<div class="col-md-4">
-      <figure class="thumbnail"> <a href="xxxxxxxxxxxx"> <img src="xxxxxxxxxxxx" class="img-responsive" /> </a>
+      <figure class="thumbnail"> <a href="xxxxxxxxxxxx" class="wb-lbx" title="xxxxxxxxxxxx"> <img src="xxxxxxxxxxxx" class="img-responsive" alt="xxxxxxxxxxxx" /> </a>
          <figcaption class="caption">
             <p>xxxxxxxxxxxx</p>
          </figcaption>

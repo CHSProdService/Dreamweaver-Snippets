@@ -12,7 +12,7 @@
          <dd>xxxxxxxxxxxx</dd>
       </dl>
    </div>
-   <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" />
+   <figure class="thumbnail"> <img src="xxxxxxxxxxxx" class="img-responsive" alt="xxxxxxxxxxxx" />
       <figcaption class="caption text-center">
          <h5>xxxxxxxxxxxx</h5>
       </figcaption>
