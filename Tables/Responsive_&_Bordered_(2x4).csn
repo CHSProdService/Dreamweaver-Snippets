@@ -6,8 +6,8 @@
 <![CDATA[<table title="xxxxxxxxxxx" class="table table-bordered table-responsive">
    <thead>
       <tr class="text-center active">
-         <td><strong>xxxxxxxxxxx</strong></td>
-         <td><strong>xxxxxxxxxxx</strong></td>
+         <th><strong>xxxxxxxxxxx</strong></th>
+         <th><strong>xxxxxxxxxxx</strong></th>
       </tr>
    </thead>
    <tbody>

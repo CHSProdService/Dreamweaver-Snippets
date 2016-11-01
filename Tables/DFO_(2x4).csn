@@ -4,12 +4,12 @@
 <![CDATA[<table title="xxxxxxxxxxx" class="table table-bordered table-responsive">
    <thead>
       <tr class="text-center bg-primary">
-         <td><strong>xxxxxxxxxxx</strong></td>
-         <td><strong>xxxxxxxxxxx</strong></td>
+         <th>xxxxxxxxxxx</th>
+         <th>xxxxxxxxxxx</th>
       </tr>
       <tr class="text-center active">
-         <td><strong>xxxxxxxxxxx</strong></td>
-         <td><strong>xxxxxxxxxxx</strong></td>
+         <th>xxxxxxxxxxx</th>
+         <th>xxxxxxxxxxx</th>
       </tr>
    </thead>
    <tbody>
