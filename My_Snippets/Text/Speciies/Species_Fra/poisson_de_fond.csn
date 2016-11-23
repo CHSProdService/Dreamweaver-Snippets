@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="poisson de fond" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[poisson de fond]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

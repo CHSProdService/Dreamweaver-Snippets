@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="supercript" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<sup>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[</sup>]]>
+</insertText>
+</snippet>

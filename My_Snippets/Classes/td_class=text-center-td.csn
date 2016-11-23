@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="<td class="text-center">-</td>" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<td class="text-center">-</td>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

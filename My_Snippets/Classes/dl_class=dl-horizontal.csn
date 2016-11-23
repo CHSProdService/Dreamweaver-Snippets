@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="<dl class="dl-horizontal">" description="" preview="html" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<dl class="dl-horizontal">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[</dl>]]>
+</insertText>
+</snippet>

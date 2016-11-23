@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="paragraph" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<p></p>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

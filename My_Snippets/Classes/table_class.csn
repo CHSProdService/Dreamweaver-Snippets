@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="table class" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[ <table class="table table-bordered table-responsive">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
