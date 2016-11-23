@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Fluid Container" description="Fluid Container" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="container-fluid">
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

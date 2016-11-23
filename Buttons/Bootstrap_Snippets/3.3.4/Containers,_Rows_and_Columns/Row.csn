@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Row" description="Add a row" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="row">
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="6 Columns + 6 Columns" description="Split 12 columns into 2 sections of 6 columns each" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="row">
+    <div class="col-md-6">.col-md-6</div>
+    <div class="col-md-6">.col-md-6</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

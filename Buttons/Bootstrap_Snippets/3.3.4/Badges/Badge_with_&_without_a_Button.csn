@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Badge with & without a Button" description="Create a simple badge with a button or without a button " preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!-- Badge without a Button -->
+<a href="#">Inbox <span class="badge">42</span></a>
+
+
+<!-- Badge with a Button -->
+<button class="btn btn-primary" type="button">
+    Messages <span class="badge">4</span>
+</button>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

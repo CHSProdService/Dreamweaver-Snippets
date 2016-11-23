@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Brand Image" description="Brand image in Bootstrap" preview="code" type="wrap"><insertText location="beforeSelection"><![CDATA[<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="...">
+      </a>
+    </div>
+  </div>
+</nav>]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Alert - Warning" description="Alert message to indicate warning" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="alert alert-warning" role="alert">
+Warning! Better check yourself, you're not looking too good.
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

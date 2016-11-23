@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Button Dropdowns" description="Create a dropdown button with options" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!-- Single button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+        Action <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Action</a>
+        </li>
+        <li><a href="#">Another action</a>
+        </li>
+        <li><a href="#">Something else here</a>
+        </li>
+        <li class="divider"></li>
+        <li><a href="#">Separated link</a>
+        </li>
+    </ul>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

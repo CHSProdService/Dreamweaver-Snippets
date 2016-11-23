@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Responsive images" description="Add images and make sure they are responsive " preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<img src="..." class="img-responsive" alt="Responsive image">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

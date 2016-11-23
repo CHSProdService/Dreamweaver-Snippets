@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Alert - Heads Up" description="Alert message to grab the user's attention" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="alert alert-info" role="alert">
+Heads up! This alert needs your attention, but it's not super important.
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

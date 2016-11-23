@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Well" description="Well in Bootstrap" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="well">Look, I'm in a well!</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

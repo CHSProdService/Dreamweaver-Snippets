@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Default pagination" description="Default pagination link buttons" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<nav>
+    <ul class="pagination">
+        <li>
+            <a href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li><a href="#">1</a>
+        </li>
+        <li><a href="#">2</a>
+        </li>
+        <li><a href="#">3</a>
+        </li>
+        <li><a href="#">4</a>
+        </li>
+        <li><a href="#">5</a>
+        </li>
+        <li>
+            <a href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

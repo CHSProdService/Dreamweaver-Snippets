@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Dropdown with Header" description="Dropdown with Header" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a>
+    </li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a>
+    </li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a>
+    </li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a>
+    </li>
+    <li role="presentation" class="dropdown-header">Dropdown header</li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a>
+    </li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a>
+    </li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a>
+    </li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a>
+    </li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Alert  - Success" description="Alert message to indicate success" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="alert alert-success" role="alert">
+Well done! You successfully read this important alert message.
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

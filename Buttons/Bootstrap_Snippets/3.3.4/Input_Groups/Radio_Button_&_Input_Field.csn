@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Radio Button & Input Field" description="Radio Button & Input Field" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="input-group">
+    <span class="input-group-addon">
+        <input type="radio" aria-label="...">
+      </span>
+    <input type="text" class="form-control" aria-label="...">
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

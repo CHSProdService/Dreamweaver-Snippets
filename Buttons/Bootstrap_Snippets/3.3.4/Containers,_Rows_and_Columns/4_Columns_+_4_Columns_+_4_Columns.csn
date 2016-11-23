@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="4 Columns + 4 Columns + 4 Columns" description="Split 12 columns in to 3 sections of 4 columns each" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="row">
+    <div class="col-md-4">.col-md-4</div>
+    <div class="col-md-4">.col-md-4</div>
+    <div class="col-md-4">.col-md-4</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Dismissible Alerts - Info" description="Dismissible Alerts - Info" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="alert alert-info alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span>
+    </button>
+    <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

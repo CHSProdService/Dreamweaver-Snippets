@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Clip images to a shape " description="Clip images to a shape " preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!-- Clip image with an oval -->
+<img src="..." alt="..." class="img-rounded">
+
+<!-- Clip image with a circle -->
+<img src="..." alt="..." class="img-circle">
+
+<!-- Clip image with a thumbnail -->
+<img src="..." alt="..." class="img-thumbnail">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

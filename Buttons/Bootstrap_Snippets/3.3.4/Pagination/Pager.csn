@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Pager" description="Back and next buttons
+" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<nav>
+    <ul class="pager">
+        <li><a href="#">Previous</a>
+        </li>
+        <li><a href="#">Next</a>
+        </li>
+    </ul>
+</nav>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1 Column" description="Single Column" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="row">
+  <div class="col-md-1">.col-md-1</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
