@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Lightbox (wrap)" description="Code for a lightbox designed to wrap around an existing <img> tag" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<a href="" class="wb-lbx" title="">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[</a>]]>
+</insertText>
+</snippet>
