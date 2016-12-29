@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="<em lang=" description="" preview="html" type="block">
+<snippet name="lang="la"" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<em lang="la">]]>
+<![CDATA[lang="la"]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>
