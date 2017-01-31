@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Archived Banner - French" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<section id="archived" class="alert alert-warning wb-inview" data-inview="archived-bnr">
+   <h2>Informations archivées</h2>
+   <p>La <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=24227">Norme sur la facilité d'emploi des sites Web</a> remplace ce contenu. Cette page Web a été archivée parce que les Normes sur la normalisation des sites Internet 2.0 ont étés annulées.</p>
+   <p>Les informations archivées sont fournies aux fins de référence, de recherche ou de tenue de documents. Elles ne sont pas assujetties aux normes Web du gouvernement du Canada et n'ont pas été modifiées ou mises à jour depuis leur archivage. Pour obtenir ces informations dans un autre format, veuillez communiquer avec nous.</p>
+   </section>
+   
+   <section id="archived-bnr" class="wb-overlay modal-content overlay-def wb-bar-t">
+   <header>
+   <h2 class="wb-inv">Archivée</h2>
+   </header>
+   <p><a href="#archived">Cette page Web a été archivée dans le Web.</a></p>
+   </section>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

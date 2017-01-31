@@ -11,11 +11,11 @@ Breadcrumb = BcRoot + "<li class='active'>Current page</li>"
    <!--#include virtual="/oceans/theme-wet4/template-head.asp"-->
    <!-- MainContentStart -->
 
-   <div class="row profile">
+  <div class="row profile">
       <div class="col-md-6">
          <h1 property="name" id="wb-cont">[Topic name]</h1>
          <p class="pagetag">1-2 sentences that describe the topics and top tasks that can be accessed on this page.</p>
-         <!--#include virtual="/oceans/inclu/follow-suivez.asp"-->
+         <!--#include virtual="/science/inclu/follow-suivez.asp"-->
       </div>
       <div class="col-md-6 mrgn-tp-md hidden-sm hidden-xs">
          <img src="https://wet-boew.github.io/themes-dist/GCWeb/img/520x200.png" alt="" class="pull-right img-responsive thumbnail">
@@ -188,7 +188,7 @@ Breadcrumb = BcRoot + "<li class='active'>Current page</li>"
                <li><a href="#">[Regulation 2 with a long heading]</a></li>
                <li><a href="#">[Regulation 3]</a></li>
             </ul>
-            <p><a href="#">All related laws and regulations</a></p>
+            <p><strong><a href="#">All related laws and regulations</a></strong></p>
          </section>
          <section class="col-lg-4 col-md-6">
             <h3>Publications</h3>
@@ -198,7 +198,7 @@ Breadcrumb = BcRoot + "<li class='active'>Current page</li>"
                <li><a href="#">[Publication 3]</a></li>
                <li><a href="#">[Publication 4]</a></li>
             </ul>
-            <p><a href="#">All related publications</a></p>
+            <p><strong><a href="#">All related publications</a></strong></p>
          </section>
          <section class="col-lg-4 col-md-6">
             <h3>Consultations</h3>
@@ -208,7 +208,7 @@ Breadcrumb = BcRoot + "<li class='active'>Current page</li>"
                <li><a href="#">[Consultation 3]</a></li>
                <li><a href="#">[Consultation 4 with a long heading..and a bit longer]</a></li>
             </ul>
-            <p><a href="#">All related consultations</a></p>
+            <p><strong><a href="#">All related consultations</a></strong></p>
          </section>
          <section class="col-lg-4 col-md-6">
             <h3>Open data</h3>
@@ -218,7 +218,7 @@ Breadcrumb = BcRoot + "<li class='active'>Current page</li>"
                <li><a href="#">[Open data 3]</a></li>
                <li><a href="#">[Open data 4 with a long heading..and a bit longer]</a></li>
             </ul>
-            <p><a href="#">All related open data</a></p>
+            <p><strong><a href="#">All related open data</a></strong></p>
          </section>
          <section class="col-lg-4 col-md-6">
             <h3>Statistics</h3>
@@ -228,7 +228,7 @@ Breadcrumb = BcRoot + "<li class='active'>Current page</li>"
                <li><a href="#">[Statistic 3]</a></li>
                <li><a href="#">[Statistic 4 with a long heading..and a bit longer]</a></li>
             </ul>
-            <p><a href="#">All related statistics</a></p>
+            <p><strong><a href="#">All related statistics</a></strong></p>
          </section>
       </div>
    </section>
