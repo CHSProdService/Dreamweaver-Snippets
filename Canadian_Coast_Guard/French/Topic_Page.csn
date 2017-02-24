@@ -17,7 +17,7 @@ Breadcrumb = BcRoot + "<li class='active'>Current page</li>"
       <p class="pagetag">1 ou 2 phrases d’introduction qui définissent les sous-sujets et les tâches principales qui peuvent être consultés sur cette page.</p>
       <!--#include virtual="/science/inclu/follow-suivez.asp"--> 
    </div>
-   <div class="col-md-6 mrgn-tp-md hidden-sm hidden-xs"> <img src="https://wet-boew.github.io/themes-dist/GCWeb/img/520x200.png" alt="" class="pull-right img-responsive thumbnail"> </div>
+   <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs"> <img src="https://wet-boew.github.io/themes-dist/GCWeb/img/520x200.png" alt="" class="pull-right img-responsive thumbnail"> </div>
 </div>
 <section class="alert alert-info">
    <h2 class="h3">Nous procédons actuellement au transfert de nos services et de nos renseignements vers Canada.ca.</h2>

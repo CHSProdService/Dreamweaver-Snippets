@@ -17,7 +17,7 @@ Breadcrumb = BcRoot + "<li class='active'>Current page</li>"
          <p class="pagetag">1-2 sentences that describe the topics and top tasks that can be accessed on this page.</p>
          <!--#include virtual="/science/inclu/follow-suivez.asp"-->
       </div>
-      <div class="col-md-6 mrgn-tp-md hidden-sm hidden-xs">
+      <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs">
          <img src="https://wet-boew.github.io/themes-dist/GCWeb/img/520x200.png" alt="" class="pull-right img-responsive thumbnail">
       </div>
    </div>
