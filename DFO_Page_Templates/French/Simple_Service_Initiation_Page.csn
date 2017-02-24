@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Simple Service Initiation Page" description="Based on Science WET4 theme
+- content on left (col-md-8), wells on the right (col-md-4)" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!doctype html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="fr"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="fr">
+<!--<![endif]-->
+
+<head>
+   <meta charset="utf-8" />
+   <title>pageTitle</title>
+   <meta content="width=device-width, initial-scale=1" name="viewport" />
+   <meta name="description" content="pageDescription" />
+   <meta name="dcterms.title" content="pageTitle" />
+   <meta name="dcterms.creator" content="Gouvernement du Canada, Pêches et Océans Canada, Direction générale des communications" />
+   <meta name="dcterms.issued" title="W3CDTF" content="2000-00-00" />
+   <meta name="dcterms.modified" title="W3CDTF" content="2000-00-00" />
+   <meta name="dcterms.subject" title="scheme" content="PageSubject" />
+   <meta name="dcterms.language" title="ISO639-2" content="fra" />
+   <!--#include virtual="/includes/css-header.html" -->
+   <script src="/includes/scripts/dfo-mpo-ga.js"></script>
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+   <ul id="wb-tphp">
+      <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a> </li>
+      <li class="wb-slc visible-sm visible-md visible-lg"> <a class="wb-sl" href="#wb-info">Passer à «&#160;À propos de ce site&#160;»</a> </li>
+   </ul>
+   <header role="banner">
+      <!--#include virtual="/includes/header4-fr.html" -->
+      <nav role="navigation" id="wb-bc" property="breadcrumb">
+         <h2>Vous êtes dans :</h2>
+         <div class="container">
+            <div class="row">
+               <ol class="breadcrumb">
+                  <li><a href="/index-fra.htm">Accueil</a></li>
+                  <li class="active">pageTitle</li>
+               </ol>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <main role="main" property="mainContentOfPage" class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <section>
+               <!-- MainContentStart -->
+               <h1 id="wb-cont" property="name">pageTitle</h1>
+               <p class="gc-byline"><strong>De <a href="./institution-fr.html">[nom de l'institution]</a></strong></p>
+               <div class="row">
+                  <div class="col-md-8">
+                     <p>[Nom du service], lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ipsam deserunt, doloremque mollitia laudantium quas ut accusamus perspiciatis repellendus quaerat omnis corporis laborum quasi magni possimus qui necessitatibus, aperiam enim.</p>
+                     <section>
+                        <h2>[Détails sur l’admissibilité]</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti cupiditate voluptatem praesentium, facilis corporis magni esse reiciendis distinctio. Vitae totam iste porro, esse facere obcaecati? Laborum earum minus harum enim.</p>
+                     </section>
+                     <section>
+                        <h2>[À savoir avant de commencer]</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa hic minima magni nesciunt nam. Facilis perferendis, adipisci voluptates, enim illo perspiciatis molestias itaque iste qui distinctio asperiores quidem voluptatum sunt.</p>
+                     </section>
+                     <p><a href="#" class="btn btn-lg btn-primary mrgn-tp-md">[Faire une demande]</a></p>
+                     <section class="gc-cntct-lst">
+                        <h2>[Autres façons de présenter une demande]</h2>
+                        <dl class="dl-horizontal">
+                           <dt>Par téléphone&nbsp;:</dt>
+                           <dd><span class="glyphicon glyphicon-phone"></span> 123-456-7890</dd>
+                           <dt>En personne&nbsp;:</dt>
+                           <dd>Lorem ipsum dolor sit amet
+                              <br> 1234, avenue de la Rue
+                              <br> Ville (Province)
+                              <br> A1B 2C3</dd>
+                           <dt>Par courrier&nbsp;:</dt>
+                           <dd>Lorem ipsum dolor sit amet
+                              <br> 1234, avenue de la Rue
+                              <br> Ville (Province)
+                              <br> A1B 2C3</dd>
+                        </dl>
+                     </section>
+                  </div>
+                  <div class="col-md-4">
+                     <section class="lnkbx">
+                        <h2 class="mrgn-tp-0">Guides et aide</h2>
+                        <ul class="lst-spcd">
+                           <li><a href="#">[Guides connexes et aide 1]</a></li>
+                           <li><a href="#">[Guides connexes et aide 2]</a></li>
+                           <li><a href="#">[Guides connexes et aide 3]</a></li>
+                        </ul>
+                     </section>
+                     <section class="lnkbx">
+                        <h2>Contactez-nous</h2>
+                        <p>[Office name or location]
+                           <br> 1300-70 Somerset St. W
+                           <br> Moncton NB E1C 8P2</p>
+                        <dl>
+                           <dt>Téléphone:</dt>
+                           <dd><span class="glyphicon glyphicon-phone"></span> 506-857-2400 ext. 123</dd>
+                           <dd><span class="glyphicon glyphicon-phone"></span> 506-857-2400 ext. 124</dd>
+                           <dt>Courriel:</dt>
+                           <dd><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:firstname.lastname@canada.ca">firstname.lastname@canada.ca</a></dd>
+                        </dl>
+                        <ul>
+                           <li><a href="#">Contact [Institution name] for help</a></li>
+                           <li><a href="#">Contact [Institution name] for help</a></li>
+                           <li><a href="#">Contact [Institution name] for help</a></li>
+                           <li><a href="#">Contact [Institution name] for help</a></li>
+                        </ul>
+                     </section>
+                     <section class="lnkbx">
+                        <h2>Services et renseignements connexes</h2>
+                        <ul class="lst-spcd">
+                           <li><a href="#">[Services connexes 1]</a></li>
+                           <li><a href="#">[Services connexes 2]</a></li>
+                           <li><a href="#">[Renseignements connexes 1]</a></li>
+                           <li><a href="#">[Renseignements connexes 2]</a></li>
+                        </ul>
+                     </section>
+                     <section class="lnkbx">
+                        <h2>Programme connexe</h2>
+                        <ul class="lst-spcd">
+                           <li><a href="#">[Nom du programme]</a></li>
+                        </ul>
+                     </section>
+                  </div>
+               </div>
+               <!-- MainContentEnd -->
+            </section>
+         </div>
+      </div>
+      <dl id="wb-dtmd" property="dateModified">
+         <dt>Date de modification&#160;:&#32;</dt>
+         <dd>
+            <time>2000-00-00</time>
+         </dd>
+      </dl>
+   </main>
+   <!--#include virtual="/includes/footer4-fr.html" -->
+   <!--#include virtual="/includes/css-footer.html" -->
+</body>
+
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Lowest Level Links" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!doctype html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+   <meta charset="utf-8" />
+   <title>pageTitle</title>
+   <meta content="width=device-width, initial-scale=1" name="viewport" />
+   <meta name="description" content="pageDescription" />
+   <meta name="dcterms.title" content="pageTitle" />
+   <meta name="dcterms.creator" content="Government of Canada, Fisheries and Oceans Canada, Communications Branch" />
+   <meta name="dcterms.issued" title="W3CDTF" content="2000-00-00" />
+   <meta name="dcterms.modified" title="W3CDTF" content="2000-00-00" />
+   <meta name="dcterms.subject" title="scheme" content="pageSubject" />
+   <meta name="dcterms.language" title="ISO639-2" content="eng" />
+   <!--#include virtual="/includes/css-header.html" -->
+   <script src="/includes/scripts/dfo-mpo-ga.js"></script>
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+   <ul id="wb-tphp">
+      <li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a> </li>
+      <li class="wb-slc visible-sm visible-md visible-lg"> <a class="wb-sl" href="#wb-info">Skip to "About this site"</a> </li>
+   </ul>
+   <header role="banner">
+      <!--#include virtual="/includes/header4-en.html" -->
+      <nav role="navigation" id="wb-bc" property="breadcrumb">
+         <h2>You are here:</h2>
+         <div class="container">
+            <div class="row">
+               <ol class="breadcrumb">
+                  <li><a href="/index-eng.htm">Home</a></li>
+                  <li class="active">pageTitle</li>
+               </ol>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <main role="main" property="mainContentOfPage" class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <section>
+               <!-- MainContentStart -->
+               <h1 property="name" id="wb-cont">pageTitle</h1>
+               <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                     <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+                     <p>xxxxxxxxxx</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+                     <p>xxxxxxxxxx</p>
+                  </div>
+                  <div class="clearfix visible-md"></div>
+                  <div class="col-lg-4 col-md-6">
+                     <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+                     <p>xxxxxxxxxx</p>
+                  </div>
+                  <div class="clearfix visible-lg"></div>
+                  <div class="col-lg-4 col-md-6">
+                     <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+                     <p>xxxxxxxxxx</p>
+                  </div>
+                  <div class="clearfix visible-md"></div>
+                  <div class="col-lg-4 col-md-6">
+                     <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+                     <p>xxxxxxxxxx</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+                     <p>xxxxxxxxxx</p>
+                  </div>
+                  <div class="clearfix visible-md visible-lg"></div>
+                  <div class="col-lg-4 col-md-6">
+                     <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+                     <p>xxxxxxxxxx</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+                     <p>xxxxxxxxxx</p>
+                  </div>
+                  <div class="clearfix visible-md"></div>
+                  <div class="col-lg-4 col-md-6">
+                     <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+                     <p>xxxxxxxxxx</p>
+                  </div>
+                  <div class="clearfix visible-lg"></div>
+                  <div class="col-lg-4 col-md-6">
+                     <h3><a href="xxxxxxxxxx">xxxxxxxxxx</a></h3>
+                     <p>xxxxxxxxxx</p>
+                  </div>
+                  <div class="clearfix"></div>
+               </div>
+               <!-- MainContentEnd -->
+            </section>
+         </div>
+      </div>
+      <dl id="wb-dtmd" property="dateModified">
+         <dt>Date modified:&#32;</dt>
+         <dd>
+            <time>2000-00-00</time>
+         </dd>
+      </dl>
+   </main>
+   <!--#include virtual="/includes/footer4-en.html" -->
+   <!--#include virtual="/includes/css-footer.html" -->
+</body>
+
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

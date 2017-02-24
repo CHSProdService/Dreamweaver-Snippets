@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Contact Us" description="A template Contact Us page.  Contains the following tabs:
+- By Phone
+- By Email
+- By Fax
+- By Mail" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!doctype html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="fr"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="fr">
+<!--<![endif]-->
+
+<head>
+   <meta charset="utf-8" />
+   <title>pageTitle</title>
+   <meta content="width=device-width, initial-scale=1" name="viewport" />
+   <meta name="description" content="pageDescription" />
+   <meta name="dcterms.title" content="pageTitle" />
+   <meta name="dcterms.creator" content="Gouvernement du Canada, Pêches et Océans Canada, Direction générale des communications" />
+   <meta name="dcterms.issued" title="W3CDTF" content="2000-00-00" />
+   <meta name="dcterms.modified" title="W3CDTF" content="2000-00-00" />
+   <meta name="dcterms.subject" title="scheme" content="PageSubject" />
+   <meta name="dcterms.language" title="ISO639-2" content="fra" />
+   <!--#include virtual="/includes/css-header.html" -->
+   <script src="/includes/scripts/dfo-mpo-ga.js"></script>
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+   <ul id="wb-tphp">
+      <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a> </li>
+      <li class="wb-slc visible-sm visible-md visible-lg"> <a class="wb-sl" href="#wb-info">Passer à «&#160;À propos de ce site&#160;»</a> </li>
+   </ul>
+   <header role="banner">
+      <!--#include virtual="/includes/header4-fr.html" -->
+      <nav role="navigation" id="wb-bc" property="breadcrumb">
+         <h2>Vous êtes dans :</h2>
+         <div class="container">
+            <div class="row">
+               <ol class="breadcrumb">
+                  <li><a href="/index-fra.htm">Accueil</a></li>
+                  <li class="active">pageTitle</li>
+               </ol>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <main role="main" property="mainContentOfPage" class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <section>
+               <!-- MainContentStart -->
+               <h1 id="wb-cont" property="name">pageTitle</h1>
+               <div class="wb-tabs ignore-session mrgn-tp-lg">
+                  <div class="tabpanels">
+                     <details id="telephone">
+                        <summary>Par téléphone</summary>
+                        <h2>Par téléphone</h2>
+                        <h3>Administration centrale</h3>
+                        <p>[Name]
+                           <br/> [Role]
+                        </p>
+                        <p class="mrgn-tp-md"><span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        <h3>Regional offices</h3>
+                        <div class="col-md-4">
+                           <h4>Alberta</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Colombie-Britannique</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#PAC">Pacifique</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Manitoba</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Nouveau-Brunswick</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#GLF">Golfe</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Terre-Neuve et Labrador</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#NL">Terre-Neuve et Labrador</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Territories du Nord-Ouest</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Nouvelle-Écosse</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#GLF">Golfe</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Nunavut</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Ontario</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Ĭle-du-Prince-Édouard</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#GLF">Golfe</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Québec</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#QC">Québec</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Saskatchewan</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Yukon</h4>
+                           <p>[Name]
+                              <br/> [Role]</p>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-phone"></span> [123-456-7890]</p>
+                        </div>
+                     </details>
+                     <details id="email-courriel">
+                        <summary>Par courriel</summary>
+                        <h2>Par courriel</h2>
+                        <h3>Administration centrale</h3>
+                        <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></p>
+                        <h3>Regional offices</h3>
+                        <div class="col-md-4">
+                           <h4>Alberta</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Colombie-Britannique</h4>
+                           <p><a href="/science/regions/index-fra.htm#PAC">Pacifique</a>: <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Manitoba</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Nouveau-Brunswick</h4>
+                           <ul class="list-unstyled">
+                              <li><a href="/science/regions/index-fra.htm#GLF">Golfe</a>: <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Terre-Neuve et Labrador</h4>
+                           <p><a href="/science/regions/index-fra.htm#NL">Terre-Neuve et Labrador</a>: <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Territories du Nord-Ouest</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Nouvelle-Écosse</h4>
+                           <ul class="list-unstyled">
+                              <li><a href="/science/regions/index-fra.htm#GLF">Golfe</a>: <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Nunavut</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Ontario</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Québec</h4>
+                           <p><a href="/science/regions/index-fra.htm#QC">Québec</a>: <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Saskatchewan</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Yukon</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:[email@dfo-mpo.gc.ca]">[email@dfo-mpo.gc.ca]</a></p>
+                        </div>
+                     </details>
+                     <details id="fax-telecopieur">
+                        <summary>Par télécopieur</summary>
+                        <h2>Par télécopieur</h2>
+                        <h3>Administration centrale</h3>
+                        <p class="mrgn-tp-md">[123-456-7890]</p>
+                        <h3>Regional offices</h3>
+                        <div class="col-md-4">
+                           <h4>Alberta</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Colombie-Britannique</h4>
+                           <p><a href="/science/regions/index-fra.htm#PAC">Pacifique</a>: [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Manitoba</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: [123-456-7890]</p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Nouveau-Brunswick</h4>
+                           <p><a href="/science/regions/index-fra.htm#GLF">Golfe</a>: [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Terre-Neuve et Labrador</h4>
+                           <p><a href="/science/regions/index-fra.htm#NL">Terre-Neuve et Labrador</a>: [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Territories du Nord-Ouest</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: [123-456-7890]</p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Nouvelle-Écosse</h4>
+                           <p><a href="/science/regions/index-fra.htm#GLF">Golfe</a>: [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Nunavut</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Ontario</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: [123-456-7890]</p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Ĭle-du-Prince-Édouard</h4>
+                           <p><a href="/science/regions/index-fra.htm#GLF">Golfe</a>: [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Québec</h4>
+                           <p><a href="/science/regions/index-fra.htm#QC">Québec</a>: [123-456-7890]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Saskatchewan</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: [123-456-7890]</p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Yukon</h4>
+                           <p><a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>: [123-456-7890]</p>
+                        </div>
+                     </details>
+                     <details id="mail-poste">
+                        <summary>Par la poste</summary>
+                        <h2>Par la poste</h2>
+                        <h3>Administration centrale</h3>
+                        <div class="col-md-4">
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="clearfix"></div>
+                        <h3>Regional offices</h3>
+                        <div class="col-md-4">
+                           <h4>Alberta <small>(<a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Colombie-Britannique <small>(<a href="/science/regions/index-fra.htm#PAC">Pacifique</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Manitoba <small>(<a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Nouveau-Brunswick <small>(<a href="/science/regions/index-fra.htm#GLF">Golfe</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Terre-Neuve et Labrador <small>(<a href="/science/regions/index-fra.htm#NL">Terre-Neuve et Labrador</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Territories du Nord-Ouest <small>(<a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Nouvelle-Écosse <small>(<a href="/science/regions/index-fra.htm#GLF">Golfe</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Nunavut <small>(<a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Ontario <small>(<a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Ĭle-du-Prince-Édouard <small>(<a href="/science/regions/index-fra.htm#GLF">Golfe</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Québec <small>(<a href="/science/regions/index-fra.htm#QC">Québec</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="col-md-4">
+                           <h4>Saskatchewan <small>(<a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                        <div class="clearfix visible-md visible-lg"></div>
+                        <div class="col-md-4">
+                           <h4>Yukon <small>(<a href="/science/regions/index-fra.htm#CA">Centre et Arctique</a>)</small></h4>
+                           <p class="well">[Name/Title]
+                              <br/>[Street]
+                              <br/>[City], [Province (2 letter)] [Postal code]</p>
+                        </div>
+                     </details>
+                  </div>
+               </div>
+               <!-- MainContentEnd -->
+            </section>
+         </div>
+      </div>
+      <dl id="wb-dtmd" property="dateModified">
+         <dt>Date de modification&#160;:&#32;</dt>
+         <dd>
+            <time>2000-00-00</time>
+         </dd>
+      </dl>
+   </main>
+   <!--#include virtual="/includes/footer4-fr.html" -->
+   <!--#include virtual="/includes/css-footer.html" -->
+</body>
+
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

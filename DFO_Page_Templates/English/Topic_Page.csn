@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Topic Page" description="Blank Topic page
+- uses Science WET4 theme
+- Topic tiles on left, Most Requested wells on right" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!doctype html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+   <meta charset="utf-8" />
+   <title>pageTitle</title>
+   <meta content="width=device-width, initial-scale=1" name="viewport" />
+   <meta name="description" content="pageDescription" />
+   <meta name="dcterms.title" content="pageTitle" />
+   <meta name="dcterms.creator" content="Government of Canada, Fisheries and Oceans Canada, Communications Branch" />
+   <meta name="dcterms.issued" title="W3CDTF" content="2000-00-00" />
+   <meta name="dcterms.modified" title="W3CDTF" content="2000-00-00" />
+   <meta name="dcterms.subject" title="scheme" content="pageSubject" />
+   <meta name="dcterms.language" title="ISO639-2" content="eng" />
+   <!--#include virtual="/includes/css-header.html" -->
+   <script src="/includes/scripts/dfo-mpo-ga.js"></script>
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+   <ul id="wb-tphp">
+      <li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a> </li>
+      <li class="wb-slc visible-sm visible-md visible-lg"> <a class="wb-sl" href="#wb-info">Skip to "About this site"</a> </li>
+   </ul>
+   <header role="banner">
+      <!--#include virtual="/includes/header4-en.html" -->
+      <nav role="navigation" id="wb-bc" property="breadcrumb">
+         <h2>You are here:</h2>
+         <div class="container">
+            <div class="row">
+               <ol class="breadcrumb">
+                  <li><a href="/index-eng.htm">Home</a></li>
+                  <li class="active">pageTitle</li>
+               </ol>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <!-- MainContentStart -->
+   <main role="main" property="mainContentOfPage" class="container">
+      <div class="row profile">
+         <div class="col-md-6">
+            <h1 property="name" id="wb-cont">pageTitle</h1>
+            <p class="pagetag">1-2 sentences that describe the topics and top tasks that can be accessed on this page.</p>
+            <div class="clearfix">
+               <section class="followus mrgn-tp-md mrgn-bttm-md col-xs-12 col-sm-12 col-md-8 col-lg-7">
+                  <ul class="list-inline well well-sm">
+                     <li><strong>Follow:</strong></li>
+                     <li>
+                        <a href="/connect/twitter-eng.htm"><img src="/wet-boew/dist/theme-gcwu-fegc/images/sl_twitter.png" alt="Twitter" /></a>
+                     </li>
+                     <li>
+                        <a href="/connect/youtube-eng.htm"><img src="/wet-boew/dist/theme-gcwu-fegc/images/sl_youtube.png" alt="YouTube" /></a>
+                     </li>
+                     <li>
+                        <a href="/connect/index-eng.htm#rss"><img src="/wet-boew/dist/theme-gcwu-fegc/images/sl_feeds.png" alt="RSS feeds" /></a>
+                     </li>
+                     <li>
+                        <a href="/connect/flickr-eng.htm"><img src="/images/flickr-sml.png" alt="Flickr" /></a>
+                     </li>
+                  </ul>
+               </section>
+            </div>
+         </div>
+         <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs">
+            <img src="https://wet-boew.github.io/themes-dist/GCWeb/img/520x200.png" alt="" class="pull-right img-responsive thumbnail">
+         </div>
+      </div>
+      <section class="alert alert-info">
+         <h2 class="h3">We are in the process of moving our services and information to Canada.ca.</h2>
+         <p>Our current <a href="#">[insert institution / organization name] website</a> will remain available until the move to Canada.ca is complete.</p>
+      </section>
+      <div class="row">
+         <div class="col-md-4 mrgn-tp-lg pull-right">
+            <section class="lnkbx">
+               <h2>Most requested</h2>
+               <ul>
+                  <li><a href="#">[Top task hyperlink text]</a></li>
+                  <li><a href="#">[Top task hyperlink text]</a></li>
+                  <li><a href="#">[Top task hyperlink text]</a></li>
+                  <li><a href="#">[Top task hyperlink text]</a></li>
+                  <li><a href="#">[Top task hyperlink text]</a></li>
+                  <li><a href="#">[Top task hyperlink text]</a></li>
+                  <li><a href="#">[Top task hyperlink text]</a></li>
+                  <li><a href="#">[Top task hyperlink text]</a></li>
+                  <li><a href="#">[Top task hyperlink text]</a></li>
+                  <li><a href="#">[Top task hyperlink text]</a></li>
+               </ul>
+            </section>
+         </div>
+         <section class="col-md-8 pull-left mrgn-bttm-lg">
+            <h2>Services and information</h2>
+            <div class="row">
+               <div class="col-md-6">
+                  <section class="gc-drmt">
+                     <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                     <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                  </section>
+               </div>
+               <div class="col-md-6">
+                  <section class="gc-drmt">
+                     <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                     <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                  </section>
+               </div>
+               <div class="clearfix"></div>
+               <div class="col-md-6">
+                  <section class="gc-drmt">
+                     <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                     <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                  </section>
+               </div>
+               <div class="col-md-6">
+                  <section class="gc-drmt">
+                     <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                     <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                  </section>
+               </div>
+               <div class="clearfix"></div>
+               <div class="col-md-6">
+                  <section class="gc-drmt">
+                     <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                     <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                  </section>
+               </div>
+               <div class="col-md-6">
+                  <section class="gc-drmt">
+                     <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                     <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                  </section>
+               </div>
+               <div class="clearfix"></div>
+               <div class="col-md-6">
+                  <section class="gc-drmt">
+                     <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                     <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                  </section>
+               </div>
+               <div class="col-md-6">
+                  <section class="gc-drmt">
+                     <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                     <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                  </section>
+               </div>
+               <div class="clearfix"></div>
+               <div class="col-md-6">
+                  <section class="gc-drmt">
+                     <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                     <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                  </section>
+               </div>
+               <div class="col-md-6">
+                  <section class="gc-drmt">
+                     <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                     <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                  </section>
+               </div>
+               <div class="clearfix"></div>
+               <details class="mrgn-tp-md brdr-0">
+                  <summary class="btn btn-default text-center">Show more services and information</summary>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <section class="gc-drmt">
+                           <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                           <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                        </section>
+                     </div>
+                     <div class="col-md-6">
+                        <section class="gc-drmt">
+                           <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                           <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                        </section>
+                     </div>
+                     <div class="clearfix"></div>
+                     <div class="col-md-6">
+                        <section class="gc-drmt">
+                           <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                           <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                        </section>
+                     </div>
+                     <div class="col-md-6">
+                        <section class="gc-drmt">
+                           <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                           <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                        </section>
+                     </div>
+                     <div class="clearfix"></div>
+                     <div class="col-md-6">
+                        <section class="gc-drmt">
+                           <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                           <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                        </section>
+                     </div>
+                     <div class="col-md-6">
+                        <section class="gc-drmt">
+                           <h3 class="h5"><a href="#">[Subtopic hyperlink text]</a></h3>
+                           <p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
+                        </section>
+                     </div>
+                     <div class="clearfix"></div>
+                  </div>
+               </details>
+            </div>
+         </section>
+         <div class="clr-rght-md clr-rght-lg"></div>
+         <div class="pull-right col-md-4">
+            <section class="lnkbx">
+               <h2>Contributors</h2>
+               <ul>
+                  <li><a href="#">[Institution name]</a></li>
+                  <li><a href="#">[Institution name]</a></li>
+                  <li><a href="#">[Institution name]</a></li>
+               </ul>
+            </section>
+            <section class="lnkbx">
+               <h2>More information for</h2>
+               <ul>
+                  <li><a href="#">[Audience hyperlink text]</a></li>
+                  <li><a href="#">[Audience hyperlink text]</a></li>
+                  <li><a href="#">[Audience hyperlink text]</a></li>
+               </ul>
+            </section>
+         </div>
+      </div>
+      <section class="whtwedo">
+         <h2>What we are doing</h2>
+         <div class="row wb-eqht">
+            <section class="col-lg-4 col-md-6">
+               <h3>Laws and regulations</h3>
+               <ul>
+                  <li><a href="#">[Regulation 1]</a></li>
+                  <li><a href="#">[Law 1 with a long heading]</a></li>
+                  <li><a href="#">[Regulation 2 with a long heading]</a></li>
+                  <li><a href="#">[Regulation 3]</a></li>
+               </ul>
+               <p><a href="#">All related laws and regulations</a></p>
+            </section>
+            <section class="col-lg-4 col-md-6">
+               <h3>Publications</h3>
+               <ul>
+                  <li><a href="#">[Publication 1]</a></li>
+                  <li><a href="#">[Publication 2 with a long heading]</a></li>
+                  <li><a href="#">[Publication 3]</a></li>
+                  <li><a href="#">[Publication 4]</a></li>
+               </ul>
+               <p><a href="#">All related publications</a></p>
+            </section>
+            <section class="col-lg-4 col-md-6">
+               <h3>Consultations</h3>
+               <ul>
+                  <li><a href="#">[Consultation 1]</a></li>
+                  <li><a href="#">[Consultation 2 with a long heading]</a></li>
+                  <li><a href="#">[Consultation 3]</a></li>
+                  <li><a href="#">[Consultation 4 with a long heading..and a bit longer]</a></li>
+               </ul>
+               <p><a href="#">All related consultations</a></p>
+            </section>
+            <section class="col-lg-4 col-md-6">
+               <h3>Open data</h3>
+               <ul>
+                  <li><a href="#">[Open data 1]</a></li>
+                  <li><a href="#">[Open data 2 with a long heading]</a></li>
+                  <li><a href="#">[Open data 3]</a></li>
+                  <li><a href="#">[Open data 4 with a long heading..and a bit longer]</a></li>
+               </ul>
+               <p><a href="#">All related open data</a></p>
+            </section>
+            <section class="col-lg-4 col-md-6">
+               <h3>Statistics</h3>
+               <ul>
+                  <li><a href="#">[Statistic 1]</a></li>
+                  <li><a href="#">[Statistic 2 with a long heading]</a></li>
+                  <li><a href="#">[Statistic 3]</a></li>
+                  <li><a href="#">[Statistic 4 with a long heading..and a bit longer]</a></li>
+               </ul>
+               <p><a href="#">All related statistics</a></p>
+            </section>
+         </div>
+      </section>
+      <!-- MainContentEnd -->
+      <dl id="wb-dtmd" property="dateModified">
+         <dt>Date modified:&#32;</dt>
+         <dd>
+            <time>2000-00-00</time>
+         </dd>
+      </dl>
+   </main>
+   <!--#include virtual="/includes/footer4-en.html" -->
+   <!--#include virtual="/includes/css-footer.html" -->
+</body>
+
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

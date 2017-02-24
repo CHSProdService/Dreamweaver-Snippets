@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Report Content Page" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!doctype html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="fr"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="fr">
+<!--<![endif]-->
+
+<head>
+   <meta charset="utf-8" />
+   <title>pageTitle</title>
+   <meta content="width=device-width, initial-scale=1" name="viewport" />
+   <meta name="description" content="pageDescription" />
+   <meta name="dcterms.title" content="pageTitle" />
+   <meta name="dcterms.creator" content="Gouvernement du Canada, Pêches et Océans Canada, Direction générale des communications" />
+   <meta name="dcterms.issued" title="W3CDTF" content="2000-00-00" />
+   <meta name="dcterms.modified" title="W3CDTF" content="2000-00-00" />
+   <meta name="dcterms.subject" title="scheme" content="PageSubject" />
+   <meta name="dcterms.language" title="ISO639-2" content="fra" />
+   <!--#include virtual="/includes/css-header.html" -->
+   <script src="/includes/scripts/dfo-mpo-ga.js"></script>
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+   <ul id="wb-tphp">
+      <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a> </li>
+      <li class="wb-slc visible-sm visible-md visible-lg"> <a class="wb-sl" href="#wb-info">Passer à «&#160;À propos de ce site&#160;»</a> </li>
+   </ul>
+   <header role="banner">
+      <!--#include virtual="/includes/header4-fr.html" -->
+      <nav role="navigation" id="wb-bc" property="breadcrumb">
+         <h2>Vous êtes dans :</h2>
+         <div class="container">
+            <div class="row">
+               <ol class="breadcrumb">
+                  <li><a href="/index-fra.htm">Accueil</a></li>
+                  <li class="active">pageTitle</li>
+               </ol>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <main role="main" property="mainContentOfPage" class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <section>
+               <!-- MainContentStart -->
+               <h1 id="wb-cont" property="name">pageTitle</h1>
+               <div class="col-md-2 mrgn-tp-md pull-right">
+                  <a href="link">
+                     <figure class="thumbnail hidden-xs hidden-sm"> <img src="240x300img" class="img-responsive" alt="Document PDF" />
+                        <figcaption class="caption text-center">
+                           <p><span class="glyphicon glyphicon-download"></span> Document PDF</p>
+                        </figcaption>
+                     </figure>
+                     <p class="visible-xs visible-sm"><span class="glyphicon glyphicon-download"></span> Document PDF</p>
+                  </a>
+               </div>
+               <h2>Table des matières</h2>
+               <ul role="presentation">
+                  <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">Texte Complet</a></li>
+                  <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+                  <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+                  <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+                  <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+                  <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+                  <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+                  <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+                  <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+                  <li role="presentation"><a href="xxxxxxxxxx" role="menuitem">xxxxxxxxxx</a></li>
+               </ul>
+               <h2>xxxxxxxxx</h2>
+               <p>xxxxxxxxx</p>
+               <nav>
+                  <h2 class="wb-inv">Document navigation</h2>
+                  <ul class="pager">
+                     <li class="previous"><a href="xxxxxxxxxx" rel="prev">Précédent</a></li>
+                     <li><a href="xxxxxxxxxx">Texte Complet</a></li>
+                     <li class="next"><a href="xxxxxxxxxx" rel="next">Suivant</a></li>
+                  </ul>
+               </nav>
+               <!-- MainContentEnd -->
+            </section>
+         </div>
+      </div>
+      <dl id="wb-dtmd" property="dateModified">
+         <dt>Date de modification&#160;:&#32;</dt>
+         <dd>
+            <time>2000-00-00</time>
+         </dd>
+      </dl>
+   </main>
+   <!--#include virtual="/includes/footer4-fr.html" -->
+   <!--#include virtual="/includes/css-footer.html" -->
+</body>
+
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Photo Gallery" description="A template Photo Gallery page.  Each image is hyperlinked, and the WET4 lightbox plugin is used to provide additional information for each image." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!doctype html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="fr"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="fr">
+<!--<![endif]-->
+
+<head>
+   <meta charset="utf-8" />
+   <title>pageTitle</title>
+   <meta content="width=device-width, initial-scale=1" name="viewport" />
+   <meta name="description" content="pageDescription" />
+   <meta name="dcterms.title" content="pageTitle" />
+   <meta name="dcterms.creator" content="Gouvernement du Canada, Pêches et Océans Canada, Direction générale des communications" />
+   <meta name="dcterms.issued" title="W3CDTF" content="2000-00-00" />
+   <meta name="dcterms.modified" title="W3CDTF" content="2000-00-00" />
+   <meta name="dcterms.subject" title="scheme" content="PageSubject" />
+   <meta name="dcterms.language" title="ISO639-2" content="fra" />
+   <!--#include virtual="/includes/css-header.html" -->
+   <script src="/includes/scripts/dfo-mpo-ga.js"></script>
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+   <ul id="wb-tphp">
+      <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a> </li>
+      <li class="wb-slc visible-sm visible-md visible-lg"> <a class="wb-sl" href="#wb-info">Passer à «&#160;À propos de ce site&#160;»</a> </li>
+   </ul>
+   <header role="banner">
+      <!--#include virtual="/includes/header4-fr.html" -->
+      <nav role="navigation" id="wb-bc" property="breadcrumb">
+         <h2>Vous êtes dans :</h2>
+         <div class="container">
+            <div class="row">
+               <ol class="breadcrumb">
+                  <li><a href="/index-fra.htm">Accueil</a></li>
+                  <li class="active">pageTitle</li>
+               </ol>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <main role="main" property="mainContentOfPage" class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <section>
+               <!-- MainContentStart -->
+               <h1 id="wb-cont" property="name">pageTitle</h1>
+               <p>Cliquez sur une image pour voir plus de détails.</p>
+               <section class="wb-lbx lbx-gal">
+                  <div class="row">
+                     <div class="col-lg-4 col-md-6">
+                        <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo1">
+                           <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+                              <figcaption class="caption text-center">
+                                 <h5>xxxxxxxxxx</h5>
+                              </figcaption>
+                           </figure>
+                        </a>
+                        <div class="hidden" id="photo1">
+                           <dl>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                           </dl>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo2">
+                           <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+                              <figcaption class="caption text-center">
+                                 <h5>xxxxxxxxxx</h5>
+                              </figcaption>
+                           </figure>
+                        </a>
+                        <div class="hidden" id="photo2">
+                           <dl>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                           </dl>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo3">
+                           <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+                              <figcaption class="caption text-center">
+                                 <h5>xxxxxxxxxx</h5>
+                              </figcaption>
+                           </figure>
+                        </a>
+                        <div class="hidden" id="photo3">
+                           <dl>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                           </dl>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo4">
+                           <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+                              <figcaption class="caption text-center">
+                                 <h5>xxxxxxxxxx</h5>
+                              </figcaption>
+                           </figure>
+                        </a>
+                        <div class="hidden" id="photo4">
+                           <dl>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                           </dl>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo5">
+                           <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+                              <figcaption class="caption text-center">
+                                 <h5>xxxxxxxxxx</h5>
+                              </figcaption>
+                           </figure>
+                        </a>
+                        <div class="hidden" id="photo5">
+                           <dl>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                           </dl>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo6">
+                           <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+                              <figcaption class="caption text-center">
+                                 <h5>xxxxxxxxxx</h5>
+                              </figcaption>
+                           </figure>
+                        </a>
+                        <div class="hidden" id="photo6">
+                           <dl>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                           </dl>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo7">
+                           <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+                              <figcaption class="caption text-center">
+                                 <h5>xxxxxxxxxx</h5>
+                              </figcaption>
+                           </figure>
+                        </a>
+                        <div class="hidden" id="photo7">
+                           <dl>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                           </dl>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo8">
+                           <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+                              <figcaption class="caption text-center">
+                                 <h5>xxxxxxxxxx</h5>
+                              </figcaption>
+                           </figure>
+                        </a>
+                        <div class="hidden" id="photo8">
+                           <dl>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                           </dl>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <a href="xxxxxxxxxx" title="xxxxxxxxxx" data-title="photo9">
+                           <figure class="thumbnail"> <img src="xxxxxxxxxx" class="img-responsive" alt="" aria-describedby="image#-desc" longdesc="#image#-desc" />
+                              <figcaption class="caption text-center">
+                                 <h5>xxxxxxxxxx</h5>
+                              </figcaption>
+                           </figure>
+                        </a>
+                        <div class="hidden" id="photo9">
+                           <dl>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                              <dt>xxxxxxxxxx</dt>
+                              <dd>xxxxxxxxxx</dd>
+                           </dl>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- MainContentEnd -->
+            </section>
+         </div>
+      </div>
+      <dl id="wb-dtmd" property="dateModified">
+         <dt>Date de modification&#160;:&#32;</dt>
+         <dd>
+            <time>2000-00-00</time>
+         </dd>
+      </dl>
+   </main>
+   <!--#include virtual="/includes/footer4-fr.html" -->
+   <!--#include virtual="/includes/css-footer.html" -->
+</body>
+
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
