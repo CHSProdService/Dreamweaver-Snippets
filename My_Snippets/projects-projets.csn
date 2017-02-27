@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="projects-projets/" description="projects-projets/" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[projects-projets/]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
