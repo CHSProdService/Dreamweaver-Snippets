@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Non-active" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="visible-xl visible-lg visible-md">
+  <table class="table table-responsive">
+    <caption>
+    COSEWIC / SARA Status
+    </caption>
+    <tbody>
+      <tr>
+        <td class="success text-center"><strong>Non-active</strong> <br>
+          <span class="badge">NA</span></td>
+        <td class="info text-center"><abbr title="May become threatened or endangered because of a combination of biological characteristics and identified threats">Special Concern</abbr> <br>
+          <span class="badge">SC</span></td>
+        <td class="info text-center"><abbr title="Likely to become endangered if nothing is done to reverse the factors leading to its extirpation or extinction">Threatened</abbr> <br>
+          <span class="badge">TH</span></td>
+        <td class="info text-center"><abbr title="Facing imminent extirpation or extinction">Endangered</abbr> <br>
+          <span class="badge">EN</span></td>
+        <td class="info text-center"><abbr title="No longer exists in the wild in Canada, but exists elsewhere">Extirpated</abbr> <br>
+          <span class="badge">EX</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="visible-sm visible-xs">
+  <h4 class="text-center">COSEWIC / SARA Status</h4>
+  <ul class="list-group">
+    <li class="list-group-item list-group-item-success"><strong>Non-active</strong> <span class="badge">NA</span></li>
+    <li class="list-group-item list-group-item-info"><abbr title="May become threatened or endangered because of a combination of biological characteristics and identified threats">Special Concern</abbr> <span class="badge">SC</span></li>
+    <li class="list-group-item list-group-item-info"><abbr title="Likely to become endangered if nothing is done to reverse the factors leading to its extirpation or extinction">Threatened</abbr> <span class="badge">TH</span></li>
+    <li class="list-group-item list-group-item-info"><abbr title="Facing imminent extirpation or extinction">Endangered</abbr> <span class="badge">EN</span></li>
+    <li class="list-group-item list-group-item-info"><abbr title="No longer exists in the wild in Canada, but exists elsewhere">Extirpated</abbr> <span class="badge">EX</span></li>
+  </ul>
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

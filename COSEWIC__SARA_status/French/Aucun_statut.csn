@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Aucun statut" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="visible-xl visible-lg visible-md">
+            <table class="table table-responsive">
+               <caption>Statut COSEPAC / LEP</caption>
+               <tbody>
+                  <tr>
+                     <td class="success text-center"><strong>Aucun statut</strong>
+                        <br><span class="badge">AS</span></td>
+                     <td class="info text-center"><abbr title="Pourrait devenir une espèce menacée ou en voie de disparation en raison de l’effet cumulatif de ses caractéristiques biologiques et des menaces qui pèsent sur elle.">Préoccupante</abbr>
+                        <br><span class="badge">P</span></td>
+                     <td class="info text-center"><abbr title="Pourrait devenir une espèce en voie de disparition si rien n’est fait pour inverser les facteurs menant à sa disparition du pays ou de la planète.">Menacée</abbr>
+                        <br><span class="badge">M</span></td>
+                     <td class="info text-center"><abbr title="Risque de disparaître du pays ou de la planète de façon imminente.">En voie de disparition</abbr>
+                        <br><span class="badge">EVD</span></td>
+                     <td class="info text-center"><abbr title="Ne se trouve plus à l’état sauvage au Canada, mais qui existe ailleurs.">Disparue du pays</abbr>
+                        <br><span class="badge">DP</span></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="visible-sm visible-xs">
+            <h4 class="text-center">Statut COSEPAC / LEP</h4>
+            <ul class="list-group">
+               <li class="list-group-item list-group-item-success"><strong>Aucun statut</strong> <span class="badge">AS</span></li>
+               <li class="list-group-item list-group-item-info"><abbr title="Pourrait devenir une espèce menacée ou en voie de disparation en raison de l’effet cumulatif de ses caractéristiques biologiques et des menaces qui pèsent sur elle.">Préoccupante</abbr> <span class="badge">P</span></li>
+               <li class="list-group-item list-group-item-info"><abbr title="Pourrait devenir une espèce en voie de disparition si rien n’est fait pour inverser les facteurs menant à sa disparition du pays ou de la planète.">Menacée</abbr> <span class="badge">M</span></li>
+               <li class="list-group-item list-group-item-info"><abbr title="Risque de disparaître du pays ou de la planète de façon imminente.">En voie de disparition</abbr> <span class="badge">EVD</span></li>
+               <li class="list-group-item list-group-item-info"><abbr title="Ne se trouve plus à l’état sauvage au Canada, mais qui existe ailleurs.">Disparue du pays</abbr> <span class="badge">DP</span></li>
+            </ul>
+         </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
