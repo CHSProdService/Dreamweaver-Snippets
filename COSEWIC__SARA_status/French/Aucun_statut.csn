@@ -3,7 +3,7 @@
 <insertText location="beforeSelection">
 <![CDATA[<div class="visible-xl visible-lg visible-md">
             <table class="table table-responsive">
-               <caption>Statut COSEPAC / LEP</caption>
+               <caption>Statut <abbr title="Le Comité sur la situation des espèces en péril au Canada">COSEPAC</abbr> / <abbr title="Loi sur les espèces en péril">LEP</abbr></caption>
                <tbody>
                   <tr>
                      <td class="success text-center"><strong>Aucun statut</strong>
@@ -21,7 +21,7 @@
             </table>
          </div>
          <div class="visible-sm visible-xs">
-            <h4 class="text-center">Statut COSEPAC / LEP</h4>
+            <h4 class="text-center">Statut <abbr title="Le Comité sur la situation des espèces en péril au Canada">COSEPAC</abbr> / <abbr title="Loi sur les espèces en péril">LEP</abbr></h4>
             <ul class="list-group">
                <li class="list-group-item list-group-item-success"><strong>Aucun statut</strong> <span class="badge">AS</span></li>
                <li class="list-group-item list-group-item-info"><abbr title="Pourrait devenir une espèce menacée ou en voie de disparation en raison de l’effet cumulatif de ses caractéristiques biologiques et des menaces qui pèsent sur elle.">Préoccupante</abbr> <span class="badge">P</span></li>

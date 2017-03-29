@@ -3,7 +3,7 @@
 <insertText location="beforeSelection">
 <![CDATA[<div class="visible-xl visible-lg visible-md">
             <table class="table table-responsive">
-               <caption>COSEWIC / SARA Status</caption>
+               <caption><abbr title="Committee on the Status of Endangered Wildlife in Canada">COSEWIC</abbr> / <abbr title="Species at Risk Act">SARA</abbr> Status</caption>
                <tbody>
                   <tr>
                      <td class="info text-center">Not at Risk
@@ -21,7 +21,7 @@
             </table>
          </div>
          <div class="visible-sm visible-xs">
-            <h4 class="text-center">COSEWIC / SARA Status</h4>
+            <h4 class="text-center"><abbr title="Committee on the Status of Endangered Wildlife in Canada">COSEWIC</abbr> / <abbr title="Species at Risk Act">SARA</abbr> Status</h4>
             <ul class="list-group">
                <li class="list-group-item list-group-item-info">Not at Risk <span class="badge">NR</span></li>
                <li class="list-group-item list-group-item-info"><abbr title="May become threatened or endangered because of a combination of biological characteristics and identified threats">Special Concern</abbr> <span class="badge">SC</span></li>
